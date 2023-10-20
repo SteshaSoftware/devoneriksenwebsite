@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/devoneriksenwebsite/static/css/main.8bf75692.css",
-    "main.js": "/devoneriksenwebsite/static/js/main.425e4761.js",
+    "main.js": "/devoneriksenwebsite/static/js/main.98a7ebfa.js",
     "static/js/787.b701888c.chunk.js": "/devoneriksenwebsite/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/devoneriksenwebsite/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/ToFcover.jpg": "/devoneriksenwebsite/static/media/ToFcover.fc6914980231c960c211.jpg",
@@ -15,11 +15,11 @@
     "static/media/BandN white.png": "/devoneriksenwebsite/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/devoneriksenwebsite/index.html",
     "main.8bf75692.css.map": "/devoneriksenwebsite/static/css/main.8bf75692.css.map",
-    "main.425e4761.js.map": "/devoneriksenwebsite/static/js/main.425e4761.js.map",
+    "main.98a7ebfa.js.map": "/devoneriksenwebsite/static/js/main.98a7ebfa.js.map",
     "787.b701888c.chunk.js.map": "/devoneriksenwebsite/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8bf75692.css",
-    "static/js/main.425e4761.js"
+    "static/js/main.98a7ebfa.js"
   ]
 }
