@@ -1,0 +1,41 @@
+section.section-testi{
+    padding: 100px 0;
+
+}
+@media (max-width: 700px) {
+   
+    .section-test-in{
+        padding: 42px 32px !important;
+    }
+
+  }
+
+
+
+.section-test-in{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 80px;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+}
+
+.section-test-in h3{
+    font-size: 22px;
+    font-weight: 200;
+    font-family: cursive;
+}
+
+.section-test-in h3 strong {
+    font-weight: 700;
+}
+
+.section-test-in h2 {
+    font-weight: 500;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.section-test-in p {
+    font-size: 18px;
+}

@@ -1,0 +1,48 @@
+/* canvas.react-pdf__Page__canvas {
+    width: 100% !IMPORTANT;
+    object-fit: contain;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {filter: brightness(0);}
+@media only screen and (max-width: 590px) {
+    .carousel-control-next, .carousel-control-prev {
+        width: 8%;
+    }
+}
+@media only screen and (max-width: 560px) {
+    canvas.react-pdf__Page__canvas {
+        width: 80% !IMPORTANT;
+        object-fit: contain;
+        left: -60px !IMPORTANT;
+        position: relative;
+        min-width: 80% !important;
+        max-width: 80% !important;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 460px) {
+    canvas.react-pdf__Page__canvas {
+        left: -80px !important;
+    }
+}
+@media only screen and (max-width: 430px) {
+    canvas.react-pdf__Page__canvas {
+        left: -90px !important;
+        width: 75% !IMPORTANT;
+        min-width: 70% !important;
+        max-width: 70% !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
+}
+@media only screen and (max-width: 410px) {
+    canvas.react-pdf__Page__canvas {
+        left: -100px !important;
+    }
+}
+@media only screen and (max-width: 390px) {
+    canvas.react-pdf__Page__canvas {
+        left: -116px !important;
+    }
+} */

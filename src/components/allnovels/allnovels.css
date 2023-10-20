@@ -1,0 +1,19 @@
+.zoom {
+    transition: transform .5s !important;
+    
+    margin: 0 auto;
+    }
+    
+    .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    }
+    .links{
+        color: white;
+        text-decoration: none;
+    }
+    .links:hover{
+        text-decoration: underline;
+        color:#0A8754 ;
+    }

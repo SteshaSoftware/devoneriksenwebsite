@@ -1,0 +1,21 @@
+.event-card{
+    border: 1px solid white;
+    
+  }
+  
+  .event-card:hover {
+    border:none;
+    border: 1px solid black;
+    transition:  0.;
+    background: #ff9b02;
+  
+  
+  }
+  .event-card:hover p{
+  color: black;
+    
+  
+  }
+  .event-card:hover span{
+  color: white;
+  }

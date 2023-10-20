@@ -1,0 +1,37 @@
+.star-rating {
+    position: relative;
+    display: inline-block;
+  }
+  .score {
+    color: #ff9b02;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  .stars {
+    position: relative;
+  }
+  
+  .gray-stars, .gold-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .star, .gray-star, .half-star {
+    color: #ff9b02; /* Color of the star */
+    font-size: 60px; /* Size of the star */
+    vertical-align: middle; /* Align the star vertically */
+  }
+  
+  .gray-star {
+    color: #fff; /* Color of the gray star */
+  }
+  
+  .half-star {
+    display: inline-block;
+    overflow: hidden; /* Hide the overflow part of the star */
+  }

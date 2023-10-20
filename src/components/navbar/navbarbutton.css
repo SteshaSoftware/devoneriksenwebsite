@@ -1,0 +1,24 @@
+.navbarbutton{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+.navbarbutton:hover {
+    color: #ff9b02;
+}
+.navbarbutton:focus {
+    color: #ff9b02;
+}
+.droplist-text {
+    display: none;
+  }
+  
+  /* Show droplist when .menuname-text is hovered */
+.navbarbutton:hover + .droplist-text,
+.droplist-text:hover {
+  display: block;
+}
+
