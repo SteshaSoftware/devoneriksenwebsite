@@ -11,7 +11,8 @@ import { store } from './store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename='/devoneriksenwebsite'>
+    <BrowserRouter basename='/'> 
+    {/* <BrowserRouter basename='/devoneriksenwebsite'>  */}
     <App />
     </BrowserRouter>
   </Provider>
