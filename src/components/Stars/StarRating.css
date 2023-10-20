@@ -18,7 +18,7 @@
   .gray-stars, .gold-stars {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0; 
   }
   
   .star, .gray-star, .half-star {
