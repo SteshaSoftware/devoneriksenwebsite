@@ -58,7 +58,7 @@ const Footer = () => {
                 </Stack>
 
                 <Typography variant="body1" sx={{ marginTop: 3, color: "white", textAlign: "center", fontFamily: "" }}>
-                    Copyright © 2023 Devon Eriksen LLC | Designed by Team Page Perfect
+                    Copyright © 2023 Devon Eriksen LLC
                 </Typography>
             </div>
         </>
