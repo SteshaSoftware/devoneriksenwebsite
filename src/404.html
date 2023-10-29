@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <!-- <meta name="theme-color" content="#000000" /> -->
+  <!-- <meta name="description" content="Web site created using create-react-app" /> -->
+  <title>404</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/javascript">
+    // The script to redirect to the proper route
+    (function(){
+      // Current URL path, removing the leading '/'
+      var path = window.location.pathname.slice(1);
+
+      // Build the redirect URL and navigate to it
+      window.location.replace("/?redirect=" + path);
+    })();
+  </script>
+
+  <!-- Your other script tags for React and other libraries would go here, just like in index.html -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+  
+</body>
+</html>
