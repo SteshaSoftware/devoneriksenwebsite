@@ -17,7 +17,7 @@ const HomeBanner = () => {
                     // maxHeight: { xs: 233, md: 167 },
                     // maxWidth: { xs: 350, md: 250 },
                 }}
-                alt="The house from the offer."
+                alt="Theft of Fire by Devon Eriksen book cover"
                 src={banner}
             />
         </div>

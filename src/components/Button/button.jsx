@@ -11,7 +11,7 @@ const Button = () => {
       <a target='_blank' href={"https://www.amazon.com/gp/product/B0CJHQ4LZN?&_encoding=UTF8&tag=devoneriksen-20&linkCode=ur2&linkId=74ef5550692d1508106cb7701185c24b&camp=1789&creative=9325"}>
         <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={amazonimg} alt="AMAZON" style={{width: '80%'}}/>
+            <img src={amazonimg} alt="Pre-Order for Amazon Kindle" style={{width: '80%'}}/>
           </div>
         </button>
       </a>

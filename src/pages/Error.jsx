@@ -13,7 +13,7 @@ const Error = () => {
       width: "45%",
       
     }}
-    alt="The house from the offer."
+    alt=""
     src={error}
 />
     </div>

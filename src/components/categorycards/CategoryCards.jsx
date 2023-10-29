@@ -12,7 +12,7 @@ const CategoryCards = () => {
                 <Box
                     component="img"
                     sx={{ width: 220 }}
-                    alt="The house from the offer."
+                    alt="Theft of Fire by Devon Eriksen book cover"
                     src={book1}
                 />
 

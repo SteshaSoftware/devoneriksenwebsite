@@ -13,7 +13,7 @@ const Biography = () => {
                 component="img"
                 sx={{ padding: { md: 7, xs: 3 }, width: { md: "400px", xs: "100%", sm: "65%" }, height: { md: "400px", xs: "100%", sm: "65%" } }}
                 image={photo}
-                alt="Live from space album cover"
+                alt="Theft of Fire by Devon Eriksen book cover"
             />
             <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
                 <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', }} data-aos="fade-right">
