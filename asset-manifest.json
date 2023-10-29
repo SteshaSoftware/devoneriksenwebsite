@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bf75692.css",
-    "main.js": "/static/js/main.b50d12c9.js",
-    "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
-    "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
-    "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
-    "static/media/book1over.png": "/static/media/book1over.3e0753dd07e9be6c836a.png",
-    "static/media/bg.jpg": "/static/media/bg.6dbb3bfec4f933632900.jpg",
-    "static/media/cover-3d.png": "/static/media/cover-3d.9a3af293e8d938e27b78.png",
-    "static/media/banner Thea.png": "/static/media/banner Thea.b167b5cec40fa9f423de.png",
-    "static/media/buy-general.png": "/static/media/buy-general.e2fe5b69d8993b517e72.png",
-    "static/media/Amazon-Kindle-logo-white.png": "/static/media/Amazon-Kindle-logo-white.6c984a9249c83d1661d2.png",
-    "static/media/coming.png": "/static/media/coming.d7149817d90997d83abe.png",
-    "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
-    "index.html": "/index.html",
-    "main.8bf75692.css.map": "/static/css/main.8bf75692.css.map",
-    "main.b50d12c9.js.map": "/static/js/main.b50d12c9.js.map",
-    "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
+    "main.css": "/devoneriksenwebsite/static/css/main.4ae98d48.css",
+    "main.js": "/devoneriksenwebsite/static/js/main.d9c991b4.js",
+    "static/js/787.b701888c.chunk.js": "/devoneriksenwebsite/static/js/787.b701888c.chunk.js",
+    "static/media/Devon Author.jpg": "/devoneriksenwebsite/static/media/Devon Author.48cecbcb8749916934fb.jpg",
+    "static/media/ToFcover.jpg": "/devoneriksenwebsite/static/media/ToFcover.fc6914980231c960c211.jpg",
+    "static/media/book1over.png": "/devoneriksenwebsite/static/media/book1over.3e0753dd07e9be6c836a.png",
+    "static/media/bg.jpg": "/devoneriksenwebsite/static/media/bg.6dbb3bfec4f933632900.jpg",
+    "static/media/cover-3d.png": "/devoneriksenwebsite/static/media/cover-3d.9a3af293e8d938e27b78.png",
+    "static/media/banner Thea.png": "/devoneriksenwebsite/static/media/banner Thea.b167b5cec40fa9f423de.png",
+    "static/media/buy-general.png": "/devoneriksenwebsite/static/media/buy-general.e2fe5b69d8993b517e72.png",
+    "static/media/Amazon-Kindle-logo-white.png": "/devoneriksenwebsite/static/media/Amazon-Kindle-logo-white.6c984a9249c83d1661d2.png",
+    "static/media/BandN white.png": "/devoneriksenwebsite/static/media/BandN white.d9a5c63efd6236069684.png",
+    "index.html": "/devoneriksenwebsite/index.html",
+    "main.4ae98d48.css.map": "/devoneriksenwebsite/static/css/main.4ae98d48.css.map",
+    "main.d9c991b4.js.map": "/devoneriksenwebsite/static/js/main.d9c991b4.js.map",
+    "787.b701888c.chunk.js.map": "/devoneriksenwebsite/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf75692.css",
-    "static/js/main.b50d12c9.js"
+    "static/css/main.4ae98d48.css",
+    "static/js/main.d9c991b4.js"
   ]
 }
