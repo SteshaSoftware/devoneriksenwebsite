@@ -1,21 +1,39 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import WritersThought from './WritersThought'
-import Fictionwrting from './Fictionwrting'
-import FictionAccordion from '../components/fictionAccordions/FictionAccordion'
+import Article from '../components/ArticleBuild/ArticleBuild'
 
-const WritingAll = () => {
+import CatInvader from '../Writing/CatInvader.md'
+import Beatles from '../Writing/Beatles.md'
+import AdoptedVampire from '../Writing/AdoptedVampire.md'
+import SwordLessons from '../Writing/SwordLessons.md'
+import EggWizard from '../Writing/EggWizard.md'
+
+function WritingAll() {
+
+
   return (
     <>
-    <Box sx={{width:{xs:"95%", md:"89%"}, marginTop:"50px", marginX:"auto", color:"#ff9b02"}}>
-    <Typography variant='h5' className='mb-10'sx={{width:"75%", mx:"auto"}}>All Thoughts</Typography>
-    <WritersThought/>
+      <div data-aos="zoom-out-down" data-aos-duration="1500" style={{ width: "100%" }}>
+        <Box
+          sx={{
 
-    {/* <Fictionwrting/> */}
-    
-    <FictionAccordion/>
-
-    </Box>
+            display: "flex",
+            justifyContent: "center",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <Box sx={{ width: { xs: "95%", md: "89%" }, marginX: "auto", color: "#ff9b02" }}>
+            <Box sx={{ width: "70%", marginX: "auto", color: "white" }}>
+              <Article articlePath={SwordLessons} />
+              <Article articlePath={EggWizard} />
+              <Article articlePath={Beatles} />
+              <Article articlePath={AdoptedVampire} />
+              <Article articlePath={CatInvader} />
+            </Box>
+          </Box>
+        </Box>
+      </div>
     </>
   )
 }
