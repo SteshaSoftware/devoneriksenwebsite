@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.78c9164e.css",
-    "main.js": "/static/js/main.94b21e7f.js",
+    "main.js": "/static/js/main.2e9722eb.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
@@ -12,17 +12,18 @@
     "static/media/buy-general.png": "/static/media/buy-general.e2fe5b69d8993b517e72.png",
     "static/media/Amazon-Kindle-logo-white.png": "/static/media/Amazon-Kindle-logo-white.6c984a9249c83d1661d2.png",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
+    "static/media/CatInvader.md": "/static/media/CatInvader.bc451eb8468c6f0ae478.md",
     "static/media/AdoptedVampire.md": "/static/media/AdoptedVampire.208bc1242734cf3ac6f9.md",
     "static/media/SwordLessons.md": "/static/media/SwordLessons.9291146d366cafb8ed0b.md",
     "static/media/EggWizard.md": "/static/media/EggWizard.cd2a28837935996e8240.md",
     "static/media/Beatles.md": "/static/media/Beatles.693529da12a09bf7ded2.md",
     "index.html": "/index.html",
     "main.78c9164e.css.map": "/static/css/main.78c9164e.css.map",
-    "main.94b21e7f.js.map": "/static/js/main.94b21e7f.js.map",
+    "main.2e9722eb.js.map": "/static/js/main.2e9722eb.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78c9164e.css",
-    "static/js/main.94b21e7f.js"
+    "static/js/main.2e9722eb.js"
   ]
 }
