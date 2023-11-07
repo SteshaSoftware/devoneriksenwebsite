@@ -8,7 +8,7 @@ import AdoptedVampire from '../Writing/AdoptedVampire.md'
 import SwordLessons from '../Writing/SwordLessons.md'
 import EggWizard from '../Writing/EggWizard.md'
 
-function WritingAll() {
+function Fictionwrting() {
 
 
   return (
@@ -38,7 +38,10 @@ function WritingAll() {
   )
 }
 
-export default WritingAll
+export default Fictionwrting
+
+
+
 
 
 
