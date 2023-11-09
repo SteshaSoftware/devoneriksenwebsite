@@ -9,6 +9,14 @@ module.exports = {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
     },
+    module: {
+      rules: [
+        {
+          test: /\.md$/,
+          use: 'raw-loader',
+        },
+      ],
+    },
   },
   // plugins: [ require('@tailwindcss/aspect-ratio')],
 }

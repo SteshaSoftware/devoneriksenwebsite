@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import './ArticleBuild.css'; // Import CSS styles specific to this component
+import './ArticleBuild.css'; 
 
 function Article({ articlePath }) {
   const [articleContent, setArticleContent] = useState('');
