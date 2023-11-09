@@ -1,7 +1,7 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
 // import "./authorCard.css"
-import book1 from "../../images/cover-3d.png"
+import book1 from "../../images/thicc-cover.png"
 import "./bookcard.css"
 import { Link } from 'react-router-dom'
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
@@ -42,16 +42,14 @@ const BookCard = () => {
             </Typography>
 
             <PurchaseBox />
-
-
           </CardContent>
         </Box>
         <CardMedia
           data-aos="fade-left"
           component="img"
-          sx={{ padding: { md: 7, xs: 3 }, width: { md: "750px", xs: "70%", sm: "65%" }, height: { md: "750px", xs: "70%", sm: "65%" } }}
+          sx={{ padding: { md: 2, xs: 3 }, width: '100%', maxWidth: { md: "680px", xs: "70%", sm: "65%" }, height: { md: "680px", xs: "70%", sm: "65%" } }}
           image={book1}
-          alt="Live from space album cover"
+          alt="Theft of Fire by Devon Eriksen"
         />
       </Card>
 
