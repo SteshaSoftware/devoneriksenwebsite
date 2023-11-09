@@ -8,11 +8,11 @@ import SwordLessonAccordion from '../components/accordions/SwordLessonAccordion'
 const WritingAll= () => {
   return (
         <>
-              <CatInvaderAccordion />
-              <AdoptedVampireAccordion />
-              <BeatlesAccordion />
-              <EddwizardAccordion />
-              <SwordLessonAccordion />
+            <SwordLessonAccordion />
+            <EddwizardAccordion />
+            <AdoptedVampireAccordion />
+            <BeatlesAccordion />
+            <CatInvaderAccordion /> 
         </>
   )
 }
