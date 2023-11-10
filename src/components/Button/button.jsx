@@ -8,18 +8,18 @@ import generalimg from "../../images/buy-general.png"
 const Button = () => {
   return (
     <>
-      <a target='_blank' href={"https://www.amazon.com/gp/product/B0CJHQ4LZN?&_encoding=UTF8&tag=devoneriksen-20&linkCode=ur2&linkId=74ef5550692d1508106cb7701185c24b&camp=1789&creative=9325"}>
+    <a target='_blank' href={"https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20"}>
         <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={kindleimg} alt="Pre-Order for Amazon Kindle" style={{width: '80%'}}/>
+            <img src={amazonimg} alt="Purchase on Amazon" style={{width: '80%'}}/>
           </div>
         </button>
       </a>
 
-      <a target='_blank' href={"https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20"}>
+      <a target='_blank' href={"https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144335979?ean=2940179192145"}>
         <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={amazonimg} alt="Pre-Order for Amazon Kindle" style={{width: '80%'}}/>
+            <img src={BandNimg } alt="Purchas at Barnes and Nobel" style={{width: '80%'}}/>
           </div>
         </button>
       </a>

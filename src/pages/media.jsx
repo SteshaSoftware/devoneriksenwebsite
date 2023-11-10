@@ -19,7 +19,7 @@ const Media = () => {
            <div>
            <MediaContent
                 title= 'Fantasy vs Sci Fi'
-                subtitle = "Grendhill Media invites Devon to talk about the difference between 
+                subtitle = "Don of the Grendhill Chronicles invites Devon to talk about the link between 
                   Science Fantasy and Fiction and they get distracted along the way"
                 link="https://www.youtube.com/embed/QVtKAWrntYI"
                 date="2023-11-09"
