@@ -30,15 +30,15 @@ const BookCard = () => {
             and enough courage to get them both killed. She may have him dead to rights, but if he 
             doesn’t turn the tables on this spoiled Martian snob, he’ll be dead, period. He’s not 
             giving up without a fight.</p>
-            <p><i>He has a plan.</i></p>
-            <p><b>Miranda Foxgrove</b> has the opportunity of a lifetime almost within her grasp if she 
+            <br /><p><i>He has a plan.</i></p>
+            <br /><p><b>Miranda Foxgrove</b> has the opportunity of a lifetime almost within her grasp if she 
             can reach it. Her stolen spacecraft came with a stubborn, resourceful captain who refuses 
             to cooperate—but he’s one of the few men alive who can snatch an unimaginable treasure 
             from beneath the muzzles of countless railguns. And if this foulmouthed Belter thug 
             doesn’t want to cooperate, she’ll find a way to force him. She’s come too far to give up 
             now.</p>
-            <p><i>She has a plan.</i></p>
-            <p>They’re about to find out that a plan is a list of things that won’t happen.</p>
+            <br /><p><i>She has a plan.</i></p>
+            <br /><p>They’re about to find out that a plan is a list of things that won’t happen.</p>
             </Typography>
 
             <PurchaseBox />
@@ -47,7 +47,7 @@ const BookCard = () => {
         <CardMedia
           data-aos="fade-left"
           component="img"
-          sx={{ padding: { md: 2, xs: 3 }, width: '100%', maxWidth: { md: "680px", xs: "70%", sm: "65%" }, height: { md: "680px", xs: "70%", sm: "65%" } }}
+          sx={{ padding: { md: 2, xs: 3 }, width: '100%', maxWidth: { md: "50%", xs: "70%", sm: "65%" }, height: { md: "50%", xs: "70%", sm: "65%" } }}
           image={book1}
           alt="Theft of Fire by Devon Eriksen"
         />
