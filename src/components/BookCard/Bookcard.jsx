@@ -47,7 +47,7 @@ const BookCard = () => {
         <CardMedia
           data-aos="fade-left"
           component="img"
-          sx={{ padding: { md: 2, xs: 3 }, width: '100%', maxWidth: { md: "680px", xs: "70%", sm: "65%" }, height: { md: "680px", xs: "70%", sm: "65%" } }}
+          sx={{ padding: { md: 2, xs: 3 }, width: '100%', maxWidth: { md: "500px", xs: "70%", sm: "65%" }, height: { md: "500", xs: "70%", sm: "65%" } }}
           image={book1}
           alt="Theft of Fire by Devon Eriksen"
         />
