@@ -14,8 +14,13 @@ const BookCard = () => {
 
         <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
           <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', }} data-aos="fade-right">
+          <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" target="_blank" rel="noopener noreferrer">
+          <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 60 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#fff"} className="hover-text" >
+          <br/>The Wait is Over!  <span style={{ textDecoration: 'underline' }}>Available Now!</span>
+            </Typography>
+            </a>
             <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
-              Orbital Space: Book 1
+            <br/>Orbital Space: Book 1
             </Typography>
             <Typography component="div" variant="h5" mt={1.5} fontSize={{ xs: 28, sm: 28, md: 70, lg: 80 }} fontWeight={"bold"} fontFamily={"EB Garamond, serif"} color={"#FFFF"}>
               Theft of Fire
@@ -45,6 +50,8 @@ const BookCard = () => {
           </CardContent>
         </Box>
         <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20"
+          target="_blank" 
+          rel="noopener noreferrer"
           style={{
             display: 'block',
             padding: { md: 2, xs: 3 },

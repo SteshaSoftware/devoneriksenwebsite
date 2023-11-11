@@ -14,7 +14,7 @@ const TheftOfFire = () => {
         <Box
           component="img"
           sx={{ width: 350 }}
-          alt="The house from the offer."
+          alt="Theft of Fire"
           src={book1}
         />
 
