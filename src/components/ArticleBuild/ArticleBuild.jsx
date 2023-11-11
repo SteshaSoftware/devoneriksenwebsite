@@ -26,7 +26,8 @@ function Article({ articlePath }) {
   }, []);
 
   useEffect(() => {
-    fetch(articlePath)
+    const publicUrl = process.env.PUBLIC_URL;
+    fetch(`${publicUrl}${articlePath}`)
       .then((response) => response.text())
       .then((data) => {
         // Split the content into front matter and article content
@@ -50,7 +51,7 @@ function Article({ articlePath }) {
         }
       });
   }, [articlePath]);
-
+  
   // Function to toggle content expansion
   const toggleExpanded = () => {
     setExpanded(!expanded);

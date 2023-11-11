@@ -30,13 +30,13 @@ const ReadSample = () => {
   }
   return (
     <>
-      <Box sx={{ width: { xs: "97%", sm: "87%" }, marginX: "auto", marginTop: 5 }}>
+      <Box sx={{ width: {md: "80%", xs: "97%", sm: "87%" }, marginX: "auto", marginTop: 5 }}>
         <Typography component="div" variant="h5" mb={-6} fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
           REVIEWS
         </Typography>
       </Box>
 
-      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style={{ width: "100%" }}>
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style={{ width: "92%", margin: "0 auto"  }}>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <ReviewCard />
