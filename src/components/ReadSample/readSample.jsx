@@ -7,6 +7,7 @@ import "./readsample.css";
 
 // import pdffile from '../../images/03. The Call of the Wild author Jack London.pdf';
 import ReviewCard from '../ReviewCard/reviewCard';
+import ReviewCard4 from '../ReviewCard/reviewCard4';
 import ReviewCard2 from '../ReviewCard/reviewCard2';
 import ReviewCard3 from '../ReviewCard/reviewCard3';
 import { Box, Typography } from '@mui/material';
@@ -41,9 +42,11 @@ const ReadSample = () => {
           <div class="carousel-item active">
             <ReviewCard />
           </div>
-
           <div class="carousel-item">
             <ReviewCard2 />
+          </div>
+          <div class="carousel-item">
+            <ReviewCard4 />
           </div>
           <div class="carousel-item">
             <ReviewCard3 />
