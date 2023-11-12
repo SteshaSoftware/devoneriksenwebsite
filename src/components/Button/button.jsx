@@ -24,7 +24,7 @@ const Button = () => {
         </button>
       </a>
 
-      <a target='_blank' href={"https://subscribepage.io/TheftOfFirePrint"}>
+      <a target='_blank' href={"https://books2read.com/Theft-of-Fire"}>
       <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             Other Buying Options
