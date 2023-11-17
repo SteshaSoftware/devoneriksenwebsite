@@ -58,6 +58,7 @@ import AdoptedVampire from '../accordions/AdoptedVampireAccordion';
 import BeatlesAccordion from '../accordions/BeatlesAccordion';
 import EddwizardAccordion from '../accordions/EddwizardAccordion';
 import AdoptedVampireAccordion from '../accordions/AdoptedVampireAccordion';
+import DarkLighthouse from '../accordions/DarkLighthouseAccordion';
 import SwordLessonAccordion from '../accordions/SwordLessonAccordion';
 
 
@@ -138,6 +139,7 @@ const FictionAccordion = () => {
 
     return (
         <>
+            <DarkLighthouseAccordion/>
             <CatInvaderAccordion/>
             <AdoptedVampireAccordion/>
             <BeatlesAccordion/>

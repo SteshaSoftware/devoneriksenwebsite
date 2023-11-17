@@ -18,6 +18,7 @@ import Fictionwrting from './pages/Fictionwrting';
 import CatInvader from './pages/CatInvader';
 import ShortStories from './pages/ShortStories';
 import SwordLessons from './pages/SwordLessons';
+import DarkLighthouse from './pages/DarkLighthouse';
 import EggWizard from './pages/EggWizard';
 import Beatles from './pages/Beatles';
 import AdoptedVampire from './pages/AdoptedVampire';
@@ -54,6 +55,7 @@ const App = () => {
         {path: "short-stories",element: <ShortStories />},
         {path: "writingfiction/cat-invader",element: <CatInvader />},
         {path: "writingfiction/sword-lessons",element: <SwordLessons />},
+        {path: "writingfiction/dark-lighthouse",element: <DarkLighthouse />},
         {path: "writingfiction/egg-wizard",element: <EggWizard />},
         {path: "writingfiction/beatles",element: <Beatles />},
         {path: "writingfiction/adopted-vampire",element: <AdoptedVampire />},

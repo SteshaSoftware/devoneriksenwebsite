@@ -4,10 +4,12 @@ import AdoptedVampireAccordion from '../components/accordions/AdoptedVampireAcco
 import BeatlesAccordion from '../components/accordions/BeatlesAccordion'
 import EddwizardAccordion from '../components/accordions/EddwizardAccordion'
 import SwordLessonAccordion from '../components/accordions/SwordLessonAccordion'
+import DarkLighthouse from '../components/accordions/DarkLighthouseAccordion'
 
 const WritingAll= () => {
   return (
         <>
+            <DarkLighthouse />
             <SwordLessonAccordion />
             <EddwizardAccordion />
             <AdoptedVampireAccordion />
