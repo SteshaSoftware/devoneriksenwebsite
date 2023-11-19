@@ -212,7 +212,7 @@ const Navbar = () => {
                 <Stack direction='row' justifyContent={{ md: "center" }} width={"100%"} alignItems={"center"} spacing={4}>
                   <NavBarButton menuname="Home" />
                   <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
-                  <DropdownMenu pathname={pathname} menuName="Writing" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
+                  <DropdownMenu pathname={pathname} menuName="Writing" subMenuItems={[{label:'Fiction', link:'writingfiction'}]} openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
                   {/*put back to make fiction live subMenuItems={[{label:'Fiction', link:'writingfiction'}]}*/}
 
                   <NavBarButton menuname="Events" />

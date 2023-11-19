@@ -12,8 +12,8 @@ const WritingAll= () => {
             <DarkLighthouse />
             <SwordLessonAccordion />
             <EddwizardAccordion />
-            <AdoptedVampireAccordion />
             <BeatlesAccordion />
+            <AdoptedVampireAccordion />
             <CatInvaderAccordion /> 
         </>
   )

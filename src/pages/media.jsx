@@ -17,14 +17,15 @@ const Media = () => {
         }}
       >
            <div>
-           <MediaContent
+           
+          <MediaContent
                 title= 'Shelf Builders Podcast'
                 subtitle = "Devon discusses the books that he owns and which ones inspired him. <br />
                 Bonus: Devon opens the first real copy of his book live on camera."
                 link="https://www.youtube.com/embed/eGi5wYggjB0"
                 date="2023-11-16"
                 mediatype= "vid"
-            />
+          />
            <MediaContent
                 title= "Theft of Fire Lands on John Walker's To-Read List"
                 subtitle = "<i>Theft of Fire</i> Achieves a Noteworthy Spot on Autodesk Founder's Reading Radar"
