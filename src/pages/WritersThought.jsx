@@ -1,86 +1,43 @@
-import React, { useEffect, useState } from 'react'
-import Accordion from '../components/Accordian/acc';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchAllArticless } from '../store/products';
-import Loaderr from '../components/Loader/loader';
-import { useLocation } from 'react-router-dom';
-// import FictionAccordion from '../components/fictionAccordions/FictionAccordion';
+import { Box, Typography } from '@mui/material'
+import React from 'react'
+import Article from '../components/ArticleBuild/ArticleBuild'
 
-// import imagePlaceholder from "../images/banner Thea.png"
+import { DarkLighthouse } from '../writing/DarkLighthouse';
+import { SwordLessons } from '../writing/SwordLessons';
+import { EggWizard } from '../writing/EggWizard';
+import { Beatles } from '../writing/Beatles';
+import { AdoptedVampire } from '../writing/AdoptedVampire';
+import { CatInvader } from '../writing/CatInvader';
 
-const WritersThought = () => {
+function Fictionwrting() {
 
-    const { articles , status} = useSelector((state) => state.products)
-    
-    
-    // console.log(articles[0].Created_on);
-    
-    const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(fetchAllArticless())
-    }, [])
 
-    // const accordionData = [
-    //     { title: "I double-dog dare you to turn the Beatles' most nonsensical song into a cohesive story", content: "Content for Accordion 1  lasnlan lorem23 dknsklanlasn Content for Accordion 1  lasnlan lorem23 dknsklanlasnContent for Accordion 1  lasnlan lorem23 dknsklanlasnContent for Accordiosnlan lorem23 dknsklanlasn Content for Accordion 1  lasnlan lorem23 dknsklanlasnContent for Accordion 1  lasnlan lorem23 dknsklanlaslanlasn" }
-    // ];
+  return (
+    <>
+      <div data-aos="zoom-out-down" data-aos-duration="1500" style={{ width: "100%" }}>
+        <Box
+          sx={{
 
-    // const [accordions, setAccordions] = useState(articles.map(() => false));
-    // console.log(accordions);
-//     const storedAccordions = JSON.parse(localStorage.getItem('accordions'));
-//     const initialAccordions = storedAccordions || Array.from({ length: articles.length }, () => false);
-  
-//     const [accordions, setAccordions] = useState(initialAccordions);
-//   console.log(accordions);
-//     // Save the state to localStorage whenever it changes
-//     useEffect(() => {
-//       localStorage.setItem('accordions', JSON.stringify(accordions));
-//     }, [accordions]);
-    
-const storedAccordions = JSON.parse(localStorage.getItem('accordions'));
-const initialAccordions = storedAccordions || Array.from({ length: articles.length }, () => false);
-
-// Use useState to manage the accordions state
-const [accordions, setAccordions] = useState(initialAccordions);
-
-// Function to toggle the state of a specific accordion
-const toggleAccordion = (index) => {
-  const newAccordions = [...accordions];
-  newAccordions[index] = !newAccordions[index];
-  setAccordions(newAccordions);
-};
-
-// Save the state to localStorage whenever it changes
-useEffect(() => {
-  localStorage.setItem('accordions', JSON.stringify(accordions));
-}, [accordions]);
-
-   
-    return (
-        <>
-        {status === "loading" ? <Loaderr/> : <div className='mb-6 mt-20'>
-            {articles.map((accordion, index) => {
-            const date = accordion.Created_on;
-            const datePart = date.split("T");
-            // console.log(datePart[0]);
-                return <Accordion
-                    key={index}
-                    // image={accordion.image}
-                    title={accordion.title}
-                    date={datePart[0]}
-                    content={accordion.Description}
-                    expanded={accordions[index]}
-                    onToggle={() => toggleAccordion(index)}
-                    id={accordion._id}
-                />
-            })}
-         
-        </div>
-     
-        }
-        </>
-        
-
-    )
+            display: "flex",
+            justifyContent: "center",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <Box sx={{ width: { xs: "95%", md: "89%" }, marginX: "auto", color: "#ff9b02" }}>
+            <Box sx={{ width: "70%", marginX: "auto", color: "white" }}>
+              <Article {...DarkLighthouse} />
+              <Article {...EggWizard} />
+              <Article {...SwordLessons} />
+              <Article {...Beatles} />
+              <Article {...AdoptedVampire} />
+              <Article {...CatInvader} />
+            </Box>
+          </Box>
+        </Box>
+      </div>
+    </>
+  )
 }
 
-export default WritersThought
+export default Fictionwrting
