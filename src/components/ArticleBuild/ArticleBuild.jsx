@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './ArticleBuild.css';
 
+import { RiTwitterXLine } from 'react-icons/ri';
+import { FaRedditAlien } from "react-icons/fa"
+
 function Article({ title, content, link, date }) {
   const [showMore, setShowMore] = useState(false);
   const [maxLines, setMaxLines] = useState(4); // Initial value, you can adjust as needed
@@ -13,15 +16,21 @@ function Article({ title, content, link, date }) {
   const displayedContent = showMore
     ? content
     : content
-        .split('\n') // Split content into lines
-        .slice(0, maxLines) // Display the determined number of lines
-        .join('\n'); // Join the lines back into a string
+      .split('\n') // Split content into lines
+      .slice(0, maxLines) // Display the determined number of lines
+      .join('\n'); // Join the lines back into a string
 
   const additionalContent = showMore && (
     <>
-      <div className = "article-content" style={{ marginTop: '20px', color: 'green' }}>
-        <p>This content is displayed when the window is expanded.</p>
-      </div>
+
+      <a href= {link} target='_blank' 
+        style={{ display: 'flex', alignItems: 'center' }}>
+        <FaRedditAlien className='icons' size={30} />
+        <div className="article-content" style={{ margin: '20px', color: '#ff9b02', textDecoration: "underline"  }}>
+          <p>Read more and share on Reddit</p>
+        </div>
+      </a>
+
     </>
   );
 
@@ -29,9 +38,9 @@ function Article({ title, content, link, date }) {
     const handleResize = () => {
       // Adjust maxLines based on window width
       if (window.innerWidth > 900) {
-        setMaxLines(10); // Large screen
+        setMaxLines(4); // Large screen
       } else {
-        setMaxLines(5); // Small screen
+        setMaxLines(2); // Small screen
       }
     };
 
@@ -53,7 +62,7 @@ function Article({ title, content, link, date }) {
       <div className="content-container">
         <>
           <div className="article-content" dangerouslySetInnerHTML={{ __html: displayedContent }} />
-          {/*{additionalContent}*/}
+          {additionalContent}
           {content.split('\n').length > maxLines && (
             <button onClick={toggleShowMore}>
               <span className="article-content" style={{ color: "blue", textDecoration: "underline" }}>

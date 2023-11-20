@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ShelfBuilderContent = {
+export const AdoptedVampire = {
   title: `'Why would a human even adopt me?', said the little girl, 'Don't you know I am a vampire?'`,
   content:  `All too soon, he pulls his wrist away. I pick my head up, try to follow it, cling to his arm, whining my frustration. My need.<br/><br/>
   
