@@ -4,7 +4,7 @@ import './ArticleBuild.css';
 import { RiTwitterXLine } from 'react-icons/ri';
 import { FaRedditAlien } from "react-icons/fa"
 
-function Article({ title, content, link, date }) {
+function Article({ title, content, link, date, type }) {
   const [showMore, setShowMore] = useState(false);
   const [maxLines, setMaxLines] = useState(4); // Initial value, you can adjust as needed
   const contentHTML = { __html: content };
@@ -20,19 +20,48 @@ function Article({ title, content, link, date }) {
       .slice(0, maxLines) // Display the determined number of lines
       .join('\n'); // Join the lines back into a string
 
-  const additionalContent = showMore && (
-    <>
-
-      <a href= {link} target='_blank' 
-        style={{ display: 'flex', alignItems: 'center' }}>
-        <FaRedditAlien className='icons' size={30} />
-        <div className="article-content" style={{ margin: '20px', color: '#ff9b02', textDecoration: "underline"  }}>
-          <p>Read more and share on Reddit</p>
-        </div>
-      </a>
-
-    </>
-  );
+      const additionalContent =
+      showMore && type ? (
+        <>
+          {type === 'reddit' ? (
+            <a
+              href={link}
+              target="_blank"
+              style={{ display: 'flex', alignItems: 'center' }}
+            >
+              <FaRedditAlien className='logo' size={30} />
+              <div
+                className="article-content"
+                style={{
+                  margin: '20px',
+                  color: '#ff9b02',
+                  textDecoration: 'underline',
+                }}
+              >
+                <p>Read more and share on Reddit</p>
+              </div>
+            </a>
+          ) : type === 'twitter' ? (
+            <a
+              href={link}
+              target="_blank"
+              style={{ display: 'flex', alignItems: 'center' }}
+            >
+              <RiTwitterXLine className='logo' size={30} />
+              <div
+                className="article-content"
+                style={{
+                  margin: '20px',
+                  color: '#ff9b02',
+                  textDecoration: 'underline',
+                }}
+              >
+                <p>Read more and share on Twitter</p>
+              </div>
+            </a>
+          ) : null}
+        </>
+      ) : null;
 
   useEffect(() => {
     const handleResize = () => {
@@ -66,7 +95,7 @@ function Article({ title, content, link, date }) {
           {content.split('\n').length > maxLines && (
             <button onClick={toggleShowMore}>
               <span className="article-content" style={{ color: "blue", textDecoration: "underline" }}>
-                {showMore ? 'Read Less' : 'Read More'}
+                {showMore ? 'Collapse' : 'Expand'}
               </span>
             </button>
           )}

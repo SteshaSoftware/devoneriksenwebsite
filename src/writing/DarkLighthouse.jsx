@@ -36,6 +36,7 @@ export const DarkLighthouse = {
   <br /><br />
   The Shrike, shamefaced and irritated, departed without quarrel, but it should be noted that after the tower was pulled down with ropes and oxen, some mysterious unseen force came in the night and inscribed the city walls, in letters a foot high, with Dux Lyonis's secret — and very bad — attempts at verse.
 `,
-  link: 'https://www.reddit.com/r/WritingPrompts/comments/17wv1qg/comment/k9o15mh/?context=3',
+  link: 'https://www.reddit.com/r/WritingPrompts/comments/17wv1qg/wp_a_lighthouse_makes_light_so_just_for_a_lark_i/k9o15mh/',
   date: '2023-11-17',
+  type: 'reddit',
 };

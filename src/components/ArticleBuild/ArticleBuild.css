@@ -32,7 +32,6 @@
     line-height: 27px;
     color: #000;
   }
-
   .date {
     font-family: Domine, serif;
     font-weight: 400;
@@ -40,6 +39,15 @@
     line-height: 24px;
     color: #ff9b02;
   }
+  .logo {
+    color: #ff9b02;
+    transition: 0.4s;
+  }
+  .logo:hover{
+  color: white;;
+  }
+
+  
   @media (max-width: 900px ) {
     .heading {
         width: 380px;
