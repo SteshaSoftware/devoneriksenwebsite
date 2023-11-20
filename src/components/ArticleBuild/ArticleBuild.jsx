@@ -34,7 +34,7 @@ function Article({ title, content, link, date, type }) {
                 className="article-content"
                 style={{
                   margin: '20px',
-                  color: '#ff9b02',
+                  color: '#27285C',
                   textDecoration: 'underline',
                 }}
               >
@@ -52,7 +52,7 @@ function Article({ title, content, link, date, type }) {
                 className="article-content"
                 style={{
                   margin: '20px',
-                  color: '#ff9b02',
+                  color: '#27285C',
                   textDecoration: 'underline',
                 }}
               >
