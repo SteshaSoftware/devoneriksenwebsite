@@ -28,8 +28,8 @@ function Fictionwrting() {
           <Box sx={{ width: { xs: "95%", md: "89%" }, marginX: "auto", color: "#ff9b02" }}>
             <Box sx={{ width: "70%", marginX: "auto", color: "white" }}>
               <Article {...DarkLighthouse} />
-              <Article {...SwordLessons} />
               <Article {...EggWizard} />
+              <Article {...SwordLessons} />
               <Article {...Beatles} />
               <Article {...AdoptedVampire} />
               <Article {...CatInvader} />
