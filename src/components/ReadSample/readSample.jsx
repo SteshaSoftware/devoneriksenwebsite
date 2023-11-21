@@ -46,9 +46,6 @@ const ReadSample = () => {
             <ReviewCard2 />
           </div>
           <div class="carousel-item">
-            <ReviewCard4 />
-          </div>
-          <div class="carousel-item">
             <ReviewCard3 />
           </div>
 
