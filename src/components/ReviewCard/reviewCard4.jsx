@@ -16,7 +16,7 @@ const ReviewCard = () => {
                         
                         {/* <Typography variant='h2' sx={{fontSize:"30px"}}>Amazing Customer Service</Typography> */}
                         <p className='mt-2'>
-                        “It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby”.</p>
+                        “It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.”</p>
                         <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>—</span>Emmett Shear, co-founder of Twitch</strong></h3>
                     </div>
                 </div>
