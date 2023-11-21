@@ -3,7 +3,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Stack, Typo
 import "./bookdetail.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 
-function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,LinkAmz, LinkBN, LinkOther, LinkGR, Cover}) {
+function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, LinkAmz, LinkBN, LinkOther, LinkGR, Cover }) {
   const blurbHTML = { __html: Blurb };
 
   return (
@@ -18,19 +18,19 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,Lin
         />
 
         <Stack direction={"column"} spacing={1}>
-          <Typography variant='h6' className='mb-10'>{Series}: Book {SeriesNum}</Typography>
+          {Series && (
+            <Typography variant='h6' className='mb-10'>{Series}: Book {SeriesNum}</Typography>
+          )}
+          <Typography variant='h4' color={"white"}>{Title}</Typography>
 
-          <Typography variant='h4' color={"white"}>{ Title }</Typography>
-          {/* <Typography variant='body1' color={"#b79cff"} sx={{ fontSize:30 ,fontWeight:"bold"}}>$ 26.00</Typography> */}
-
-          <Typography fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }}  variant='body1' color={"white"}>
-            { BlurbHead }
+          <Typography fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} variant='body1' color={"white"}>
+            {BlurbHead}
           </Typography>
-            <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
+          <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
             <br /><div dangerouslySetInnerHTML={blurbHTML} />
-            </Typography>
-          <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz} 
-              LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
+          </Typography>
+          <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz}
+            LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
           {/* <StarRating rating={4.86} />  */}
         </Stack>
 

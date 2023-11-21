@@ -17,6 +17,7 @@ import WritingAll from './pages/WritingAll';
 import Fictionwrting from './pages/Fictionwrting';
 
 import { TheftofFire } from './components/Books/Orbital-ToF';
+import { BoxofTrouble } from './components/Books/Orbital-BoT';
 
 const App = () => {
   const location = useLocation();

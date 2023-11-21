@@ -1,34 +1,28 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material'
-import React from 'react'
-import book1 from "../../images/ToFcover.jpg"
-import "./allnovels.css"
-import { Link } from 'react-router-dom'
+import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './allnovels.css';
 
 function AllNovels({ Cover, Page }) {
-    {/* to add novel duplicate grid item code to corresponding </grid>*/ }
-    return (
-        <Grid container spacing={3} justifyContent={"center"} alignItems={"center"} sx={{ marginBottom: "30px" }}>
-            <Grid item md={3} sm={6} xs={12} width={270} >
-                <Link to={`/${ Page }`} width={270}>
-                    <Card className=' zoom' sx={{ marginX: "auto", marginTop: "60px", maxWidth: 270, background: "none" }} >
-                        <CardContent sx={{ marginTop: 0, padding: 0, width: 270 }}>
-                        </CardContent>
-                        <CardActionArea sx={{ padding: 0 }}>
-                            <CardMedia
-                                component='img'
-                                sx={{ width: 270 }}
-                                image={Cover}
-                                alt='unsplash image'
-                            />
-
-                        </CardActionArea>
-
-                    </Card>
-                </Link>
-            </Grid>
-
-        </Grid>
-    )
+  return (
+    <Grid item md={3} sm={6} xs={12}>
+      <Link to={`/${Page}`} className="novel-link">
+        <Card className="zoom" sx={{ padding: "10px", margin: "auto", maxWidth: 270, background: "none" }}>
+          <CardActionArea sx={{ padding: 0 }}>
+            <CardMedia
+              component="img"
+              sx={{ width: 270 }}
+              image={Cover}
+              alt="novel cover"
+            />
+          </CardActionArea>
+          <CardContent sx={{ marginTop: 0, padding: 0, width: 270 }}>
+            {/* Any additional content you want to display */}
+          </CardContent>
+        </Card>
+      </Link>
+    </Grid>
+  );
 }
 
-export default AllNovels
+export default AllNovels;

@@ -4,7 +4,7 @@ import React from 'react'
 import "./mainbook.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 
-function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,LinkAmz, LinkBN, LinkOther, LinkGR, BigCover}) {
+function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover }) {
   const blurbHTML = { __html: Blurb };
 
   return (
@@ -14,29 +14,31 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,LinkA
 
         <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
           <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', }} data-aos="fade-right">
-          <a href={ LinkAmz } target="_blank" rel="noopener noreferrer">
-          <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 60 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#fff"} className="hover-text" >
-          <br/>The Wait is Over!  <span style={{ textDecoration: 'underline' }}>Available Now!</span>
-            </Typography>
+            <a href={LinkAmz} target="_blank" rel="noopener noreferrer">
+              <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 60 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#fff"} className="hover-text" >
+                <br />The Wait is Over!  <span style={{ textDecoration: 'underline' }}>Available Now!</span>
+              </Typography>
             </a>
-            <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
-            <br/>{ Series }: Book { SeriesNum }
-            </Typography>
+            {Series && (
+              <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
+                <br />{Series}: Book {SeriesNum}
+              </Typography>
+            )}
             <Typography component="div" variant="h5" mt={1.5} fontSize={{ xs: 28, sm: 28, md: 70, lg: 80 }} fontWeight={"bold"} fontFamily={"EB Garamond, serif"} color={"#FFFF"}>
-              { Title }
+              {Title}
             </Typography>
             <Typography variant="subtitle1" color="white" component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginTop: { xs: 1.2 }, marginRight: { md: 15 } }}>
-              { BlurbHead }</Typography>
+              {BlurbHead}</Typography>
             <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
               <br /><div dangerouslySetInnerHTML={blurbHTML} />
             </Typography>
 
-            <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz} 
+            <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz}
               LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
           </CardContent>
         </Box>
-        <a href= { LinkAmz }
-          target="_blank" 
+        <a href={LinkAmz}
+          target="_blank"
           rel="noopener noreferrer"
           style={{
             display: 'block',
@@ -50,7 +52,7 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,LinkA
             data-aos="fade-left"
             component="img"
             sx={{ width: '100%', height: '100%' }}
-            image={ BigCover }
+            image={BigCover}
             alt={`${Title} by Devon Eriksen`}
           />
         </a>

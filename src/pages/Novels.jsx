@@ -6,9 +6,11 @@ import { TheftofFire } from '../components/Books/Orbital-ToF';
 
 const Novels = () => {
   return (
-    <Box sx={{width:"89%", marginTop:"50px", marginX:"auto", color:"#ff9b02"}}>
+    <Box sx={{ width: "89%", marginTop: "50px", marginX: "auto", color: "#ff9b02" }}>
       <Typography variant='h5' className='mb-10'>All Novels</Typography>
-      <AllNovels {...TheftofFire}/>
+      <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', padding: "20px" }}>
+        <AllNovels {...TheftofFire} />
+      </Box>
     </Box>
   )
 }
