@@ -39,7 +39,7 @@ const App = () => {
         { index: true, element: <Home /> },
         { path: "about", element: <About /> }, // Notice that the leading slash is removed
         { path: "novels", element: <Novels /> },
-        { path: "theft-of-fire", element: <BookDetail {...TheftofFire}/> },
+        { path: TheftofFire.Page, element: <BookDetail {...TheftofFire}/> },
         { path: "orbital-space", element: <OrbitalSpace /> },
         { path: "contact", element: <Contact /> },
         { path: "events", element: <Events /> },

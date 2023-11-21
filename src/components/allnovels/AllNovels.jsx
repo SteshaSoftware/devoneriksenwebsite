@@ -4,12 +4,12 @@ import book1 from "../../images/ToFcover.jpg"
 import "./allnovels.css"
 import { Link } from 'react-router-dom'
 
-const AllNovels = () => {
+function AllNovels({ Cover, Page }) {
     {/* to add novel duplicate grid item code to corresponding </grid>*/ }
     return (
         <Grid container spacing={3} justifyContent={"center"} alignItems={"center"} sx={{ marginBottom: "30px" }}>
             <Grid item md={3} sm={6} xs={12} width={270} >
-                <Link to={"/theft-of-fire"} width={270}>
+                <Link to={`/${ Page }`} width={270}>
                     <Card className=' zoom' sx={{ marginX: "auto", marginTop: "60px", maxWidth: 270, background: "none" }} >
                         <CardContent sx={{ marginTop: 0, padding: 0, width: 270 }}>
                         </CardContent>
@@ -17,7 +17,7 @@ const AllNovels = () => {
                             <CardMedia
                                 component='img'
                                 sx={{ width: 270 }}
-                                image={book1}
+                                image={Cover}
                                 alt='unsplash image'
                             />
 
