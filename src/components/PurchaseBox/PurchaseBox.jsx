@@ -4,15 +4,15 @@ import StarButton from '../StarButton/starbutton'
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 
 
-const PurchaseBox = () => {
+function PurchaseBox({ LinkSample,LinkAmz, LinkBN, LinkOther, LinkGR }) {
     return (
         <>
             <Box sx={{ display: "flex", alignItems: {xs: "center"}, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
-                <StarButton />
-                <Button />
+                <StarButton LinkSample = {LinkSample}/>
+                <Button LinkAmz = {LinkAmz} LinkBN = {LinkBN} LinkOther = {LinkOther} />
             </Box>
             <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
-                Add to <a href="https://www.goodreads.com/book/show/199142773-theft-of-fire" style={{ color: "#ff9b02" }}>Goodreads</a>
+                Add to <a href={ LinkGR } style={{ color: "#ff9b02" }}>Goodreads</a>
             </Typography>
         </>
     )

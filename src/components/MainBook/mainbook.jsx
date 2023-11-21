@@ -4,7 +4,7 @@ import React from 'react'
 import "./mainbook.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 
-function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkAmz, BigCover}) {
+function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,LinkAmz, LinkBN, LinkOther, LinkGR, BigCover}) {
   const blurbHTML = { __html: Blurb };
 
   return (
@@ -31,7 +31,7 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkAmz, BigCove
               <br /><div dangerouslySetInnerHTML={blurbHTML} />
             </Typography>
 
-            <PurchaseBox />
+            <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz} LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
           </CardContent>
         </Box>
         <a href= { LinkAmz }

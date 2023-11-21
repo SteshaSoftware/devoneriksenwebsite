@@ -1,8 +1,8 @@
 import React from 'react'
 
-const StarButton = () => {
+function StarButton({ LinkSample }) {
     return (
-            <a target='_blank' href={"https://read.bookfunnel.com/read/h6gjdipcpw"}>
+            <a target='_blank' href={{LinkSample}}>
                 <button class="btnn" type="button" style={{ marginTop: 25, width: "300px" }} >
                     <strong>Read 3-Chapter Preview</strong>
                     <div id="">
