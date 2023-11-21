@@ -7,7 +7,7 @@ import About from './pages/About';
 import Layout from './pages/Layout';
 import Novels from './pages/Novels';
 import OrbitalSpace from './pages/OrbitalSpace';
-import TheftofFire from './pages/TheftofFire';
+import BookDetail from './pages/BookDetail';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
 import Media from './pages/media';
@@ -15,6 +15,8 @@ import Media from './pages/media';
 import WritersThought from './pages/WritersThought';
 import WritingAll from './pages/WritingAll';
 import Fictionwrting from './pages/Fictionwrting';
+
+import { TheftofFire } from './components/Books/Orbital-ToF';
 
 const App = () => {
   const location = useLocation();
@@ -37,7 +39,7 @@ const App = () => {
         { index: true, element: <Home /> },
         { path: "about", element: <About /> }, // Notice that the leading slash is removed
         { path: "novels", element: <Novels /> },
-        { path: "theft-of-fire", element: <TheftofFire /> },
+        { path: "theft-of-fire", element: <BookDetail {...TheftofFire}/> },
         { path: "orbital-space", element: <OrbitalSpace /> },
         { path: "contact", element: <Contact /> },
         { path: "events", element: <Events /> },

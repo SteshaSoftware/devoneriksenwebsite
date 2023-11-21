@@ -31,7 +31,8 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample,LinkA
               <br /><div dangerouslySetInnerHTML={blurbHTML} />
             </Typography>
 
-            <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz} LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
+            <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz} 
+              LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
           </CardContent>
         </Box>
         <a href= { LinkAmz }

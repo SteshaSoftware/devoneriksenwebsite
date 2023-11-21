@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import MainBook from '../components/MainBook/mainbook';
+import MainBook from '../components/BookMain/mainbook';
 import { Box } from '@mui/material'
 import bg from "../images/bg.jpg"
 import HomeBanner from '../components/homeBanner/HomeBanner';
