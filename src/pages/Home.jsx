@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 
-import BookCard from '../components/BookCard/Bookcard';
+import MainBook from '../components/MainBook/mainbook';
 import { Box } from '@mui/material'
 import bg from "../images/bg.jpg"
 import HomeBanner from '../components/homeBanner/HomeBanner';
 import Navbar from '../components/navbar/Navbar';
 import ReviewCard from '../components/ReviewCard/reviewCard';
 import ReadSample from '../components/ReadSample/readSample';
+
+import { TheftofFire } from '../components/Books/Orbital-ToF';
 
 const Home = () => {
   useEffect(() => {
@@ -16,7 +18,7 @@ const Home = () => {
   return (
       <>
      <HomeBanner />
-     <BookCard/>
+     <MainBook {...TheftofFire} />
      
      <ReadSample/>
      

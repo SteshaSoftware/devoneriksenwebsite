@@ -1,14 +1,14 @@
 import React from 'react';
 
-//import CoverSml from '../../images/ToFcover.jpg'
-//import CoverLrg from'../../images/thicc-cover.png'
+import CoverSml from '../../images/ToFcover.jpg'
+import CoverLrg from'../../images/thicc-cover.png'
 
 export const TheftofFire = {
-    title: 'Theft of Fire',
+    Title: 'Theft of Fire',
     Series: 'Orbital Space',
     SeriesNum: '1',
-    //Cover: <CoverSml/>
-    //BigCover: <CoverLrg/>
+    Cover: CoverSml,
+    BigCover: CoverLrg,
     BlurbHead: `At the frozen edge of the solar system lies a hidden treasure which could spell 
     their fortune or their destruction—but only if they survive each other first.`,
     Blurb: `<b>Marcus Warnoc</b> has a little problem. His asteroid mining ship—his inheritance, 
