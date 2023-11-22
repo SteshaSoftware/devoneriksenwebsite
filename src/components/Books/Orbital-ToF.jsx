@@ -50,6 +50,22 @@ export const TheftofFire = {
             QuoteAtt: `Johnny Schmidt, author of <i>Failure Mode</i>`,
         },
         {
+            Quote: `Theft of Fire combines the kind of enjoyable space opera you'd get in classic 
+            Asimov books with a great interpersonal plot and romance and puts it all in a 22nd century 
+            hard SciFi setting similar to The Expanse. And it's just awesome!
+            <br /><br />
+            Creative space combat maneuvers, well detailed action, general problem solving, complex 
+            interpersonal conflict, and ample moments of levity make for a novel that you just can't put 
+            down.
+            <br /><br />
+            If you're looking for complex sociopolitical critiques in your SciFi, this book might not be 
+            for you. But if you enjoy a good action and adventure SciFi that centers human agency, 
+            fallibility, and growth, then you'll love Theft of Fire.
+            <br /><br />
+            I'm already impatient for the sequel!`,
+            QuoteAtt: `Ummon Karpe, Rocket Scientist`,
+        },
+        {
             Quote: `This is one hell of a yarn. It has the character development of 
     John Varley, the plot twists of Robert E Taylor, battle scenes that are reminiscent of 
     Jack Campbell, and the dramatic angst of Stephen R. Donaldson. Behind it all lurks an 
