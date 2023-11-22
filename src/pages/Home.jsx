@@ -6,7 +6,7 @@ import bg from "../images/bg.jpg"
 import HomeBanner from '../components/homeBanner/HomeBanner';
 import Navbar from '../components/navbar/Navbar';
 import ReviewCard from '../components/ReviewCard/reviewCard';
-import ReadSample from '../components/ReadSample/readSample';
+import Reviews from '../components/Reviews/reviews';
 
 import { TheftofFire } from '../components/Books/Orbital-ToF';
 
@@ -20,7 +20,7 @@ const Home = () => {
      <HomeBanner />
      <MainBook {...TheftofFire} />
      
-     <ReadSample/>
+     <Reviews {...TheftofFire} />
      
   </>
 

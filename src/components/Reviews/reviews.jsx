@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import "./readsample.css";
+import "./reviews.css";
 
 // Import the CSS styles for 'react-pdf'
 // import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 // import pdffile from '../../images/03. The Call of the Wild author Jack London.pdf';
 import ReviewCard from '../ReviewCard/reviewCard';
-import ReviewCard4 from '../ReviewCard/reviewCard4';
-import ReviewCard2 from '../ReviewCard/reviewCard2';
-import ReviewCard3 from '../ReviewCard/reviewCard3';
 import { Box, Typography } from '@mui/material';
 
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const ReadSample = () => {
+function Reviews({ Quote1, QuoteAtt1, Quote2, QuoteAtt2, Quote3, QuoteAtt3}) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -40,13 +37,13 @@ const ReadSample = () => {
       <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style={{ width: "92%", margin: "0 auto"  }}>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <ReviewCard />
+            <ReviewCard Quote={Quote1} QuoteAtt={QuoteAtt1}/>
           </div>
           <div class="carousel-item">
-            <ReviewCard2 />
+            <ReviewCard Quote={Quote2} QuoteAtt={QuoteAtt2}/>
           </div>
           <div class="carousel-item">
-            <ReviewCard3 />
+            <ReviewCard Quote={Quote3} QuoteAtt={QuoteAtt3}/>
           </div>
 
         </div>
@@ -66,7 +63,7 @@ const ReadSample = () => {
 };
 
 
-export default ReadSample;
+export default Reviews;
 
 
 
