@@ -20,7 +20,7 @@ const Home = () => {
      <HomeBanner />
      <MainBook {...TheftofFire} />
      
-     <Reviews {...TheftofFire} />
+     <Reviews quotes={TheftofFire.Quotes} />
      
   </>
 

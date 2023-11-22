@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import "./reviews.css";
 
-// Import the CSS styles for 'react-pdf'
-// import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-
-// import pdffile from '../../images/03. The Call of the Wild author Jack London.pdf';
 import ReviewCard from '../ReviewCard/reviewCard';
 import { Box, Typography } from '@mui/material';
 
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+const Reviews = ({ quotes }) => {
 
-function Reviews({ Quote1, QuoteAtt1, Quote2, QuoteAtt2, Quote3, QuoteAtt3}) {
+ 
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -28,23 +23,19 @@ function Reviews({ Quote1, QuoteAtt1, Quote2, QuoteAtt2, Quote3, QuoteAtt3}) {
   }
   return (
     <>
-      <Box sx={{ width: {md: "80%", xs: "97%", sm: "87%" }, marginX: "auto", marginTop: 5 }}>
+      <Box sx={{ width: { md: "80%", xs: "97%", sm: "87%" }, marginX: "auto", marginTop: 5 }}>
         <Typography component="div" variant="h5" mb={-6} fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
           REVIEWS
         </Typography>
       </Box>
 
-      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style={{ width: "92%", margin: "0 auto"  }}>
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style={{ width: "92%", margin: "0 auto" }}>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <ReviewCard Quote={Quote1} QuoteAtt={QuoteAtt1}/>
-          </div>
-          <div class="carousel-item">
-            <ReviewCard Quote={Quote2} QuoteAtt={QuoteAtt2}/>
-          </div>
-          <div class="carousel-item">
-            <ReviewCard Quote={Quote3} QuoteAtt={QuoteAtt3}/>
-          </div>
+          {quotes.map((quote, index) => (
+            <div key={index} className={`carousel-item${index === 0 ? ' active' : ''}`}>
+              <ReviewCard Quote={quote.Quote} QuoteAtt={quote.QuoteAtt} />
+            </div>
+          ))}
 
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
