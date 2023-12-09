@@ -17,7 +17,25 @@ const Media = () => {
         }}
       >
            <div>
-           
+           <MediaContent
+                title= "Theft of Fire review by John Walker"
+                subtitle = "<i>Theft of Fire</i> receives a glowing review on Autodesk Founder's Blog"
+                content = '...The discerning reader of science fiction today can choose from a collection 
+                of talented, imaginative, and prolific authors to such an extent that it’s like reading 
+                Heinlein, Bradbury, Clarke, Asimov, Pohl, and Doc Smith all in their prime, but with ideas and 
+                plots as new as today and tomorrow.
+                <br/><br/>
+                With his first novel, Theft of Fire, Devon Eriksen has jumped in at the top of the game 
+                crafting a tale of “hard” science fiction (grounded in plausible science and technology, 
+                not magic swords and dragons wrapped in technobabble) with complex, believable 
+                characters who interact and grow throughout the tale, and an artificial intelligence who 
+                strikes me as far more likely to be what we’ll encounter in our own future than the 
+                cartoon tales of mindless monsters or transcendent deities sketched by self-styled 
+                “experts” in machine intelligence...'
+                link= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/11' 
+                date = '2023-12-02'
+                mediatype= "txt"
+            />
           <MediaContent
                 title= 'Shelf Builders Podcast'
                 subtitle = "Devon discusses the books that he owns and which ones inspired him. <br />
@@ -26,22 +44,6 @@ const Media = () => {
                 date="2023-11-16"
                 mediatype= "vid"
           />
-           <MediaContent
-                title= "Theft of Fire Lands on John Walker's To-Read List"
-                subtitle = "<i>Theft of Fire</i> Achieves a Noteworthy Spot on Autodesk Founder's Reading Radar"
-                content = 'Devon Eriksen’s Theft of Fire was published on 2023-11-10 in both paperback 
-                (linked above) and Kindle editions (not on Kindle Unlimited). The author describes the 
-                book, first in a planned series called “Orbital Space”, as in the tradition of hard 
-                science space opera of the Golden Age of science fiction. It has been receiving extremely 
-                positive reviews from beta readers and hard science fiction authors (many of the 
-                libertarian and anarcho-capitalist bent) who have read pre-publication copies. The book, 
-                which is 546 pages, around 150,000 words) has, in just two days after release, vaulted 
-                to #54 in Hard Science Fiction and #116 in Space Opera Science Fiction on the Amazon 
-                Kindle store.'
-                link= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/9' 
-                date = '2023-11-15'
-                mediatype= "txt"
-            />
            <MediaContent
                 title= 'Theft of Fire: Hard Science Fiction. Deep Characters.'
                 subtitle = '<i>Theft of Fire</i>, Featured on Iron Age Media'
@@ -54,7 +56,7 @@ const Media = () => {
                 our inevitable failure. Began sifting through the ashes of endless visions of decay. 
                 Began lamenting instead of inspiring. Began, above all, lecturing us for daring to have 
                 hopes, dreams, and desires, for daring to think that the universe is a better place with 
-                humans in it than without, that tomorrow might be better than today.'
+                humans in it than without, that tomorrow might be better than today...'
                 link= 'https://ironage.media/post/theft-of-fire.html' 
                 date = '2023-11-15'
                 mediatype= "txt"
@@ -84,7 +86,7 @@ const Media = () => {
                  take on everything from AI to the male sex drive. We talk politics, publishing, institutional 
                  decay, Tolkien and religion, Ayn Rand and propaganda, a future without government, the plight 
                  of the working man (and writer), and the weird similarities between composing a novel and 
-                 writing code.'
+                 writing code...'
                 link= 'https://failuremode.johnnyschmidt.com/p/fire-for-the-people-interview-with' 
                 date = '2023-10-23'
                 mediatype= "txt"

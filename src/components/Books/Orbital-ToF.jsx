@@ -36,6 +36,15 @@ export const TheftofFire = {
     LinkGR: 'https://www.goodreads.com/book/show/199142773-theft-of-fire',
     Quotes: [
         {
+            Quote: `“Shoot-em-up space opera, mysterious alien artifacts, freedom-minded Belters versus 
+            corporate oligarchs, and even a bit of romance highlight this masterpiece of the new golden 
+            age of optimistic, imaginative science fiction.`,
+            QuoteAtt: `— John Walker, co-founder, Autodesk, Inc., 
+            <a target='_blank' href= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/11'>
+                http://foutmilab.ch 
+            </a>`
+        },
+        {
             Quote: `A down-on-his-luck asteroid miner, a mysterious heiress, 
     an ancient alien race--Devon Eriksen's Theft of Fire weaves these classic elements 
     into a story that feels refreshingly cutting-edge, with prose as lean and no-frills 
@@ -47,7 +56,10 @@ export const TheftofFire = {
     after a book that promises a good old-fashioned hard sci-fi adventure in the spirit 
     of Gregory Benford or James S.A. Corey, and then delivers so much more, then this is 
     one you won't want to miss.`,
-            QuoteAtt: `Johnny Schmidt, author of <i>Failure Mode</i>`,
+            QuoteAtt: `— Johnny Schmidt, author, 
+            <a target='_blank' href= 'https://failuremode.johnnyschmidt.com/p/fire-for-the-people-interview-with'>
+            <i>Failure Mode</i>
+            </a>`,
         },
         {
             Quote: `Theft of Fire combines the kind of enjoyable space opera you'd get in classic 
@@ -63,7 +75,7 @@ export const TheftofFire = {
             fallibility, and growth, then you'll love Theft of Fire.
             <br /><br />
             I'm already impatient for the sequel!`,
-            QuoteAtt: `Ummon Karpe, Rocket Scientist`,
+            QuoteAtt: `— Ummon Karpe, Rocket Scientist`,
         },
         {
             Quote: `This is one hell of a yarn. It has the character development of 
@@ -72,16 +84,17 @@ export const TheftofFire = {
     irreverent Nivenesque humor.
     <br /><br />
     This story grabbed me in minutes and called me back whenever I set it down.`,
-            QuoteAtt: `Uncle Bob Martin, author of <i>Clean Code</i>`,
+            QuoteAtt: `— Uncle Bob Martin, author, <i>Clean Code</i>`,
+        },
+        {
+            Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
+            QuoteAtt: `— Emmett Shear, former CEO, Open AI, co-founder, Twitch`
         },
         {
             Quote: `One of the best sci-fi novels I've ever read. Great characters, plot, and not 
     insulting to the reader's intelligence (which is rare for modern sci-fi...).`,
-            QuoteAtt: `Ryan Lackey, CSO of Evertas and Sci-Fi Super-Reader`,
+            QuoteAtt: `— Ryan Lackey, CSO, Evertas, Sci-Fi Super-Reader`,
         },
-        //{
-       //     Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
-       //     QuoteAtt: `Emmett Shear, co-founder of Twitch`
-        //},
+       
     ],
 } 
