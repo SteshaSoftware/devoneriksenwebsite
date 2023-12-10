@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ArticleBuild.css';
 
 import { RiTwitterXLine } from 'react-icons/ri';
-import { FaRedditAlien } from "react-icons/fa"
+import { FaRedditAlien, FaReddit } from "react-icons/fa"
 
 function Article({ title, content, link, date, type }) {
   const [showMore, setShowMore] = useState(false);
@@ -29,7 +29,7 @@ function Article({ title, content, link, date, type }) {
               target="_blank"
               style={{ display: 'flex', alignItems: 'center' }}
             >
-              <FaRedditAlien className='logo' size={30} />
+              <FaReddit className='logo' size={30} />
               <div
                 className="article-content"
                 style={{
