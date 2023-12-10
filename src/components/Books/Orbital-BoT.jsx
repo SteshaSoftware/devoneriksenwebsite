@@ -1,7 +1,7 @@
 import React from 'react';
 
 import CoverSml from '../../images/ToFcover.jpg'
-import CoverLrg from'../../images/thicc-cover.png'
+import CoverLrg from '../../images/thicc-cover.png'
 
 export const BoxofTrouble = {
     Title: 'Box of Trouble',
@@ -34,7 +34,18 @@ export const BoxofTrouble = {
     LinkBN: 'https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144335979?ean=2940179192145',
     LinkOther: 'https://books2read.com/Theft-of-Fire',
     LinkGR: 'https://www.goodreads.com/book/show/199142773-theft-of-fire',
-    Quote1: `A down-on-his-luck asteroid miner, a mysterious heiress, 
+    Quotes: [
+        {
+            Quote: `“Shoot-em-up space opera, mysterious alien artifacts, freedom-minded Belters versus 
+            corporate oligarchs, and even a bit of romance highlight this masterpiece of the new golden 
+            age of optimistic, imaginative science fiction.`,
+            QuoteAtt: `— John Walker, co-founder, Autodesk, Inc., 
+            <a target='_blank' href= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/11'>
+                http://foutmilab.ch 
+            </a>`
+        },
+        {
+            Quote: `A down-on-his-luck asteroid miner, a mysterious heiress, 
     an ancient alien race--Devon Eriksen's Theft of Fire weaves these classic elements 
     into a story that feels refreshingly cutting-edge, with prose as lean and no-frills 
     as the hero's hand-rolled spaceship. The physics are so tight it feels like he spent 
@@ -45,17 +56,45 @@ export const BoxofTrouble = {
     after a book that promises a good old-fashioned hard sci-fi adventure in the spirit 
     of Gregory Benford or James S.A. Corey, and then delivers so much more, then this is 
     one you won't want to miss.`,
-    QuoteAtt1: `Johnny Schmidt, author of <i>Failure Mode</i>`,
-    Quote2: `This is one hell of a yarn. It has the character development of 
+            QuoteAtt: `— Johnny Schmidt, author, 
+            <a target='_blank' href= 'https://failuremode.johnnyschmidt.com/p/fire-for-the-people-interview-with'>
+            <i>Failure Mode</i>
+            </a>`,
+        },
+        {
+            Quote: `Theft of Fire combines the kind of enjoyable space opera you'd get in classic 
+            Asimov books with a great interpersonal plot and romance and puts it all in a 22nd century 
+            hard SciFi setting similar to The Expanse. And it's just awesome!
+            <br /><br />
+            Creative space combat maneuvers, well detailed action, general problem solving, complex 
+            interpersonal conflict, and ample moments of levity make for a novel that you just can't put 
+            down.
+            <br /><br />
+            If you're looking for complex sociopolitical critiques in your SciFi, this book might not be 
+            for you. But if you enjoy a good action and adventure SciFi that centers human agency, 
+            fallibility, and growth, then you'll love Theft of Fire.
+            <br /><br />
+            I'm already impatient for the sequel!`,
+            QuoteAtt: `— Ummon Karpe, Rocket Scientist`,
+        },
+        {
+            Quote: `This is one hell of a yarn. It has the character development of 
     John Varley, the plot twists of Robert E Taylor, battle scenes that are reminiscent of 
     Jack Campbell, and the dramatic angst of Stephen R. Donaldson. Behind it all lurks an 
     irreverent Nivenesque humor.
     <br /><br />
     This story grabbed me in minutes and called me back whenever I set it down.`,
-    QuoteAtt2: `Uncle Bob Martin, author of <i>Clean Code</i>`,
-    Quote3: `One of the best sci-fi novels I've ever read. Great characters, plot, and not 
+            QuoteAtt: `— Uncle Bob Martin, author, <i>Clean Code</i>`,
+        },
+        {
+            Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
+            QuoteAtt: `— Emmett Shear, former CEO, Open AI, co-founder, Twitch`
+        },
+        {
+            Quote: `One of the best sci-fi novels I've ever read. Great characters, plot, and not 
     insulting to the reader's intelligence (which is rare for modern sci-fi...).`,
-    QuoteAtt3: `Ryan Lackey, CSO of Evertas and Sci-Fi Super-Reader`,
-    //Quote4: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
-    //QuoteAtt4: `Emmett Shear, co-founder of Twitch`
+            QuoteAtt: `— Ryan Lackey, CSO, Evertas, Sci-Fi Super-Reader`,
+        },
+       
+    ],
 } 
