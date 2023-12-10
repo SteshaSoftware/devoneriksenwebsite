@@ -3,7 +3,6 @@ import "./Button.css"
 import amazonimg from "../../images/amazon-dot-com-white.png"
 import kindleimg from "../../images/Amazon-Kindle-logo-white.png"
 import BandNimg from "../../images/BandN white.png"
-import generalimg from "../../images/buy-general.png"
 
 function Button({ LinkAmz, LinkBN, LinkOther }) {
   return (

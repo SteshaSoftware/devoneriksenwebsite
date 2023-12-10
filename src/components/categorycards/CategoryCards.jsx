@@ -1,6 +1,6 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Stack, Typography } from '@mui/material'
 import React from 'react'
-import book1 from "../../images/book1over.png"
+import book1 from "../../images/ToFcover.jpg"
 import { Link } from 'react-router-dom'
 import Button from '../Button/button'
 import "./categoryCard.css"
