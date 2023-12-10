@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Stack, Typography } from '@mui/material'
 import "./bookdetail.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
+import Link from '@mui/material/Link';
 
 function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, LinkAmz, LinkBN, LinkOther, LinkGR, Cover }) {
   const blurbHTML = { __html: Blurb };
@@ -9,13 +10,26 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, Li
   return (
     <Box sx={{ width: { xs: "90%", sm: "80%", md: "70%" }, marginTop: "80px", marginX: "auto", color: "#ff9b02" }}>
 
-      <Box className='flex  gap-6 ' sx={{ marginTop: "60px", marginBottom: "60px", textAlign: { xs: "center", sm: "center", md: "start" }, justifyContent: { xs: "cente", md: "start" }, alignItems: { xs: "center", md: "start" }, flexDirection: { xs: "column", sm: "column", md: "row" } }}>
-        <Box
-          component="img"
-          sx={{ width: 350 }}
-          alt={`${Title}`}
-          src={Cover}
-        />
+      <Box className='flex  gap-6 ' sx={{
+        marginTop: "60px", marginBottom: "60px", textAlign:
+          { xs: "center", sm: "center", md: "start" }, justifyContent: { xs: "cente", md: "start" },
+        alignItems: { xs: "center", md: "start" }, flexDirection: { xs: "column", sm: "column", md: "row" }
+      }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+          <Box
+            component="img"
+            sx={{ width: 350 }}
+            alt={`${Title}`}
+            src={Cover}
+            padding='10px'
+          />
+          <Typography sx={{ color: "#ffffff", textAlign: "center"}}>
+            Cover Art: Thea Magerand
+          </Typography>
+          <Typography sx={{ color: "#ff9b02", textAlign: "center"}}>
+          <a target='_blank' href='https://ikaruna.eu' >www.ikaruna.eu</a>
+          </Typography>
+        </Box>
 
         <Stack direction={"column"} spacing={1}>
           {Series && (

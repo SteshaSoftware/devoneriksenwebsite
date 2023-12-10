@@ -12,7 +12,7 @@ function PurchaseBox({ LinkSample,LinkAmz, LinkBN, LinkOther, LinkGR }) {
                 <Button LinkAmz = {LinkAmz} LinkBN = {LinkBN} LinkOther = {LinkOther} />
             </Box>
             <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
-                Add to <a href={ LinkGR } style={{ color: "#ff9b02" }}>Goodreads</a>
+                Add to <a target='_blank' href={ LinkGR } style={{ color: "#ff9b02" }}>Goodreads</a>
             </Typography>
         </>
     )
