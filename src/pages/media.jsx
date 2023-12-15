@@ -18,6 +18,13 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= "Theft of Fire Nominated for Best Sci-Fi Novel of 2023"
+                subtitle = "Vote now for <i>Theft of Fire</i> on Discover Sci-Fi"
+                link= 'https://discoverscifi.com/the-best-sci-fi-books-of-2023-voting-round/' 
+                date = '2023-12-14'
+                mediatype= "vid"
+            />
+           <MediaContent
                 title= "Theft of Fire review by John Walker"
                 subtitle = "<i>Theft of Fire</i> receives a glowing review on Autodesk Founder's Blog"
                 content = '...The discerning reader of science fiction today can choose from a collection 
