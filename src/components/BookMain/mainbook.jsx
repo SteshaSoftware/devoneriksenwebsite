@@ -3,6 +3,7 @@ import React from 'react'
 
 import "./mainbook.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
+import Snark from '../../images/green_snark.png'
 
 function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover }) {
   const blurbHTML = { __html: Blurb };
@@ -19,11 +20,14 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, Link
                 <br />The Wait is Over!  <span style={{ textDecoration: 'underline' }}>Available Now!</span>
               </Typography>
             </a>
-            <a href="https://discoverscifi.com/the-best-sci-fi-books-of-2023-voting-round/" target="_blank" rel="noopener noreferrer">
-              <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 35 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#c6ff03"} className="hover-text">
-                <br /><i><span style={{ textDecoration: 'underline' }}>Nominated for Best Sci-Fi Novel of 2023! Vote Now!</span></i>
-              </Typography>
-            </a>
+            <div className="feature">
+            <img src={Snark} alt="Snark" style={{ width: '50px', marginRight: '20px' }} />
+              <a href="https://discoverscifi.com/the-best-sci-fi-books-of-2023-voting-round/" target="_blank" rel="noopener noreferrer">
+                <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 35 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#c6ff03"} className="hover-text">     
+                  <i><span style={{ textDecoration: 'underline' }}>Nominated for Best Sci-Fi Novel of 2023! Vote Now!</span></i>
+                </Typography>
+              </a>
+            </div>
             {Series && (
               <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
                 <br />{Series}: Book {SeriesNum}
