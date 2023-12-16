@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0d3f192.css",
-    "main.js": "/static/js/main.d9c2f7b4.js",
+    "main.css": "/static/css/main.7b840ad3.css",
+    "main.js": "/static/js/main.32bbc78b.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
@@ -9,16 +9,17 @@
     "static/media/thicc-cover.png": "/static/media/thicc-cover.c02713795327e9457ab0.png",
     "static/media/banner Thea.png": "/static/media/banner Thea.b167b5cec40fa9f423de.png",
     "static/media/DiscoverSciFi.png": "/static/media/DiscoverSciFi.cac236d6613e4a964945.png",
+    "static/media/green_snark.png": "/static/media/green_snark.6203feefad8fe9e2be8d.png",
     "static/media/amazon-dot-com-white.png": "/static/media/amazon-dot-com-white.956165c3d083c95d4002.png",
     "static/media/Amazon-Kindle-logo-white.png": "/static/media/Amazon-Kindle-logo-white.6c984a9249c83d1661d2.png",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
-    "main.b0d3f192.css.map": "/static/css/main.b0d3f192.css.map",
-    "main.d9c2f7b4.js.map": "/static/js/main.d9c2f7b4.js.map",
+    "main.7b840ad3.css.map": "/static/css/main.7b840ad3.css.map",
+    "main.32bbc78b.js.map": "/static/js/main.32bbc78b.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0d3f192.css",
-    "static/js/main.d9c2f7b4.js"
+    "static/css/main.7b840ad3.css",
+    "static/js/main.32bbc78b.js"
   ]
 }
