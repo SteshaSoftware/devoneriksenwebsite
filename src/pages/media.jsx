@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import MediaContent from '../components/Media/MediaContents'
+import SciFi2023 from '../images/DiscoverSciFi.png'
 
 const Media = () => {
   return (
@@ -20,9 +21,11 @@ const Media = () => {
            <MediaContent
                 title= "Theft of Fire Nominated for Best Sci-Fi Novel of 2023"
                 subtitle = "Vote now for <i>Theft of Fire</i> on Discover Sci-Fi"
+                pic = {SciFi2023}
+                picalt = 'Discover Sci-Fi'
                 link= 'https://discoverscifi.com/the-best-sci-fi-books-of-2023-voting-round/' 
                 date = '2023-12-14'
-                mediatype= "vid"
+                mediatype= "img"
             />
            <MediaContent
                 title= "Theft of Fire review by John Walker"

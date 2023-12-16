@@ -21,7 +21,7 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, Link
             </a>
             <a href="https://discoverscifi.com/the-best-sci-fi-books-of-2023-voting-round/" target="_blank" rel="noopener noreferrer">
               <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 35 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#c6ff03"} className="hover-text">
-                <br /><i><span style={{ textDecoration: 'underline' }}>Nominated for Best Science Fiction Novel of 2023! Vote Now!</span></i>
+                <br /><i><span style={{ textDecoration: 'underline' }}>Nominated for Best Sci-Fi Novel of 2023! Vote Now!</span></i>
               </Typography>
             </a>
             {Series && (

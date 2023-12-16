@@ -1,7 +1,7 @@
 import React from 'react'
 import './MediaContents.css'
 
-function MediaContent({ title, subtitle, content, link, date, mediatype }) {
+function MediaContent({ title, subtitle, content, pic, picalt, link, date, mediatype }) {
     const subtitleHTML = { __html: subtitle };
     const contentHTML = { __html: content };
 
@@ -16,6 +16,11 @@ function MediaContent({ title, subtitle, content, link, date, mediatype }) {
                         className="vidstyle"
                         loading="lazy"
                     ></iframe>
+                )}
+                {mediatype === 'img' && (
+                    <a href={link} target="_blank" rel="noopener noreferrer">
+                        <img src={pic} alt={picalt} style={{ marginTop: '20px', marginBottom: '20px' }} />
+                    </a>
                 )}
                 {mediatype === 'aud' && (
                     {/* Render audio content */ }

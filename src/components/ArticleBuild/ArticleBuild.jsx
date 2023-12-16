@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ArticleBuild.css';
 
 import { RiTwitterXLine } from 'react-icons/ri';
-import { FaRedditAlien, FaReddit } from "react-icons/fa"
+import { FaReddit } from "react-icons/fa"
 
 function Article({ title, content, link, date, type }) {
   const [showMore, setShowMore] = useState(false);
