@@ -2,12 +2,14 @@ import { Box, Typography } from '@mui/material'
 import React from 'react'
 import Article from '../components/ArticleBuild/ArticleBuild'
 
-import { DarkLighthouse } from '../writing/DarkLighthouse';
-import { SwordLessons } from '../writing/SwordLessons';
-import { EggWizard } from '../writing/EggWizard';
-import { Beatles } from '../writing/Beatles';
-import { AdoptedVampire } from '../writing/AdoptedVampire';
-import { CatInvader } from '../writing/CatInvader';
+import { DarkLighthouse } from '../writing/Fiction/DarkLighthouse';
+import { SwordLessons } from '../writing/Fiction/SwordLessons';
+import { EggWizard } from '../writing/Fiction/EggWizard';
+import { Beatles } from '../writing/Fiction/Beatles';
+import { AdoptedVampire } from '../writing/Fiction/AdoptedVampire';
+import { CatInvader } from '../writing/Fiction/CatInvader';
+
+import { update20231219 } from '../writing/Updates/update20231219';
 
 function Fictionwrting() {
 
@@ -26,6 +28,7 @@ function Fictionwrting() {
         >
           <Box sx={{ width: { xs: "95%", md: "89%" }, marginX: "auto", color: "#ff9b02" }}>
             <Box sx={{ width: "70%", marginX: "auto", color: "white" }}>
+              <Article {...update20231219} />
               <Article {...DarkLighthouse} />
               <Article {...EggWizard} />
               <Article {...SwordLessons} />
