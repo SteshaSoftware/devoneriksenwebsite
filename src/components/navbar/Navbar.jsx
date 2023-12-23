@@ -213,7 +213,7 @@ const Navbar = () => {
                   <NavBarButton menuname="Home" />
                   <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <DropdownMenu pathname={pathname} menuName="Writing" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
-                  {/*put back to make fiction live subMenuItems={[{label:'Fiction', link:'writingfiction'}]}*/}
+                  {/*put back to make fiction live subMenuItems={[{label:'Fiction', link:'writingfiction'},{label:'Updates', link:'writingupdates'}]}*/}
 
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />

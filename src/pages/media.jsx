@@ -28,6 +28,13 @@ const Media = () => {
                 mediatype= "img"
             />
            <MediaContent
+                title= 'The Alchemy Lab'
+                subtitle = "Devon joins Matt Waterhouse to discuss his thoughts on writing"
+                link= 'https://www.youtube.com/embed/nZbVHahcnuY' 
+                date = '2023-12-26'
+                mediatype= "img"
+            />
+           <MediaContent
                 title= "Theft of Fire review by John Walker"
                 subtitle = "<i>Theft of Fire</i> receives a glowing review on Autodesk Founder's Blog"
                 content = '...The discerning reader of science fiction today can choose from a collection 
