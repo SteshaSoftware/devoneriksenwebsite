@@ -32,7 +32,7 @@ const Media = () => {
                 subtitle = "Devon joins Matt Waterhouse to discuss his thoughts on writing"
                 link= 'https://www.youtube.com/embed/nZbVHahcnuY' 
                 date = '2023-12-26'
-                mediatype= "img"
+                mediatype= "vid"
             />
            <MediaContent
                 title= "Theft of Fire review by John Walker"
