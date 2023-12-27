@@ -86,10 +86,10 @@ export const TheftofFire = {
     This story grabbed me in minutes and called me back whenever I set it down.`,
             QuoteAtt: `— Uncle Bob Martin, author, <i>Clean Code</i>`,
         },
-        {
-            Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
-            QuoteAtt: `— Emmett Shear, former CEO, Open AI, co-founder, Twitch`
-        },
+   //     {
+  //          Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
+   //         QuoteAtt: `— Emmett Shear, former CEO, Open AI, co-founder, Twitch`
+    //    },
         {
             Quote: `One of the best sci-fi novels I've ever read. Great characters, plot, and not 
     insulting to the reader's intelligence (which is rare for modern sci-fi...).`,
