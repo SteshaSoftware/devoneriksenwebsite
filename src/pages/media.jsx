@@ -19,8 +19,8 @@ const Media = () => {
       >
            <div>
            <MediaContent
-                title= "Theft of Fire voted #5 in Best Sci-Fi Novels of 2023"
-                subtitle = "Vote now for <i>Theft of Fire</i> on Discover Sci-Fi"
+                title= "#5 Best Sci-Fi Novel in 2023"
+                subtitle = "Theft of Fire voted #5 in Discover Sci-Fi's best of 2023 list"
                 pic = {SciFi2023}
                 picalt = 'Discover Sci-Fi'
                 link= 'https://discoverscifi.com/best-sci-fi-release-of-2023/' 
