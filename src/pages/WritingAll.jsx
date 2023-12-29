@@ -11,8 +11,9 @@ import { CatInvader } from '../writing/Fiction/CatInvader';
 
 import { update20231219 } from '../writing/Updates/update20231219';
 
-function Fictionwrting() {
 
+function Fictionwrting() {
+const [currentFilter, setCurrentFilter] = React.useState('All');
 
   return (
     <>
