@@ -35,4 +35,5 @@ export const update20231219 = {
   link: 'https://twitter.com/Devon_Eriksen_/status/1737003028320846067',
   date: '2023-12-19',
   type: 'twitter',
+  tag: 'updates',
 };

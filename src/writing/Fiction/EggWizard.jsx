@@ -53,4 +53,5 @@ export const EggWizard = {
   link: 'https://www.reddit.com/r/WritingPrompts/comments/143b6r9/wp_capable_wizards_are_hired_to_entertain_the/jnbbxji/',
   date: '2023-07-08',
   type: 'reddit',
+  tag: 'fiction',
 };

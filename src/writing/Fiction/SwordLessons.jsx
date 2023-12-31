@@ -69,4 +69,5 @@ export const SwordLessons = {
   link: 'https://www.reddit.com/r/WritingPrompts/comments/142sufj/wp_you_are_an_instructor_at_a_magical_academy_but/jn8e6kg/',
   date: '2023-07-07',
   type: 'reddit',
+  tag: 'fiction',
 };

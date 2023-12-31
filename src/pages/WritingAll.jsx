@@ -1,5 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
+import { useLocation } from 'react-router-dom';
 import Article from '../components/ArticleBuild/ArticleBuild'
 
 import { DarkLighthouse } from '../writing/Fiction/DarkLighthouse';
@@ -10,10 +11,29 @@ import { AdoptedVampire } from '../writing/Fiction/AdoptedVampire';
 import { CatInvader } from '../writing/Fiction/CatInvader';
 
 import { update20231219 } from '../writing/Updates/update20231219';
-
+import { update20231230 } from '../writing/Updates/update20231230';
 
 function Fictionwrting() {
-const [currentFilter, setCurrentFilter] = React.useState('All');
+  const location = useLocation()
+
+  const articles = [
+    update20231230,
+    update20231219,
+    DarkLighthouse,
+    EggWizard,
+    SwordLessons,
+    Beatles,
+    AdoptedVampire,
+    CatInvader,
+  ];
+
+  // Filter articles based on the current path
+  const filteredArticles = articles.filter((article) => {
+    if (location.pathname === '/writing') return true;
+    if (location.pathname === '/writingfiction' && article.tag === 'fiction') return true;
+    if (location.pathname === '/writingupdates' && article.tag === 'updates') return true;
+    return false;
+  });
 
   return (
     <>
@@ -29,13 +49,9 @@ const [currentFilter, setCurrentFilter] = React.useState('All');
         >
           <Box sx={{ width: { xs: "95%", md: "89%" }, marginX: "auto", color: "#ff9b02" }}>
             <Box sx={{ width: "70%", marginX: "auto", color: "white" }}>
-              <Article {...update20231219} />
-              <Article {...DarkLighthouse} />
-              <Article {...EggWizard} />
-              <Article {...SwordLessons} />
-              <Article {...Beatles} />
-              <Article {...AdoptedVampire} />
-              <Article {...CatInvader} />
+              {filteredArticles.map((article) => (
+                <Article {...article} />
+              ))}
             </Box>
           </Box>
         </Box>

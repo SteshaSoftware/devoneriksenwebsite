@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './ArticleBuild.css';
+import { Link } from 'react-router-dom';
 
 import { RiTwitterXLine } from 'react-icons/ri';
 import { FaReddit } from "react-icons/fa"
 
-function Article({ title, content, link, date, type }) {
+function Article({ title, content, link, date, type, tag }) {
   const [showMore, setShowMore] = useState(false);
   const [maxLines, setMaxLines] = useState(4); // Initial value, you can adjust as needed
   const contentHTML = { __html: content };
@@ -20,48 +21,48 @@ function Article({ title, content, link, date, type }) {
       .slice(0, maxLines) // Display the determined number of lines
       .join('\n'); // Join the lines back into a string
 
-      const additionalContent =
-      showMore && type ? (
-        <>
-          {type === 'reddit' ? (
-            <a
-              href={link}
-              target="_blank"
-              style={{ display: 'flex', alignItems: 'center' }}
+  const additionalContent =
+    showMore && type ? (
+      <>
+        {type === 'reddit' ? (
+          <a
+            href={link}
+            target="_blank"
+            style={{ display: 'flex', alignItems: 'center' }}
+          >
+            <FaReddit className='logo' size={30} />
+            <div
+              className="article-content"
+              style={{
+                margin: '20px',
+                color: '#27285C',
+                textDecoration: 'underline',
+              }}
             >
-              <FaReddit className='logo' size={30} />
-              <div
-                className="article-content"
-                style={{
-                  margin: '20px',
-                  color: '#27285C',
-                  textDecoration: 'underline',
-                }}
-              >
-                <p>Read more and share on Reddit</p>
-              </div>
-            </a>
-          ) : type === 'twitter' ? (
-            <a
-              href={link}
-              target="_blank"
-              style={{ display: 'flex', alignItems: 'center' }}
+              <p>Read more and share on Reddit</p>
+            </div>
+          </a>
+        ) : type === 'twitter' ? (
+          <a
+            href={link}
+            target="_blank"
+            style={{ display: 'flex', alignItems: 'center' }}
+          >
+            <RiTwitterXLine className='logo' size={30} />
+            <div
+              className="article-content"
+              style={{
+                margin: '20px',
+                color: '#27285C',
+                textDecoration: 'underline',
+              }}
             >
-              <RiTwitterXLine className='logo' size={30} />
-              <div
-                className="article-content"
-                style={{
-                  margin: '20px',
-                  color: '#27285C',
-                  textDecoration: 'underline',
-                }}
-              >
-                <p>Read more and share on Twitter</p>
-              </div>
-            </a>
-          ) : null}
-        </>
-      ) : null;
+              <p>Read more and share on Twitter</p>
+            </div>
+          </a>
+        ) : null}
+      </>
+    ) : null;
 
   useEffect(() => {
     const handleResize = () => {
@@ -90,6 +91,11 @@ function Article({ title, content, link, date, type }) {
       <span className="heading">{title}</span>
       <div className="content-container">
         <>
+          <Link to={`/writing${tag}`}>
+            <span className="article-content" style={{ fontSize: '14px', color: "#ff9b02", textDecoration: "underline" }}>
+              {tag.charAt(0).toUpperCase() + tag.slice(1)} 
+            </span>
+          </Link>
           <div className="article-content" dangerouslySetInnerHTML={{ __html: displayedContent }} />
           {additionalContent}
           {content.split('\n').length > maxLines && (

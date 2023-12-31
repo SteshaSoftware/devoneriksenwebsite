@@ -160,26 +160,26 @@ const Navbar = () => {
                         className={`${pathname === "/writing" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
                       >
                         <span className="mr-1 ">WRITING</span>
-                        {/*<BsChevronDown />*/}
+                        {<BsChevronDown />}
                       </div>
                       <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                        {/*<li className="">
+                        {<li className="">
                           <Link
-                            to={"/writingarticles"}
+                            to={"/writingupdates"}
                             className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
 
                           >
-                            Articles
+                            Book Updates
                           </Link>
-                      </li>*/}
-                        {/*<li className="">
+                      </li>}
+                        {<li className="">
                           <Link to={"/writingfiction"}
                             className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                             href="#"
                           >
                             Fiction
                           </Link>
-                        </li>*/}
+                        </li>}
                       </ul>
                     </div>
                   </div>
@@ -212,8 +212,8 @@ const Navbar = () => {
                 <Stack direction='row' justifyContent={{ md: "center" }} width={"100%"} alignItems={"center"} spacing={4}>
                   <NavBarButton menuname="Home" />
                   <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
-                  <DropdownMenu pathname={pathname} menuName="Writing" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
-                  {/*put back to make fiction live subMenuItems={[{label:'Fiction', link:'writingfiction'},{label:'Updates', link:'writingupdates'}]}*/}
+                  <DropdownMenu pathname={pathname} menuName="Writing" subMenuItems={[{label:'Book Updates', link:'writingupdates'}, {label:'Short Stories', link:'writingfiction'}]} openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
+                  {/*put back to make fiction live subMenuItems={[{label:'Fiction', link:'shortstories'},{label:'Updates', link:'writingupdates'}]}*/}
 
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />

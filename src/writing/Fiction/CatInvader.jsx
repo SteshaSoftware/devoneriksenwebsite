@@ -153,4 +153,5 @@ export const CatInvader = {
   link: 'https://www.reddit.com/r/WritingPrompts/comments/148sq23/wp_youre_about_to_go_to_bed_when_you_find_a_woman/jo76jne/',
   date: '2023-07-15',
   type: 'reddit',
+  tag: 'fiction',
 };

@@ -39,4 +39,5 @@ export const DarkLighthouse = {
   link: 'https://www.reddit.com/r/WritingPrompts/comments/17wv1qg/wp_a_lighthouse_makes_light_so_just_for_a_lark_i/k9o15mh/',
   date: '2023-11-17',
   type: 'reddit',
+  tag: 'fiction',
 };

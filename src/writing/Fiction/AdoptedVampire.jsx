@@ -143,4 +143,5 @@ export const AdoptedVampire = {
   link: 'https://www.reddit.com/r/WritingPrompts/comments/13u0kf0/wp_why_would_a_human_even_adopt_me_said_the/jm1ah0z/',
   date: '2023-06-30',
   type: 'reddit',
+  tag: 'fiction',
 };

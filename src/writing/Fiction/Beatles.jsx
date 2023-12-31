@@ -57,4 +57,5 @@ export const Beatles = {
   link: 'https://www.reddit.com/r/WritingPrompts/comments/1421arx/deleted_by_user/jn6u8sn/',
   date: '2023-07-06',
   type: 'reddit',
+  tag: 'fiction',
 };
