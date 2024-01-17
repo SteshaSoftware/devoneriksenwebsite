@@ -12,11 +12,16 @@ import { CatInvader } from '../writing/Fiction/CatInvader';
 
 import { update20231219 } from '../writing/Updates/update20231219';
 import { update20231230 } from '../writing/Updates/update20231230';
+import { update20240115 } from '../writing/Updates/update20240115';
+
+import { writingprocess } from '../writing/Craft/writingprocess';
 
 function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    writingprocess,
+    update20240115,
     update20231230,
     update20231219,
     DarkLighthouse,
@@ -32,6 +37,7 @@ function Fictionwrting() {
     if (location.pathname === '/writing') return true;
     if (location.pathname === '/writingfiction' && article.tag === 'fiction') return true;
     if (location.pathname === '/writingupdates' && article.tag === 'updates') return true;
+    if (location.pathname === '/writingcraft' && article.tag === 'craft') return true;
     return false;
   });
 

@@ -172,12 +172,20 @@ const Navbar = () => {
                             Book Updates
                           </Link>
                       </li>}
+                      {<li className="">
+                          <Link to={"/writingcraft"}
+                            className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                            href="#"
+                          >
+                            Crafting Stories
+                          </Link>
+                        </li>}
                         {<li className="">
                           <Link to={"/writingfiction"}
                             className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                             href="#"
                           >
-                            Fiction
+                            Short Fiction
                           </Link>
                         </li>}
                       </ul>
@@ -212,9 +220,11 @@ const Navbar = () => {
                 <Stack direction='row' justifyContent={{ md: "center" }} width={"100%"} alignItems={"center"} spacing={4}>
                   <NavBarButton menuname="Home" />
                   <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
-                  <DropdownMenu pathname={pathname} menuName="Writing" subMenuItems={[{label:'Book Updates', link:'writingupdates'}, {label:'Short Stories', link:'writingfiction'}]} openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
-                  {/*put back to make fiction live subMenuItems={[{label:'Fiction', link:'shortstories'},{label:'Updates', link:'writingupdates'}]}*/}
-
+                  <DropdownMenu pathname={pathname} menuName="Writing" 
+                    subMenuItems={[{label:'Book Updates', link:'writingupdates'},
+                      {label:'Crafting Stories', link:'writingcraft'}, 
+                      {label:'Short Fiction', link:'writingfiction'}]} 
+                    openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />
                   <NavBarButton menuname="About" />

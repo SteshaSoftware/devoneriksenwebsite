@@ -44,8 +44,9 @@ const App = () => {
         { path: "events", element: <Events /> },
         { path: "media", element: <Media /> },
         { path: "writing", element: <WritingAll /> },
-        { path: "writingupdates", element: <WritingAll /> },
+        { path: "writingcraft", element: <WritingAll /> },
         { path: "writingfiction", element: <WritingAll /> },
+        { path: "writingupdates", element: <WritingAll /> },
 
       ]
     }
