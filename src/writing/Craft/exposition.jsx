@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const exposition = {
-    title: `Why epic fantasies tend to get off to a slow start:`,
+    title: `Why epic fantasies tend to get off to a slow start`,
     content: `Epic fantasy is probably the form of fiction that requires the most exposition. These tend to be not just about a main character, although there may be one, but about the fate of entire worlds and peoples. 
     <br/><br/>
     Add to that the fact that a new culture, sometimes many of them, must be built and explained, and the world, and often the basic physics, are different, and that must be explained as well....
