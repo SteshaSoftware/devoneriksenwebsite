@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Layout from './pages/Layout';
 import Novels from './pages/Novels';
-import OrbitalSpace from './pages/OrbitalSpace';
 import BookDetail from './pages/BookDetail';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
@@ -39,7 +38,6 @@ const App = () => {
         { path: "about", element: <About /> }, // Notice that the leading slash is removed
         { path: "novels", element: <Novels /> },
         { path: TheftofFire.Page, element: <BookDetail {...TheftofFire}/> },
-        { path: "orbital-space", element: <OrbitalSpace /> },
         { path: "contact", element: <Contact /> },
         { path: "events", element: <Events /> },
         { path: "media", element: <Media /> },
