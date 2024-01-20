@@ -20,7 +20,7 @@ export const exposition = {
     <br/><br/>
     Consider the beginning sentence of Stephen King's "The Gunslinger": 
     <br/><br/>
-    "The man in black fled across the desert, and the gunslinger followed."
+    "<i>The man in black fled across the desert, and the gunslinger followed.</i>"
     <br/><br/>
     Who is the gunslinger? Who is the man in black? What desert? Why is one chasing the other? 
     <br/><br/>
