@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const changeplans = {
-    title: `Q/A: Changing Course as You Write`,
+    title: `Q/A: Changing course as you write`,
     content: `<b>Question:</b> Do you encounter instances where you're midway thru writing a planned scene, only to realize X doesn't make sense now that you're writing it out?
 <br/><br/>
 <b>Answer:</b> My plans change all the time. They have to, because "plan" is a fancy word for a list of things that won't happen. 

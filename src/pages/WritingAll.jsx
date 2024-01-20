@@ -16,11 +16,13 @@ import { update20240115 } from '../writing/Updates/update20240115';
 
 import { writingprocess } from '../writing/Craft/writingprocess';
 import { changeplans } from '../writing/Craft/changeplans';
+import { exposition } from '../writing/Craft/exposition';
 
 function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    exposition,
     changeplans,
     writingprocess,
     update20240115,

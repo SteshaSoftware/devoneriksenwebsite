@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const writingprocess = {
-  title: `My Writing Process`,
+  title: `My writing process`,
   content:  `Some folks have expressed interest in my writing process, so I'll talk a little about it here. 
   <br/><br/>
   I use a lot of software engineering process to plan and create my novels. Source control, branching and merging, bug trackers, function contracts, even some "unit tests". 
