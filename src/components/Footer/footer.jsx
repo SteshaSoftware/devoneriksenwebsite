@@ -37,21 +37,21 @@ const Footer = () => {
                             CONTACT
                         </NavLink>
                     </Stack>
-                    <Stack direction="row" spacing={1.5} justifyContent="center">
+                    <Stack direction="row" spacing={1.5} justifyContent="center" onClick={() => window.sa_event('Social_GR')}>
                         <a href='https://www.goodreads.com/book/show/199142773-theft-of-fire' target='_blank'>
                             <FaGoodreads className='icons' size={30} />
                         </a>
-                        <a href='https://www.facebook.com/DevonEriksen/' target='_blank'>
+                        <a href='https://www.facebook.com/DevonEriksen/' target='_blank' onClick={() => window.sa_event('Social_FB')}>
                             <FaFacebookSquare className='icons' size={30} />
                         </a>
 
-                        <a href='https://twitter.com/Devon_Eriksen_' target='_blank'>
+                        <a href='https://twitter.com/Devon_Eriksen_' target='_blank' onClick={() => window.sa_event('Social_X')}>
                             <RiTwitterXLine className='icons' size={30} />
                         </a>
-                        <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank'>
+                        <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank' onClick={() => window.sa_event('Social_Reddit')}>
                             <FaRedditAlien className='icons' size={30} />
                         </a>
-                        <a href='https://www.instagram.com/devoneriksen/' target='_blank'>
+                        <a href='https://www.instagram.com/devoneriksen/' target='_blank' onClick={() => window.sa_event('Social_IG')}>>
                             <FaInstagram className='icons' size={30} />
                         </a>
                     </Stack>
