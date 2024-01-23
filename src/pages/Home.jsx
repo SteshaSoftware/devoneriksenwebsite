@@ -7,6 +7,7 @@ import HomeBanner from '../components/homeBanner/HomeBanner';
 import Navbar from '../components/navbar/Navbar';
 import ReviewCard from '../components/ReviewCard/reviewCard';
 import Reviews from '../components/Reviews/reviews';
+import Highlights from  '../components/Highlights/highlights';
 
 import { TheftofFire } from '../components/Books/Orbital-ToF';
 
@@ -17,6 +18,7 @@ const Home = () => {
   }, []);
   return (
       <>
+     <Highlights />
      <MainBook {...TheftofFire} />
      
      <Reviews quotes={TheftofFire.Quotes} />
