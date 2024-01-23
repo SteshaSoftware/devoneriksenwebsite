@@ -86,7 +86,7 @@ const Navbar = () => {
               </IconButton>
 
 
-              <Typography variant="h4" sx={{ color: "white", width: "100%", textAlign: "center", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen  </Typography>
+              <Typography variant="h4" sx={{ color: "white", width: "100%", textAlign: "center", fontFamily: "megrim" }}><b>Devon Eriksen</b>  </Typography>
 
 
             </Box>
@@ -112,7 +112,7 @@ const Navbar = () => {
               <Stack direction={"column"} width="330px" height={"100%"} role="presentation" >
 
                 {/* <Link to={"/"} sx={{textDecoration:"none"}}> */}
-                <Typography variant="h4" sx={{ color: "white", marginTop: 6, marginBottom: 3, textAlign: "center", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
+                <Typography variant="h4" sx={{ color: "white", marginTop: 6, marginBottom: 3, textAlign: "center", fontFamily: "megrim" }}>Devon Eriksen</Typography>
                 {/* <img src={logo} sx={{padding:2}} alt="" height={100} width={90} /> */}
                 {/* </Link> */}
 
@@ -171,8 +171,8 @@ const Navbar = () => {
                           >
                             Book Updates
                           </Link>
-                      </li>}
-                      {<li className="">
+                        </li>}
+                        {<li className="">
                           <Link to={"/writingcraft"}
                             className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
                             href="#"
@@ -210,21 +210,21 @@ const Navbar = () => {
               </Stack>
             </Drawer>
 
-            <Grid style={{ marginTop: "35px", marginBottom: "35px" }} container alignItems={"center"} display={{ xs: "none", md: "flex" }}>
-              <Grid md={12} item lg={4.3}>
+            <Grid style={{ marginTop: "35px", marginBottom: "35px" }} container alignItems={"center"} justifyContent={"center"} display={{ xs: "none", md: "flex" }} >
+              <Grid item xs={12} style={{ marginBottom: "20px" }}>
                 <NavLink to={"/"} className={"hover:text-white"}>
-                  <Typography textAlign={{ md: "center", lg: "start" }} variant="h4" sx={{ paddingLeft: "33px", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
+                  <Typography textAlign="center" variant="h4" sx={{ fontFamily: "Megrim" }}><b>Devon Eriksen</b></Typography>
                 </NavLink>
               </Grid>
-              <Grid item md={12} lg={7.7}>
-                <Stack direction='row' justifyContent={{ md: "center" }} width={"100%"} alignItems={"center"} spacing={4}>
+              <Grid item xs={12}>
+                <Stack direction='row' justifyContent="center" alignItems="center" spacing={4}>
                   <NavBarButton menuname="Home" />
                   <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
-                  <DropdownMenu pathname={pathname} menuName="Writing" 
-                    subMenuItems={[{label:'Book Updates', link:'writingupdates'},
-                      {label:'Crafting Stories', link:'writingcraft'}, 
-                      {label:'Short Fiction', link:'writingfiction'}]} 
-                    openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} /> 
+                  <DropdownMenu pathname={pathname} menuName="Writing"
+                    subMenuItems={[{ label: 'Book Updates', link: 'writingupdates' },
+                    { label: 'Crafting Stories', link: 'writingcraft' },
+                    { label: 'Short Fiction', link: 'writingfiction' }]}
+                    openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />
                   <NavBarButton menuname="About" />

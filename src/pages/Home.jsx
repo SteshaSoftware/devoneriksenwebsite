@@ -17,7 +17,6 @@ const Home = () => {
   }, []);
   return (
       <>
-     <HomeBanner />
      <MainBook {...TheftofFire} />
      
      <Reviews quotes={TheftofFire.Quotes} />

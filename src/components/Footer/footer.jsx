@@ -13,7 +13,7 @@ const Footer = () => {
         <>
             <div className='bg-black py-8 px-10 relative w-full bottom-0 mt-10'>
                 <Stack direction={{ sm: "column", md: "row" }} justifyContent={"space-between"} alignItems={"center"} spacing={{ xs: 3, md: 0 }}>
-                    <Typography variant="h4" sx={{ color: "white", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
+                    <Typography variant="h4" sx={{ color: "white", fontFamily: "megrim" }}>Devon Eriksen</Typography>
                     <Stack direction={{ md: "row", sm: "column", }} className='text-white' alignItems={"center"} spacing={{ sm: 1, md: 2 }} >
                         <NavLink to={"/"} className="links icons">
                             HOME
@@ -51,7 +51,7 @@ const Footer = () => {
                         <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank' onClick={() => window.sa_event('Social_Reddit')}>
                             <FaRedditAlien className='icons' size={30} />
                         </a>
-                        <a href='https://www.instagram.com/devoneriksen/' target='_blank' onClick={() => window.sa_event('Social_IG')}>>
+                        <a href='https://www.instagram.com/devoneriksen/' target='_blank' onClick={() => window.sa_event('Social_IG')}>
                             <FaInstagram className='icons' size={30} />
                         </a>
                     </Stack>
