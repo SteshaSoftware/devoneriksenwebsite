@@ -5,7 +5,7 @@ import HighlightCard from './highlightcard';
 import { Box, Typography } from '@mui/material';
 import { HighlightList } from './highlightlist';
 
-const Highlights = ({ quotes = HighlightList.Quotes }) => {
+const Highlights = ({ hl_list = HighlightList.HL_List }) => {
 
  
   const [numPages, setNumPages] = useState(null);
@@ -30,9 +30,9 @@ const Highlights = ({ quotes = HighlightList.Quotes }) => {
 }}>
       <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" >
         <div class="carousel-inner">
-          {quotes.map((quote, index) => (
+          {hl_list.map((highlight, index) => (
             <div key={index} className={`carousel-item${index === 0 ? ' active' : ''}`}>
-              <HighlightCard Pic={quote.Pic} Picalt={quote.Picalt} Link={quote.Link} />
+              <HighlightCard Pic={highlight.Pic} Picalt={highlight.Picalt} Link={highlight.Link} Click={highlight.Click}/>
             </div>
           ))}
 
