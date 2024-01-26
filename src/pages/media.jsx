@@ -19,6 +19,20 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= 'The Danger of Being Right Too Early'
+                subtitle = "Guy Swann invites Devon onto Bitcoin Audible and the coversation travels to many places"
+                link= 'https://www.youtube.com/embed/Qxel_AldzYw' 
+                date = '2024-01-25'
+                mediatype= "vid"
+            />
+           <MediaContent
+                title= 'Hump Day Calls'
+                subtitle = "Devon discusses his writing process and many other things"
+                link= 'https://www.youtube.com/embed/c5Yzo717x4E' 
+                date = '2024-01-24'
+                mediatype= "vid"
+            />
+           <MediaContent
                 title= "#5 Best Sci-Fi Novel in 2023"
                 subtitle = "Theft of Fire voted #5 in Discover Sci-Fi's best of 2023 list"
                 pic = {SciFi2023}
