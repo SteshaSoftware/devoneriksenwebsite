@@ -9,7 +9,7 @@ export const HighlightList = {
         {
             Pic: Audio,
             Picalt: 'Audio Sign Up',
-            Link: 'subscribepage.io/TOF-Audiobook',
+            Link: 'https://www.subscribepage.io/TOF-Audiobook',
         },
         {
             Pic: DisSciFi,
