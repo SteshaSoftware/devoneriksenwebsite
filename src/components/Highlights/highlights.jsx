@@ -24,8 +24,11 @@ const Highlights = ({ quotes = HighlightList.Quotes }) => {
   }
   return (
     <>
-
-      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style={{ width: "60%", margin: "0 auto" }}>
+<Box sx={{ 
+  width: { xs: '100%', sm: '40%' }, // 90% width on xs screens, 40% on sm screens and above
+  margin: '0 auto' // Center the Box
+}}>
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" >
         <div class="carousel-inner">
           {quotes.map((quote, index) => (
             <div key={index} className={`carousel-item${index === 0 ? ' active' : ''}`}>
@@ -44,7 +47,7 @@ const Highlights = ({ quotes = HighlightList.Quotes }) => {
         </button>
 
       </div>
-
+      </Box>
     </>
   );
 };

@@ -1,0 +1,9 @@
+.highlight-container {
+    background-color: #d9d5d5; /* Gray background color */
+    width: 75%;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    margin-left: auto; /* Centers the container horizontally */
+    margin-right: auto; /* Centers the container horizontally */
+}
