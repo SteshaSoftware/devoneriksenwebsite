@@ -8,7 +8,7 @@ function HighlightCard({ Pic, Picalt, Link, Click }) {
     <div className="highlight-container">
       <Box sx={{ width: '100%', marginX: "auto" }}>
 
-        <a href={Link} target="_blank" rel="noopener noreferrer" onClick={() => window.sa_event({Click})}>
+        <a href={Link} target="_blank" rel="noopener noreferrer" onClick={() => window.sa_event('Feature')}>
           <img
             src={Pic}
             alt={Picalt}

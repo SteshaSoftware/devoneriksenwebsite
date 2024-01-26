@@ -21,17 +21,17 @@ const Footer = () => {
                         <NavLink to={"/novels"} className="links">
                             NOVELS
                         </NavLink>
+                        <NavLink to={"/writing"} className="links">
+                            WRITING
+                        </NavLink>
                         <NavLink to={"/events"} className="links">
                             EVENTS
-                        </NavLink>
-                        <NavLink to={"/about"} className="links">
-                            ABOUT
                         </NavLink>
                         <NavLink to={"/media"} className="links">
                             MEDIA
                         </NavLink>
-                        <NavLink to={"/writing"} className="links">
-                            WRITING
+                        <NavLink to={"/about"} className="links">
+                            ABOUT
                         </NavLink>
                         <NavLink to={"/contact"} className="links">
                             CONTACT
