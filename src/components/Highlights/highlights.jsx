@@ -25,7 +25,7 @@ const Highlights = ({ quotes = HighlightList.Quotes }) => {
   return (
     <>
 <Box sx={{ 
-  width: { xs: '100%', sm: '40%' }, // 90% width on xs screens, 40% on sm screens and above
+  width: { sm: '100%', md: '50%' }, // 90% width on xs screens, 40% on sm screens and above
   margin: '0 auto' // Center the Box
 }}>
       <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" >
