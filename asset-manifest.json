@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.08a0ca3a.css",
-    "main.js": "/static/js/main.799b6291.js",
+    "main.css": "/static/css/main.57e2067d.css",
+    "main.js": "/static/js/main.77d0e8a9.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
@@ -17,12 +17,12 @@
     "static/media/Amazon-Kindle-logo-white.png": "/static/media/Amazon-Kindle-logo-white.6c984a9249c83d1661d2.png",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
-    "main.08a0ca3a.css.map": "/static/css/main.08a0ca3a.css.map",
-    "main.799b6291.js.map": "/static/js/main.799b6291.js.map",
+    "main.57e2067d.css.map": "/static/css/main.57e2067d.css.map",
+    "main.77d0e8a9.js.map": "/static/js/main.77d0e8a9.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a0ca3a.css",
-    "static/js/main.799b6291.js"
+    "static/css/main.57e2067d.css",
+    "static/js/main.77d0e8a9.js"
   ]
 }
