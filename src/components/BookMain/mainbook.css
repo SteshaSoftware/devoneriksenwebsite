@@ -179,12 +179,3 @@
   .hover-text:hover {
     color: #ff9b02;
   }
-
-  .feature {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
