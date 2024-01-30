@@ -20,14 +20,14 @@ const Media = () => {
            <div>
            <MediaContent
                 title= 'The Danger of Being Right Too Early'
-                subtitle = "Guy Swann invites Devon onto Bitcoin Audible and the coversation travels to many places"
+                subtitle = "Guy Swann and Devon discuss the nature of story, the importance of culture, the power of stating the simple truth, the dangers of being right too early, and what we need to do to turn the tide of a dying moral code and protect our values for future generations."
                 link= 'https://www.youtube.com/embed/Qxel_AldzYw' 
                 date = '2024-01-25'
                 mediatype= "vid"
             />
            <MediaContent
                 title= 'Hump Day Calls'
-                subtitle = "Devon discusses his writing process and many other things"
+                subtitle = "A conversation about Conventions, Websites, Writing, Engineering, AI / General Intelligence, Imagination, and Sumo Robots."
                 link= 'https://www.youtube.com/embed/c5Yzo717x4E' 
                 date = '2024-01-24'
                 mediatype= "vid"
@@ -70,7 +70,7 @@ const Media = () => {
           <MediaContent
                 title= 'Shelf Builders Podcast'
                 subtitle = "Devon discusses the books that he owns and which ones inspired him. <br />
-                Bonus: Devon opens the first real copy of his book live on camera."
+                Also, a surprise delivery and cover reveal!"
                 link="https://www.youtube.com/embed/eGi5wYggjB0"
                 date="2023-11-16"
                 mediatype= "vid"
