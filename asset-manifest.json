@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57e2067d.css",
-    "main.js": "/static/js/main.77d0e8a9.js",
+    "main.css": "/static/css/main.5d05a792.css",
+    "main.js": "/static/js/main.d5f28f0b.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
@@ -9,20 +9,20 @@
     "static/media/thicc-cover.png": "/static/media/thicc-cover.c02713795327e9457ab0.png",
     "static/media/banner Thea.png": "/static/media/banner Thea.b167b5cec40fa9f423de.png",
     "static/media/AudioSignup.png": "/static/media/AudioSignup.1ffc873bc0bbc0ac9d4a.png",
+    "static/media/BoTUpdate.png": "/static/media/BoTUpdate.f2975c88d0a5e4b1d525.png",
     "static/media/DisSciFi5.png": "/static/media/DisSciFi5.1e748a853da266c964eb.png",
     "static/media/green_snark.png": "/static/media/green_snark.6203feefad8fe9e2be8d.png",
     "static/media/DiscoverSciFi.png": "/static/media/DiscoverSciFi.c162a93ce56fbbd4de81.png",
-    "static/media/WorldAnvil.jpg": "/static/media/WorldAnvil.dc26b26e96cc6939159a.jpg",
     "static/media/amazon-dot-com-white.png": "/static/media/amazon-dot-com-white.956165c3d083c95d4002.png",
     "static/media/Amazon-Kindle-logo-white.png": "/static/media/Amazon-Kindle-logo-white.6c984a9249c83d1661d2.png",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
-    "main.57e2067d.css.map": "/static/css/main.57e2067d.css.map",
-    "main.77d0e8a9.js.map": "/static/js/main.77d0e8a9.js.map",
+    "main.5d05a792.css.map": "/static/css/main.5d05a792.css.map",
+    "main.d5f28f0b.js.map": "/static/js/main.d5f28f0b.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57e2067d.css",
-    "static/js/main.77d0e8a9.js"
+    "static/css/main.5d05a792.css",
+    "static/js/main.d5f28f0b.js"
   ]
 }
