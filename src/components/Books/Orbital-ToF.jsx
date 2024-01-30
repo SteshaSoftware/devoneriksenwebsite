@@ -9,6 +9,7 @@ export const TheftofFire = {
     SeriesNum: '1',
     Cover: CoverSml,
     BigCover: CoverLrg,
+    CoverStatus: 'Done',
     Page: 'theft-of-fire',
     BlurbHead: `At the frozen edge of the solar system lies a hidden treasure which could spell 
     their fortune or their destruction—but only if they survive each other first.`,
@@ -29,7 +30,8 @@ export const TheftofFire = {
     She has a plan.
     <br /><br />
     They’re about to find out that a plan is a list of things that won’t happen.`,
-    LinkSample: 'https://read.bookfunnel.com/read/h6gjdipcpw',
+    GlowTxt: 'Read 3-Chapter Preview',
+    LinkGlow: 'https://read.bookfunnel.com/read/h6gjdipcpw',
     LinkAmz: 'https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20',
     LinkBN: 'https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144335979?ean=2940179192145',
     LinkOther: 'https://books2read.com/Theft-of-Fire',

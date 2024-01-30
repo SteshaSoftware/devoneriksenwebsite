@@ -4,7 +4,7 @@ import "./bookdetail.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 import Link from '@mui/material/Link';
 
-function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, LinkAmz, LinkBN, LinkOther, LinkGR, Cover }) {
+function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR, Cover, Status }) {
   const blurbHTML = { __html: Blurb };
 
   return (
@@ -23,12 +23,18 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, Li
             src={Cover}
             padding='10px'
           />
-          <Typography sx={{ color: "#ffffff", textAlign: "center"}}>
-            Cover Art: Thea Magerand
-          </Typography>
-          <Typography sx={{ color: "#ff9b02", textAlign: "center"}}>
-          <a target='_blank' href='https://ikaruna.eu' >www.ikaruna.eu</a>
-          </Typography>
+          {
+            Status === "done" && (
+              <>
+                <Typography sx={{ color: "#ffffff", textAlign: "center" }}>
+                  Cover Art: Thea Magerand
+                </Typography>
+                <Typography sx={{ color: "#ff9b02", textAlign: "center" }}>
+                  <a target='_blank' href='https://ikaruna.eu' >www.ikaruna.eu</a>
+                </Typography>
+              </>
+            )
+          }
         </Box>
 
         <Stack direction={"column"} spacing={1}>
@@ -43,7 +49,7 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, Li
           <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
             <br /><div dangerouslySetInnerHTML={blurbHTML} />
           </Typography>
-          <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz}
+          <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkAmz={LinkAmz}
             LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
           {/* <StarRating rating={4.86} />  */}
         </Stack>

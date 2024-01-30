@@ -5,7 +5,7 @@ import "./mainbook.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 import Snark from '../../images/green_snark.png'
 
-function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover }) {
+function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover }) {
 
   const blurbHTML = { __html: Blurb };
 
@@ -30,7 +30,7 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkSample, Link
               <br /><div dangerouslySetInnerHTML={blurbHTML} />
             </Typography>
 
-            <PurchaseBox LinkSample={LinkSample} LinkAmz={LinkAmz}
+            <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkAmz={LinkAmz}
               LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
           </CardContent>
         </Box>
