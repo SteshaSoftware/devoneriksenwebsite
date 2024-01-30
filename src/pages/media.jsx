@@ -19,6 +19,13 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= 'Why Culture is Upstream of Law, Property Rights, Rent Seekers, AI & Communism'
+                subtitle = "Devon talks about why culture is upstream of law, property rights, why we need to push back on bad ideas, AI, and more on The Fort Podcast with Chris Powers."
+                link= 'https://www.youtube.com/embed/er7q2X2Cw7w' 
+                date = '2024-01-30'
+                mediatype= "vid"
+            />
+           <MediaContent
                 title= 'The Danger of Being Right Too Early'
                 subtitle = "Guy Swann and Devon discuss the nature of story, the importance of culture, the power of stating the simple truth, the dangers of being right too early, and what we need to do to turn the tide of a dying moral code and protect our values for future generations."
                 link= 'https://www.youtube.com/embed/Qxel_AldzYw' 
