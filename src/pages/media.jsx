@@ -40,7 +40,7 @@ const Media = () => {
                 mediatype= "vid"
             />
            <MediaContent
-                title= "#5 Best Sci-Fi Novel in 2023"
+                title= "Top 5 Best Sci-Fi Novel of 2023"
                 subtitle = "Theft of Fire voted #5 in Discover Sci-Fi's best of 2023 list"
                 pic = {SciFi2023}
                 picalt = 'Discover Sci-Fi'
