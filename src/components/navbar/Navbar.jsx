@@ -20,11 +20,10 @@ import {
 import { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Link, NavLink, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { AccountCircle } from '@mui/icons-material';
 // import Dropdownn from './dropdown';
 import { BsChevronDown } from 'react-icons/bs';
+import { FaArrowCircleRight } from 'react-icons/fa';
 import NavBarButton from './navbarbutton';
 import DropdownMenu from './DropdownMenu';
 
@@ -166,9 +165,7 @@ const Navbar = () => {
                         {<li className="">
                           <Link
                             to={"/writingupdates"}
-                            className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-
-                          >
+                            className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">
                             Book Updates
                           </Link>
                         </li>}
@@ -206,6 +203,27 @@ const Navbar = () => {
                 <Link to='/contact'>
                   <Button className={`${pathname === "/contact" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Contact</Button>
                 </Link>
+                <div className="fixed-buy-now-button">
+                  <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" target="_blank" rel="noopener noreferrer" 
+                  onClick={() => window.sa_event('MenuBuy')}
+                  style={{ textDecoration: 'none' }}>
+                    <Button sx={{
+                      color: "#FFFFFF",
+                      fontSize: "18px",
+                      fontFamily: "Poppins",
+                      fontWeight: 300,
+                      border: '2px solid purple', 
+                      borderRadius: '20px', 
+                      padding: '10px', 
+                      textTransform: 'upper', 
+                      ':hover':{
+                        bgcolor: 'transparent', // Maintain hollow effect on hover
+                        opacity: 0.7, // Optional: slight opacity change on hover
+                      }}}>
+                      Buy Now  <FaArrowCircleRight style={{ marginLeft: '8px' }} />
+                    </Button>
+                  </a>
+                </div>
 
               </Stack>
             </Drawer>
@@ -229,6 +247,8 @@ const Navbar = () => {
                   <NavBarButton menuname="Media" />
                   <NavBarButton menuname="About" />
                   <NavBarButton menuname="Contact" />
+                  <NavBarButton menuname="Buy Now"
+                    link="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" />
                 </Stack>
               </Grid>
             </Grid>

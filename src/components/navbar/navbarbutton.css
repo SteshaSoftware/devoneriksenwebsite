@@ -1,24 +1,52 @@
-.navbarbutton{
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif !important;
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
+.navbarbutton {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
 
 .navbarbutton:hover {
-    color: #ff9b02;
+  color: #ff9b02;
 }
+
 .navbarbutton:focus {
-    color: #ff9b02;
+  color: #ff9b02;
 }
+
 .droplist-text {
-    display: none;
-  }
-  
-  /* Show droplist when .menuname-text is hovered */
-.navbarbutton:hover + .droplist-text,
+  display: none;
+}
+
+/* Show droplist when .menuname-text is hovered */
+.navbarbutton:hover+.droplist-text,
 .droplist-text:hover {
   display: block;
 }
 
+.buy-now-button {
+  background-image: linear-gradient(to top, #314755 0%, purple  51%);
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.buy-now-button:hover {
+
+  color: black;
+  /* Darker shade when hovered */
+}
+
+.buy-now-button svg {
+  margin-left: 8px;
+  /* Space between text and arrow icon */
+}
