@@ -33,8 +33,8 @@ const Media = () => {
                 mediatype= "vid"
             />
            <MediaContent
-                title= 'Hump Day Calls'
-                subtitle = "A conversation about Conventions, Websites, Writing, Engineering, AI / General Intelligence, Imagination, and Sumo Robots."
+                title= 'A Tragedy of Writing'
+                subtitle = "A conversation with Hump Day Calls about Conventions, Websites, Writing, Engineering, AI / General Intelligence, Imagination, and Sumo Robots."
                 link= 'https://www.youtube.com/embed/c5Yzo717x4E' 
                 date = '2024-01-24'
                 mediatype= "vid"
