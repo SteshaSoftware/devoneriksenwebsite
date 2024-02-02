@@ -220,7 +220,7 @@ const Navbar = () => {
                         bgcolor: 'transparent', // Maintain hollow effect on hover
                         opacity: 0.7, // Optional: slight opacity change on hover
                       }}}>
-                      Buy Now  <FaArrowCircleRight style={{ marginLeft: '8px' }} />
+                      Buy Now  <FaArrowCircleRight style={{ marginLeft: '8px'}} />
                     </Button>
                   </a>
                 </div>
