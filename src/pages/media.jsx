@@ -19,6 +19,13 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= 'Review of Theft of Fire'
+                subtitle = "Kristoffer Newsom reviews Theft of Fire"
+                link= 'https://www.youtube.com/embed/DCOsJ5rd4gA' 
+                date = '2024-02-8'
+                mediatype= "vid"
+            />
+           <MediaContent
                 title= 'Why Culture is Upstream of Law, Property Rights, Rent Seekers, AI & Communism'
                 subtitle = "Devon talks about why culture is upstream of law, property rights, why we need to push back on bad ideas, AI, and more on The Fort Podcast with Chris Powers."
                 link= 'https://www.youtube.com/embed/er7q2X2Cw7w' 
