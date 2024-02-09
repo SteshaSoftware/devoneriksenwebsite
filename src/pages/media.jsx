@@ -22,7 +22,7 @@ const Media = () => {
                 title= 'Review of Theft of Fire'
                 subtitle = "Kristoffer Newsom reviews Theft of Fire"
                 link= 'https://www.youtube.com/embed/DCOsJ5rd4gA' 
-                date = '2024-02-8'
+                date = '2024-02-08'
                 mediatype= "vid"
             />
            <MediaContent
