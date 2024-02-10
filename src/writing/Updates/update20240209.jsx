@@ -14,7 +14,7 @@ export const update20240209 = {
     <br/><br/>
     What kind of alien beings are they?
     `,
-    link: 'https://twitter.com/Devon_Eriksen_/status/1747989900933083150',
+    link: 'https://twitter.com/Devon_Eriksen_/status/1756158265237348622',
     date: '2024-01-18',
     type: 'twitter',
     tag: 'updates',
