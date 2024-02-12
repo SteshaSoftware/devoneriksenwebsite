@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.92a06263.css",
-    "main.js": "/static/js/main.9feafa1b.js",
+    "main.js": "/static/js/main.bcd1c714.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/BoTcoming.png": "/static/media/BoTcoming.cb09d0c362a0a7e4c0c2.png",
     "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
     "static/media/bg.jpg": "/static/media/bg.6dbb3bfec4f933632900.jpg",
     "static/media/thicc-cover.png": "/static/media/thicc-cover.c02713795327e9457ab0.png",
+    "static/media/AtomicRocket.png": "/static/media/AtomicRocket.cd2dba9007f6ad24ca28.png",
     "static/media/banner Thea.png": "/static/media/banner Thea.b167b5cec40fa9f423de.png",
     "static/media/AudioSignup.png": "/static/media/AudioSignup.1ffc873bc0bbc0ac9d4a.png",
     "static/media/BoTUpdate.png": "/static/media/BoTUpdate.f2975c88d0a5e4b1d525.png",
@@ -18,11 +19,11 @@
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
     "main.92a06263.css.map": "/static/css/main.92a06263.css.map",
-    "main.9feafa1b.js.map": "/static/js/main.9feafa1b.js.map",
+    "main.bcd1c714.js.map": "/static/js/main.bcd1c714.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92a06263.css",
-    "static/js/main.9feafa1b.js"
+    "static/js/main.bcd1c714.js"
   ]
 }
