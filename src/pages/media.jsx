@@ -22,7 +22,7 @@ const Media = () => {
            <MediaContent
                 title= "Theft of Fire wins the Atomic Rocket Seal of Approval"
                 subtitle = 'The Atomic Rocket Seal of Approval is an award given by Winchell Chung for
-                "Getting the science 100% right." It has only been awarded about 20 books, including 
+                "Getting the science 100% right." It has only been awarded to about 20 books, including 
                 <i>The Martian</i> and <i>Leviathan Wakes</i>. 
                 <br/><br/>
                 "The only science fiction award that really matters" —Jim Cambias.'
