@@ -20,8 +20,8 @@ const Media = () => {
       >
            <div>
            <MediaContent
-                title= "Theft of Fire wins the Atomic Rocket Seal of Approval"
-                subtitle = 'The Atomic Rocket Seal of Approval is an award given by Winchell Chung for
+                title= "Theft of Fire wins the Atomic Rockets Seal of Approval"
+                subtitle = 'The Atomic Rockets Seal of Approval is an award given by Winchell Chung for
                 "Getting the science 100% right." It has only been awarded to about 20 books, including 
                 <i>The Martian</i> and <i>Leviathan Wakes</i>. 
                 <br/><br/>
