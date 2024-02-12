@@ -2,6 +2,7 @@ import { Box } from '@mui/material'
 import React from 'react'
 import MediaContent from '../components/Media/MediaContents'
 import SciFi2023 from '../images/DiscoverSciFi.png'
+import AtomicRocket from '../images/AtomicRocket.png'
 
 const Media = () => {
   return (
@@ -18,6 +19,19 @@ const Media = () => {
         }}
       >
            <div>
+           <MediaContent
+                title= "Theft of Fire wins the Atomic Rocket Seal of Approval"
+                subtitle = 'The Atomic Rocket Seal of Approval is an award given by Winchell Chung for
+                "Getting the science 100% right." It has only been awarded about 20 books, including 
+                <i>The Martian</i> and <i>Leviathan Wakes</i>. 
+                <br/><br/>
+                "The only science fiction award that really matters" —Jim Cambias.'
+                pic = {AtomicRocket}
+                picalt = 'Atomic Rocket'
+                link= 'https://www.projectrho.com/public_html/rocket/sealofapproval.php#firetheft' 
+                date = '2024-02-11'
+                mediatype= "img"
+            />
            <MediaContent
                 title= 'Review of Theft of Fire'
                 subtitle = "Kristoffer Newsom reviews Theft of Fire"
