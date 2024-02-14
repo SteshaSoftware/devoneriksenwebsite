@@ -15,6 +15,7 @@ import { update20231230 } from '../writing/Updates/update20231230';
 import { update20240115 } from '../writing/Updates/update20240115';
 import { update20240118 } from '../writing/Updates/update20240118';
 import { update20240209 } from '../writing/Updates/update20240209';
+import { update20240212 } from '../writing/Updates/update20240212';
 
 import { writingprocess } from '../writing/Craft/writingprocess';
 import { changeplans } from '../writing/Craft/changeplans';
@@ -25,6 +26,7 @@ function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    update20240212,
     update20240209,
     completework,
     exposition,

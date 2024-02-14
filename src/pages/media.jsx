@@ -19,6 +19,14 @@ const Media = () => {
         }}
       >
            <div>
+           <iframe width="1280" height="720" src="https://www.youtube.com/embed/TlPpJ45AcX0" title="Sci Fi, Culture, Decentralization, Power &amp; AI - Devon Eriksen (Bitcoin Talk on THE Bitcoin Podcast)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <MediaContent
+                title= 'THE Bitcoin Podcast'
+                subtitle = "Devon talks with Walker about Science Fiction, Culture, AI, Private Property, & F*cks Given"
+                link= 'https://www.youtube.com/embed/TlPpJ45AcX0' 
+                date = '2024-02-08'
+                mediatype= "vid"
+            />
            <MediaContent
                 title= "Theft of Fire wins the Atomic Rockets Seal of Approval"
                 subtitle = 'The Atomic Rockets Seal of Approval is an award given by Winchell Chung for

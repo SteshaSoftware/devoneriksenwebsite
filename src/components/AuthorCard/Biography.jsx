@@ -48,7 +48,7 @@ const Biography = () => {
                         <br />
                     </Typography>
                     <Box sx={{ display: "flex", alignItems: { xs: "center" }, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" }, marginBottom: '20px' }}>
-                    <StarButton GlowTxt="Read 3-Chapter Preview" LinkGlow="https://read.bookfunnel.com/read/h6gjdipcpwnp" />
+                    <StarButton GlowTxt="Read 3-Chapter Preview" LinkGlow="https://read.bookfunnel.com/read/h6gjdipcpw" />
                     </Box>
                     <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" target="_blank" rel="noopener noreferrer" onClick={() => window.sa_event('AboutBuy')}>
                         <button class="buy-now-button">Click to Buy Theft of Fire <FaArrowCircleRight /> </button>
