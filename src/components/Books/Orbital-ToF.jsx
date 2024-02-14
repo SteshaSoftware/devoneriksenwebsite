@@ -11,25 +11,23 @@ export const TheftofFire = {
     BigCover: CoverLrg,
     CoverStatus: 'Done',
     Page: 'theft-of-fire',
+    Awards: [
+        {Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"'},
+        {Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science'},
+    ],
+    MainQuotes: [
+        {MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder`},
+        {MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle`},
+        {MainQuote: `"A glorious adventure and a delight to read." —John Walker, Autodesk co-founder`},
+        {MainQuote: `"If I've ever read a better firefight in fiction, it doesn't come to me off the top of my head." —Duane Thomas, gunwriter'`},
+    ],
     BlurbHead: `At the frozen edge of the solar system lies a hidden treasure which could spell 
     their fortune or their destruction—but only if they survive each other first.`,
-    Blurb: `<b>Marcus Warnoc</b> has a little problem. His asteroid mining ship—his inheritance, 
-    his livelihood, and his home—has been hijacked by a pint-sized corporate heiress with enough 
-    blackmail material to sink him for good, a secret mission she won’t tell him about, and enough 
-    courage to get them both killed. She may have him dead to rights, but if he doesn’t turn the 
-    tables on this spoiled Martian snob, he’ll be dead, period. He’s not giving up without a fight.
-    <br /><br />
-    He has a plan.
-    <br /><br />
-    <b>Miranda Foxgrove</b> has the opportunity of a lifetime almost within her grasp if she can 
-    reach it. Her stolen spacecraft came with a stubborn, resourceful captain who refuses to 
-    cooperate—but he’s one of the few men alive who can snatch an unimaginable treasure from 
-    beneath the muzzles of countless railguns. And if this foulmouthed Belter thug doesn’t want to 
-    cooperate, she’ll find a way to force him. She’s come too far to give up now.
-    <br /><br />
-    She has a plan.
-    <br /><br />
-    They’re about to find out that a plan is a list of things that won’t happen.`,
+    Blurb: `An asteroid miner turned space pirate is blackmailed into a perilous mission by a 
+    mysterious heiress. Their destination: a heavily fortified archaeological site that guards 
+    alien technologies that once reshaped civilization. Using his hard-won spacefarer's knowledge, 
+    natural ingenuity and old-fashioned cunning, Marcus must turn the tables and steal his ship 
+    back–before she gets them both killed.`,
     GlowTxt: 'Read 3-Chapter Preview',
     LinkGlow: 'https://read.bookfunnel.com/read/h6gjdipcpw',
     LinkAmz: 'https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20',
