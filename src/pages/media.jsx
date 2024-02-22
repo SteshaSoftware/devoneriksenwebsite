@@ -1,10 +1,22 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import MediaContent from '../components/Media/MediaContents'
+import { useLocation } from 'react-router-dom';
 import SciFi2023 from '../images/DiscoverSciFi.png'
 import AtomicRocket from '../images/AtomicRocket.png'
 
+
 const Media = () => {
+
+   
+ // const location = useLocation()
+
+ // const filteredMedia = MediaContent.filter((media) => {
+  //  if (location.pathname === '/media') return true;
+  //  if (location.pathname === '/awards' && media.tag === 'award') return true;
+ //   return false;
+ //  });
+
   return (
     <>
 
@@ -19,13 +31,21 @@ const Media = () => {
         }}
       >
            <div>
-           <iframe width="1280" height="720" src="https://www.youtube.com/embed/TlPpJ45AcX0" title="Sci Fi, Culture, Decentralization, Power &amp; AI - Devon Eriksen (Bitcoin Talk on THE Bitcoin Podcast)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <MediaContent
+                title= 'Money is a Measure of F*cks Given'
+                subtitle = "Devon joins Robert Breedlove on the What is Money show to discuss the process of writing, the nature of money, the necessity of private property rights, and the flaws of socialism."
+                link= 'https://www.youtube.com/embed/Oltd80kD3FQ' 
+                date = '2024-02-19'
+                mediatype= "vid"
+                tag= "interview"
+            />
            <MediaContent
                 title= 'THE Bitcoin Podcast'
                 subtitle = "Devon talks with Walker about Science Fiction, Culture, AI, Private Property, & F*cks Given"
                 link= 'https://www.youtube.com/embed/TlPpJ45AcX0' 
-                date = '2024-02-08'
+                date = '2024-02-14'
                 mediatype= "vid"
+                tag= "interview"
             />
            <MediaContent
                 title= "Theft of Fire wins the Atomic Rockets Seal of Approval"
@@ -39,6 +59,7 @@ const Media = () => {
                 link= 'https://www.projectrho.com/public_html/rocket/sealofapproval.php#firetheft' 
                 date = '2024-02-11'
                 mediatype= "img"
+                tag= "award"
             />
            <MediaContent
                 title= 'Review of Theft of Fire'
@@ -46,6 +67,7 @@ const Media = () => {
                 link= 'https://www.youtube.com/embed/DCOsJ5rd4gA' 
                 date = '2024-02-08'
                 mediatype= "vid"
+                tag= "review"
             />
            <MediaContent
                 title= 'Why Culture is Upstream of Law, Property Rights, Rent Seekers, AI & Communism'
@@ -53,6 +75,7 @@ const Media = () => {
                 link= 'https://www.youtube.com/embed/er7q2X2Cw7w' 
                 date = '2024-01-30'
                 mediatype= "vid"
+                tag= "interview"
             />
            <MediaContent
                 title= 'The Danger of Being Right Too Early'
@@ -60,6 +83,7 @@ const Media = () => {
                 link= 'https://www.youtube.com/embed/Qxel_AldzYw' 
                 date = '2024-01-25'
                 mediatype= "vid"
+                tag= "interview"
             />
            <MediaContent
                 title= 'A Tragedy of Writing'
@@ -67,6 +91,7 @@ const Media = () => {
                 link= 'https://www.youtube.com/embed/c5Yzo717x4E' 
                 date = '2024-01-24'
                 mediatype= "vid"
+                tag= "interview"
             />
            <MediaContent
                 title= "Top 5 Best Sci-Fi Novel of 2023"
@@ -76,6 +101,7 @@ const Media = () => {
                 link= 'https://discoverscifi.com/best-sci-fi-release-of-2023/' 
                 date = '2023-12-28'
                 mediatype= "img"
+                tag= "award"
             />
            <MediaContent
                 title= 'The Alchemy Lab'
@@ -83,6 +109,7 @@ const Media = () => {
                 link= 'https://www.youtube.com/embed/nZbVHahcnuY' 
                 date = '2023-12-26'
                 mediatype= "vid"
+                tag= "interview"
             />
            <MediaContent
                 title= "Theft of Fire review by John Walker"
@@ -102,6 +129,7 @@ const Media = () => {
                 link= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/11' 
                 date = '2023-12-02'
                 mediatype= "txt"
+                tag= "review"
             />
           <MediaContent
                 title= 'Shelf Builders Podcast'
@@ -110,6 +138,7 @@ const Media = () => {
                 link="https://www.youtube.com/embed/eGi5wYggjB0"
                 date="2023-11-16"
                 mediatype= "vid"
+                tag= "interview"
           />
            <MediaContent
                 title= 'Theft of Fire: Hard Science Fiction. Deep Characters.'
@@ -134,6 +163,7 @@ const Media = () => {
                 link="https://www.youtube.com/embed/InqKCjMZLbs"
                 date="2023-11-11"
                 mediatype= "vid"
+                tag= "interview"
             />
            <MediaContent
                 title= 'Fantasy vs Sci Fi'
@@ -142,6 +172,7 @@ const Media = () => {
                 link="https://www.youtube.com/embed/QVtKAWrntYI"
                 date="2023-11-09"
                 mediatype= "vid"
+                tag= "interview"
             />
             <MediaContent
                 title= 'Fire for the People'
@@ -157,6 +188,7 @@ const Media = () => {
                 link= 'https://failuremode.johnnyschmidt.com/p/fire-for-the-people-interview-with' 
                 date = '2023-10-23'
                 mediatype= "txt"
+                tag= "interview"
             />
             <MediaContent
                 title="Chattanooga Daily Refresh"
@@ -164,6 +196,7 @@ const Media = () => {
                 link="https://sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/0bb90d57f47241939f5c956517168bef.m3u8&autostart=false"
                 date="2023-10-20"
                 mediatype= "vid"
+                tag= "interview"
             />
             {/* Add more MediaContent components as needed */}
         </div>

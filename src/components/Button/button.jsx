@@ -9,7 +9,7 @@ function Button({ LinkAmz, LinkBN, LinkOther }) {
     <>
       {LinkAmz && (
         <a target='_blank' href={LinkAmz}  onClick={() => window.sa_event('Amz_button')}>
-          <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
+          <button class="buttn" style={{marginLeft: 15 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <img src={amazonimg} alt="Purchase on Amazon" style={{ width: '80%' }} />
             </div>
@@ -19,7 +19,7 @@ function Button({ LinkAmz, LinkBN, LinkOther }) {
 
       {LinkBN && (
         <a target='_blank' href={LinkBN} onClick={() => window.sa_event('BN_button')}>
-          <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
+          <button class="buttn" style={{ marginLeft: 15 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <img src={BandNimg} alt="Purchase at Barnes and Noble" style={{ width: '80%' }} />
             </div>
@@ -29,7 +29,7 @@ function Button({ LinkAmz, LinkBN, LinkOther }) {
 
       {LinkOther && (
         <a target='_blank' href={LinkOther} onClick={() => window.sa_event('Other_button')}> 
-          <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
+          <button class="buttn" style={{ marginLeft: 15 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               Other Buying Options
               {/* <img src={generalimg} alt="Purchase Theft of Fire" style={{ width: '60%' }} /> */}

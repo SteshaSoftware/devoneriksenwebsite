@@ -42,20 +42,20 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkG
             <Typography variant='h6' className='mb-10'>{Series}: Book {SeriesNum}</Typography>
           )}
           <Typography variant='h4' color={"white"}>{Title}</Typography>
+        
+        <Typography fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} variant='body1' color={"white"}>
+          {BlurbHead}
+        </Typography>
+        <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
+          <br /><div dangerouslySetInnerHTML={blurbHTML} /><br />
+        </Typography>
+        <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkAmz={LinkAmz}
+          LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
+        {/* <StarRating rating={4.86} />  */}
+      </Stack>
 
-          <Typography fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} variant='body1' color={"white"}>
-            {BlurbHead}
-          </Typography>
-          <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
-            <br /><div dangerouslySetInnerHTML={blurbHTML} />
-          </Typography>
-          <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkAmz={LinkAmz}
-            LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
-          {/* <StarRating rating={4.86} />  */}
-        </Stack>
-
-      </Box>
     </Box>
+    </Box >
   )
 }
 

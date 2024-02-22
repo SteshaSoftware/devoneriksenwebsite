@@ -4,7 +4,7 @@ import StarButton from '../StarButton/starbutton'
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 
 
-function PurchaseBox({ GlowTxt, LinkGlow,LinkAmz, LinkBN, LinkOther, LinkGR }) {
+function PurchaseBox({ GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR }) {
     return (
         <>
             <Box sx={{ display: "flex", alignItems: {xs: "center"}, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
