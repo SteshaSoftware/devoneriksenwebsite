@@ -4,6 +4,7 @@ import MediaContent from '../components/Media/MediaContents'
 import { useLocation } from 'react-router-dom';
 import SciFi2023 from '../images/DiscoverSciFi.png'
 import AtomicRocket from '../images/AtomicRocket.png'
+import Prometheus from '../images/Prometheus.png'
 
 
 const Media = () => {
@@ -32,12 +33,45 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= "Theft of Fire review by Daniel Lemire"
+                subtitle = "Daniel Lemire is a computer science professor at the Data Science 
+                Laboratory of the Université du Québec (TÉLUQ) in Montreal. His research is focused 
+                on software performance and data engineering. He is a techno-optimist and a 
+                free-speech advocate."
+                content = '...<i>Theft of Fire</i> offers a plausible and realistic universe. The 
+                characters, Marcus Warnoc and Miranda Foxgrove, are not mere archetypes; they are 
+                complex, flawed, and deeply human. Their struggle to trust one another and overcome 
+                their own demons is a powerful allegory for the modern human condition. There are 
+                class wars, between the very rich and the very poor, but it is not a Marxist story.
+                 Marcus might be poor and struggling, but he is never a victim. The rich people can 
+                 be bad, but so can the poor people.
+                 <br/><br/>
+                The world of Theft of Fire is one of contrasts: the cold, unforgiving vacuum of 
+                space and the warmth of human connection. It is a testament to the power of 
+                storytelling and the enduring appeal of the science fiction genre...'
+                link= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/11' 
+                date = '2024-02-24'
+                mediatype= "txt"
+                tag= "review"
+            />
+           <MediaContent
                 title= 'Money is a Measure of F*cks Given'
                 subtitle = "Devon joins Robert Breedlove on the What is Money show to discuss the process of writing, the nature of money, the necessity of private property rights, and the flaws of socialism."
                 link= 'https://www.youtube.com/embed/Oltd80kD3FQ' 
                 date = '2024-02-19'
                 mediatype= "vid"
                 tag= "interview"
+            />
+          <MediaContent
+                title= "Theft of Fire is Nominated for the Prometheus Award"
+                subtitle = 'The Prometheus Award is an annual honor given to best libertarian science fiction novels.
+                Past winners include Larry Niven, John Varley and Neal Stephenson. '
+                pic = {Prometheus}
+                picalt = 'Prometheus Award'
+                link= 'https://www.lfs.org/blog/17-varied-works-of-science-fiction-fantasy-and-dystopian-literature-have-been-nominated-for-the-next-prometheus-award-for-best-novel/' 
+                date = '2024-02-16'
+                mediatype= "img"
+                tag= "award"
             />
            <MediaContent
                 title= 'THE Bitcoin Podcast'
