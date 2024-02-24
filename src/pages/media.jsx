@@ -49,7 +49,7 @@ const Media = () => {
                 The world of Theft of Fire is one of contrasts: the cold, unforgiving vacuum of 
                 space and the warmth of human connection. It is a testament to the power of 
                 storytelling and the enduring appeal of the science fiction genre...'
-                link= 'https://scanalyst.fourmilab.ch/t/books-on-the-shelf/3789/11' 
+                link= 'https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/' 
                 date = '2024-02-24'
                 mediatype= "txt"
                 tag= "review"
