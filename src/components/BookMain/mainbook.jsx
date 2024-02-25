@@ -39,8 +39,6 @@ function MainBook({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkGlo
               
             <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
               <br />
-              “<i>If you are a bitcoiner... take a little break and check out </i>Theft of Fire<i>... I absolutely loved it</i>" —Walker, THE Bitcoin Podcast
-              <br />
               “<i>A great read — hard SF by a retired engineer.</i>” —John Carmack, creator of Doom, Oculus founder
               <br />
               “<i>A glorious adventure and a delight to read.</i>” —John Walker, Autodesk co-founder

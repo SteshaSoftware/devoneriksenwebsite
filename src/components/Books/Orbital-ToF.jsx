@@ -16,7 +16,6 @@ export const TheftofFire = {
         {Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science'},
     ],
     MainQuotes: [
-        {MainQuote: `"If you are a bitcoiner... I highly recommend you take a little break and check out <i>Theft of Fire</i>... I absolutely loved it" —Walker, THE Bitcoin Podcast`},
         {MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder`},
         {MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle`},
         {MainQuote: `"A glorious adventure and a delight to read." —John Walker, Autodesk co-founder`},
@@ -37,13 +36,7 @@ export const TheftofFire = {
     LinkGR: 'https://www.goodreads.com/book/show/199142773-theft-of-fire',
     
     Quotes: [
-        {
-            Quote: `Read <i>Theft of Fire</i>, I really and truly enjoyed it. If you are a bitcoiner who has probably 
-            not read anything but Autrian Economics and various short-form articles on bitcoin in the last couple 
-            of years give your self the permission to read some really great science fiction and you will enjoy it.`,
-            QuoteAtt: `— Walker, THE Bitcoin Podcast 
-            `
-        },
+       
         {
             Quote: `Shoot-em-up space opera, mysterious alien artifacts, freedom-minded Belters versus 
             corporate oligarchs, and even a bit of romance highlight this masterpiece of the new golden 
@@ -94,6 +87,13 @@ export const TheftofFire = {
     <br /><br />
     This story grabbed me in minutes and called me back whenever I set it down.`,
             QuoteAtt: `— Uncle Bob Martin, author, <i>Clean Code</i>`,
+        },
+        {
+            Quote: `Even though a lot of the subject matter itself is dark a times and your 
+            dealing with these difficult situations... the overall message felt more hopeful. 
+            It is ultimately a story of transformation and of hope and of what is possible.`,
+            QuoteAtt: `— Walker, THE Bitcoin Podcast 
+            `
         },
    //     {
   //          Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
