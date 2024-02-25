@@ -1,20 +1,22 @@
 .buttn {
-    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
-
-    /* padding: 0px 20px; */
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
     width: 10rem;
-    height:3rem;
+    height: 3rem;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
     border-radius: 10px;
     background-size: 200% auto;
-
-    /* border: 2px dashed #0A8754; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .4s;
-   }
+}
+
+@media (max-width: 900px) {
+    .buttn {
+        margin-top: 20px; /* This adds a top margin for screens smaller than 768px */
+    }
+}
    
    .buttn span:last-child {
     display: none;
