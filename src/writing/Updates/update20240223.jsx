@@ -1,5 +1,5 @@
 export const update20240223 = {
-    title: `Feb 12th Update`,
+    title: `Feb 23th Update`,
     content:  `Audiobook auditions winding down. 
     <br/><br/>
     Found some jaw-dropping talent. Can't disclose anything yet, because kickstarter projects depend on timing... 
