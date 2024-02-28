@@ -9,7 +9,7 @@ export const TheftofFire = {
     SeriesNum: '1',
     Cover: CoverSml,
     BigCover: CoverLrg,
-    CoverStatus: 'Done',
+    CoverStatus: 'done',
     Page: 'theft-of-fire',
     Awards: [
         {Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"'},
