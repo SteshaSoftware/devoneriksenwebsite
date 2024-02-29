@@ -3,8 +3,10 @@ import React, { useState, useEffect } from 'react'
 
 import "./mainbook.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
+import Button from '../Button/button'
 import StarButton from '../StarButton/starbutton'
 import { WidthWideTwoTone } from '@mui/icons-material'
+import { FaArrowCircleRight } from 'react-icons/fa'
 
 function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover, Awards, MainQuotes }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -63,16 +65,22 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
               </Typography>
 
               <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
-                <br /><div dangerouslySetInnerHTML={blurbHTML} /> <br />
-                <span className="content" style={{ color: '#26a0da', textDecoration: 'underline' }}>
+                <br /><div dangerouslySetInnerHTML={blurbHTML} /> 
+                <span className="content">
                   <a href={Page}>
-                    Read more
+                        <button class="read-button">Read More <FaArrowCircleRight /> </button> 
                   </a>
                 </span>
               </Typography>
             </div>
-            <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkAmz={LinkAmz}
-              LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
+            <Box sx={{ display: "flex", alignItems: {xs: "center"}, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
+                <Button LinkAmz = {LinkAmz} LinkBN = {LinkBN} LinkOther = {LinkOther} />
+            </Box>
+            {LinkGR && (
+            <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
+                Add to <a target='_blank' href={ LinkGR } style={{ color: "#ff9b02" }} onClick={() => window.sa_event('Goodreads')}>Goodreads</a>
+            </Typography>
+            )}
           </CardContent>
         </Box>
         <a href={LinkAmz}

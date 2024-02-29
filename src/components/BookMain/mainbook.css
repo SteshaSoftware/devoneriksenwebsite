@@ -197,3 +197,36 @@
   .fade-out {
     animation: fadeOut 3s ease-in-out;
   }
+
+  .content {
+    display: block;
+    width: 100%; /* Ensure it spans the full width of its parent container */
+    text-align: right; /* Aligns child elements, like your button, to the left */
+  }
+
+  .read-button {
+    background-color: #26a0da;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+  }
+  
+  .read-button:hover {
+  
+    color: black;
+    /* Darker shade when hovered */
+  }
+  
+  .read-button svg {
+    margin-left: 8px;
+    /* Space between text and arrow icon */
+  }
