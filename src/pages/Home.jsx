@@ -19,6 +19,7 @@ const Home = () => {
   return (
       <>
      <Highlights />
+
      <MainBook {...TheftofFire} />
      
      <Reviews quotes={TheftofFire.Quotes} />

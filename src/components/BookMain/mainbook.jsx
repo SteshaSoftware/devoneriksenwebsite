@@ -13,7 +13,7 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
   const [fade, setFade] = useState("fade-in");
   const blurbHTML = { __html: MiniBlurb };
 
-  
+
   useEffect(() => {
     const interval = setInterval(() => {
       setFade("fade-out");
@@ -22,15 +22,16 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
         setCurrentIndex((prevIndex) => (prevIndex + 1) % MainQuotes.length);
         setFade("fade-in");
       }, 3000); // Match the timeout to your fadeOut animation time
-    }, 10000); // This gives enough time for the fade-in to complete before starting the fade-out
+    }, 5000); // This gives enough time for the fade-in to complete before starting the fade-out
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <>
+    
       <Card sx={{ marginLeft: "auto", marginRight: "auto", color: "", display: 'flex', flexDirection: { md: "row", xs: "column", sm: "column" }, textAlign: { xs: "center", md: "start" }, background: "none", width: "80%", justifyContent: "space-between", alignItems: "center", padding: 0 }}>
-
+    
         <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
           <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', width: { sm: '50%', md: '80%', lg: '100%' } }} data-aos="fade-right">
             {Series && (
@@ -41,45 +42,62 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
 
             <Typography component="div" variant="h5" mt={1.5} fontSize={{ xs: 28, sm: 28, md: 70, lg: 80 }} fontWeight={"bold"} fontFamily={"EB Garamond, serif"} color={"#FFFF"} marginBottom={"20px"}>
               {Title}
+            </Typography>
 
-              <Typography variant="subtitle1" color="white" component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginRight: { md: 15 } }}>
+            <Typography component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginRight: { md: 15 } }}>
               {Awards.map((awardObj, index) => (
-                  <React.Fragment key={index}>
-                    {awardObj.Award}
-                  </React.Fragment>
-                ))}
-              </Typography>
+                <React.Fragment key={index}>
+                  <span style={{
+                    background: 'linear-gradient(0deg, #ff9b02, gold)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                    display: 'inline',
+                    lineHeight: '2'
+                  }} >💫 {awardObj.Award}<br /></span>
+                </React.Fragment>
+              ))}<br />
             </Typography>
 
             <Box sx={{ display: "flex", alignItems: { xs: "center" }, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
               <StarButton GlowTxt={GlowTxt} LinkGlow={LinkGlow} />
             </Box>
             <div style={{ backgroundColor: "rgba(50, 50, 50, 0.5)", paddingLeft: '20px', paddingBottom: '10px', paddingRight: '10px', marginTop: '16px', marginBottom: '16px' }}>
-              <Typography variant="subtitle1" color="white" component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginTop: { xs: 1.2 }, marginRight: { md: 15 } }}>
+              <Typography style={{
+                fontStyle: 'Bold',
+                lineHeight: '1.5'
+              }} color="white" component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginTop: { xs: 1.2 }, marginRight: { md: 15 } }}>
                 {BlurbHead}</Typography>
 
-              <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
-                <br/>
-                    <i>{MainQuotes[currentIndex].MainQuote}</i>
-                
+              <Typography style={{
+                fontSize: '20px', fontStyle: 'italic',
+                background: 'linear-gradient(0deg, #ff9b02, gold)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                display: 'inline',
+              }} >
+                <br />
+                <i>{MainQuotes[currentIndex].MainQuote}</i>
+
               </Typography>
 
-              <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
-                <br /><div dangerouslySetInnerHTML={blurbHTML} /> 
+              <Typography style={{
+                fontSize: '20px'
+              }} color="white">
+                <br /><div dangerouslySetInnerHTML={blurbHTML} />
                 <span className="content">
                   <a href={Page}>
-                        <button class="read-button">Read More <FaArrowCircleRight /> </button> 
+                    <button class="read-button">Read More <FaArrowCircleRight /> </button>
                   </a>
                 </span>
               </Typography>
             </div>
-            <Box sx={{ display: "flex", alignItems: {xs: "center"}, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
-                <Button LinkAmz = {LinkAmz} LinkBN = {LinkBN} LinkOther = {LinkOther} />
+            <Box sx={{ display: "flex", alignItems: { xs: "center" }, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
+              <Button LinkAmz={LinkAmz} LinkBN={LinkBN} LinkOther={LinkOther} />
             </Box>
             {LinkGR && (
-            <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
-                Add to <a target='_blank' href={ LinkGR } style={{ color: "#ff9b02" }} onClick={() => window.sa_event('Goodreads')}>Goodreads</a>
-            </Typography>
+              <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
+                Add to <a target='_blank' href={LinkGR} style={{ color: "#ff9b02" }} onClick={() => window.sa_event('Goodreads')}>Goodreads</a>
+              </Typography>
             )}
           </CardContent>
         </Box>
