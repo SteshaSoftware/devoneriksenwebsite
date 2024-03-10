@@ -5,34 +5,18 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { BsFillSendFill } from "react-icons/bs";
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
-import { createContact } from '../store/products';
 import { FaGoodreads } from "react-icons/fa"
 import {FaRedditAlien} from "react-icons/fa"
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
 import {FaInstagram} from "react-icons/fa"
-import Swal from 'sweetalert2';
 
 const Contact = () => {
     const {
         register,
-        handleSubmit,
-        reset,
         formState: { errors },
     } = useForm()
-    const dispatch = useDispatch()
-    const addContact = (obj)=>{
-        dispatch(createContact(obj))
-        Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: 'Thankyou, we will contact you as soon as possible',
-            showConfirmButton: false,
-            timer: 2000
-          })
-        reset()
-        // console.log(obj);
-    }
+  
 
     return (
         <Box sx={{ width: "85%", marginLeft: "auto", marginRight: "auto", marginTop: 5, marginBottom: 5 }}>
