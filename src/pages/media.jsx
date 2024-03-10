@@ -33,6 +33,35 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= "Theft of Fire review by A Look Inside"
+                subtitle = "Demetria, of A look Inside: A Book Review Blog, has reveiwed over 
+                200 books on her website, and gives a glowing review to <i>Theft of Fire</i>."
+                content = '<i>Theft of Fire</i> by Devon Eriksen propels readers into a gripping 
+                sci-fi space opera brimming with intrigue, action, and high-stakes adventure. Set 
+                against the backdrop of the frozen expanse of the solar system, the novel introduces 
+                us to Marcus Warnoc, a resourceful asteroid miner whose life is turned upside down 
+                when his ship is hijacked by Miranda Foxgrove, a determined corporate heiress with 
+                her own secret agenda.
+                <br/><br/>
+                What ensues is a thrilling game of cat and mouse as Marcus and Miranda find 
+                themselves embroiled in a dangerous dance of deception, betrayal, and unexpected 
+                alliances. Eriksen masterfully weaves together elements of suspense, humor, and 
+                heart, creating a narrative that keeps readers on the edge of their seats from start
+                to finish...'
+                link= 'https://alookinsidebookreviews.blogspot.com/2024/03/a-review-of-theft-of-fire-by-devon.html' 
+                date = '2024-03-09'
+                mediatype= "txt"
+                tag= "review"
+            />
+            <MediaContent
+                title= 'Infinite Loops'
+                subtitle = "Devon joins Devon joins the show to discuss why his book incorporates alien technology, the role of patronage in the digital era, his unusual approach to obtaining feedback, and MUCH more!"
+                link= 'https://www.youtube.com/embed/6COwtRiEZ3k' 
+                date = '2024-03-07'
+                mediatype= "vid"
+                tag= "interview"
+            />
+           <MediaContent
                 title= "Theft of Fire review by Daniel Lemire"
                 subtitle = "Daniel Lemire is a computer science professor at the Data Science 
                 Laboratory of the Université du Québec (TÉLUQ) in Montreal. His research is focused 
