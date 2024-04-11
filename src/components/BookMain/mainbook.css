@@ -180,24 +180,6 @@
     color: #ff9b02;
   }
 
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
-  }
-  
-  .fade-in {
-    animation: fadeIn 3s ease-in-out;
-  }
-  
-  .fade-out {
-    animation: fadeOut 3s ease-in-out;
-  }
-
   .content {
     display: block;
     width: 100%; /* Ensure it spans the full width of its parent container */

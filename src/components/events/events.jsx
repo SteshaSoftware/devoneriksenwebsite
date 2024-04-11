@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./events.css"
 
-const Eventss = () => {
+const events = () => {
     return (
         <div style={{ width: "70%", marginLeft: "auto", marginRight: "auto", marginTop: "50px" }}>
             <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
@@ -40,4 +40,4 @@ const Eventss = () => {
     )
 }
 
-export default Eventss
+export default events

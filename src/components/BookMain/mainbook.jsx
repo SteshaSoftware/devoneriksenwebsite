@@ -9,29 +9,13 @@ import { WidthWideTwoTone } from '@mui/icons-material'
 import { FaArrowCircleRight } from 'react-icons/fa'
 
 function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover, Awards, MainQuotes }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [fade, setFade] = useState("fade-in");
   const blurbHTML = { __html: MiniBlurb };
-
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade("fade-out");
-
-      setTimeout(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % MainQuotes.length);
-        setFade("fade-in");
-      }, 3000); // Match the timeout to your fadeOut animation time
-    }, 5000); // This gives enough time for the fade-in to complete before starting the fade-out
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <>
-    
+
       <Card sx={{ marginLeft: "auto", marginRight: "auto", color: "", display: 'flex', flexDirection: { md: "row", xs: "column", sm: "column" }, textAlign: { xs: "center", md: "start" }, background: "none", width: "80%", justifyContent: "space-between", alignItems: "center", padding: 0 }}>
-    
+
         <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
           <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', width: { sm: '50%', md: '80%', lg: '100%' } }} data-aos="fade-right">
             {Series && (
@@ -65,20 +49,24 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
               <Typography style={{
                 fontStyle: 'Bold',
                 lineHeight: '1.5'
-              }} color="white" component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginTop: { xs: 1.2 }, marginRight: { md: 15 } }}>
+              }} color="white" component="div" fontSize={{ xs: 16, sm: 16, md: 24, lg: 24 }} sx={{ marginTop: { xs: 1.2 } }}>
                 {BlurbHead}</Typography>
 
-              <Typography style={{
-                fontSize: '20px', fontStyle: 'italic',
-                background: 'linear-gradient(0deg, #ff9b02, gold)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                display: 'inline',
-              }} >
-                <br />
-                <i>{MainQuotes[currentIndex].MainQuote}</i>
-
-              </Typography>
+              <br/>
+              {MainQuotes.map((quote, index) => (
+                <Typography key={index} style={{
+                  fontSize: '20px',
+                  fontStyle: 'italic',
+                  color: "#ff9b02",
+                  display: 'block',
+                  paddingLeft: '20px', // This will indent all lines of the quote
+                  textIndent: '-20px', // This negatively indents the first line to align it with other content
+                  marginLeft: '20px', 
+                  maxWidth: '90%'
+                }}>
+                  ★{quote.MainQuote}<br/>
+                </Typography>
+              ))}
 
               <Typography style={{
                 fontSize: '20px'

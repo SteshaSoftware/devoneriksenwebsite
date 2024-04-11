@@ -33,6 +33,20 @@ const Media = () => {
       >
            <div>
            <MediaContent
+                title= "The Woke Grift"
+                subtitle = "Devon Eriksen joins Bryce Eddy as they dive into the world of 
+                science fiction and tackle some of today's most contentious topics. From the 
+                pervasive influence of 'woke culture' to the origins and impacts of gender 
+                ideology rooted in feminism, they explore how these movements have shaped our 
+                society."
+                pic = "https://www.omnycontent.com/d/clips/5e27a451-e6e6-4c51-aa03-a7370003783c/bbab1106-70f0-4621-9c59-aec901086c3d/865ace4c-8db4-441e-9d5f-b14d0189d182/image.jpg?t=1712707369"
+                picalt = 'Bryce Eddy'
+                link= 'https://omny.fm/shows/liberty-station/devon-eriksen-the-woke-grift/embed' 
+                date = '2024-04-09'
+                mediatype= "aud"
+                tag= "interview"
+            />
+           <MediaContent
                 title= "Theft of Fire review by A Look Inside"
                 subtitle = "Demetria, of A look Inside: A Book Review Blog, has reveiwed over 
                 200 books on her website, and gives a glowing review to <i>Theft of Fire</i>."

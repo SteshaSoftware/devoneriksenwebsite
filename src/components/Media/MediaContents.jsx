@@ -23,7 +23,18 @@ function MediaContent({ title, subtitle, content, pic, picalt, link, date, media
                     </a>
                 )}
                 {mediatype === 'aud' && (
-                    {/* Render audio content */ }
+                          <div className="audio-container">
+                          <br/>
+                          <iframe
+                              src={link}
+                              className="audio-player"
+                              width="100%"
+                              height="200" // Adjust the height as necessary
+                              allow="autoplay"
+                              loading="lazy"
+                          ></iframe>
+                      </div>
+                  
                 )}
                 {mediatype === 'txt' && (
                     <>
