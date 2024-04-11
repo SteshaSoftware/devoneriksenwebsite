@@ -72,7 +72,7 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
                 fontSize: '20px'
               }} color="white">
                 <br /><div dangerouslySetInnerHTML={blurbHTML} />
-                <span className="content">
+                <span className="content" style={{ textAlign: 'right' }}>
                   <a href={Page}>
                     <button class="read-button">Read More <FaArrowCircleRight /> </button>
                   </a>
