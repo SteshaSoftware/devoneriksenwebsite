@@ -29,7 +29,7 @@ export const MediaContent= [
     Past winners include Larry Niven, John Varley and Neal Stephenson. `,
     pic : Prometheus,
     picalt : 'Prometheus Award',
-    link: 'https://www.lfs.org/blog/17-varied-works-of-science-fiction-fantasy-and-dystopian-literature-have-been-nominated-for-the-next-prometheus-award-for-best-novel/' ,
+    link: 'https://www.lfs.org/releases/2024PrometheusFinalists.shtml' ,
     date : '2024-04-17',
     mediatype: "img",
     tag: "award"
@@ -49,7 +49,7 @@ export const MediaContent= [
       },
       {
         title: 'Caleb Beers Interviews Devon Eriksen',
-        subtitle : "After concluding a 10 part book club series discussing Theft of Fire, Devon joins Caleb for an interview.",
+        subtitle : "After concluding a 10 part book club series discussing Theft of Fire, Celab invites Devon for an interview.",
         link: 'https://www.youtube.com/embed/9alj_XcvAXc' ,
         date : '2024-04-13',
         mediatype: "vid",
