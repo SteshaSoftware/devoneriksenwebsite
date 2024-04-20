@@ -1,12 +1,12 @@
 import React from 'react'
-import events from '../components/events/events'
+import Events from '../components/events/events'
 
-const Events = () => {
+const EventsPage = () => {
   return (
     <>
-    <events/>
+    <Events/>
     </>
   )
 }
 
-export default Events
+export default EventsPage
