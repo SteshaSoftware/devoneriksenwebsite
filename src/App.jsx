@@ -42,10 +42,13 @@ const App = () => {
         { path: "contact", element: <Contact /> },
         { path: "events", element: <Events /> },
         { path: "media", element: <Media /> },
+          { path: "awards", element: <Media /> },
+          { path: "reviews", element: <Media /> },
+          { path: "interviews", element: <Media /> },
         { path: "writing", element: <WritingAll /> },
-        { path: "writingcraft", element: <WritingAll /> },
-        { path: "writingfiction", element: <WritingAll /> },
-        { path: "writingupdates", element: <WritingAll /> },
+          { path: "writingcraft", element: <WritingAll /> },
+          { path: "writingfiction", element: <WritingAll /> },
+          { path: "writingupdates", element: <WritingAll /> },
 
       ]
     }

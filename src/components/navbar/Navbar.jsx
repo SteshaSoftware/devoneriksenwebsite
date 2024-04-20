@@ -194,7 +194,42 @@ const Navbar = () => {
                   <Button className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Events</Button>
                 </Link>
                 <Link to='/media'>
-                  <Button className={`${pathname === "/media" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Media</Button>
+                <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1, py: 1 }}><div className="antialiased">
+                    <div className="group">
+                      <div
+                        className={`${pathname === "/media" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
+                      >
+                        <span className="mr-1 ">MEDIA</span>
+                        {<BsChevronDown />}
+                      </div>
+                      <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
+                        {<li className="">
+                          <Link
+                            to={"/awards"}
+                            className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">
+                            Awards
+                          </Link>
+                        </li>}
+                        {<li className="">
+                          <Link to={"/reviews"}
+                            className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                            href="#"
+                          >
+                            Reviews
+                          </Link>
+                        </li>}
+                        {<li className="">
+                          <Link to={"/interviews"}
+                            className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                            href="#"
+                          >
+                            Interviews
+                          </Link>
+                        </li>}
+                      </ul>
+                    </div>
+                  </div>
+                  </Box>
                 </Link>
                 <Link to='/about'>
                   <Button className={`${pathname === "/about" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>About</Button>
@@ -244,7 +279,11 @@ const Navbar = () => {
                     { label: 'Short Fiction', link: 'writingfiction' }]}
                     openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <NavBarButton menuname="Events" />
-                  <NavBarButton menuname="Media" />
+                  <DropdownMenu pathname={pathname} menuName="Media" 
+                  subMenuItems={[{ label: 'Awards', link: 'awards' },
+                    { label: 'Reviews', link: 'reviews' },
+                    { label: 'Interviews', link: 'interviews' }]}
+                    openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <NavBarButton menuname="About" />
                   <NavBarButton menuname="Contact" />
                   <NavBarButton menuname="Buy Now"
