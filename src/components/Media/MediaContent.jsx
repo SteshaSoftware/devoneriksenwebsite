@@ -3,6 +3,58 @@ import AtomicRocket from '../../images/AtomicRocket.png'
 import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent= [
+  {
+    title: "Theft of Fire review by Neil Asher",
+    subtitle : `Neil Asher, author of the Polity Universe novels, reviews Theft of Fire`,
+    content : `...Being confined by more-or-less conventional physics enhanced rather than distracted here, 
+    but it helps that Devon obviously knows his stuff. There was no saying a magic spell with quantum in it to 
+    get from A to B (yes, I’m guilty) and the realities of space travel were starkly and realistically depicted. 
+    What also got to me was the engineering here – I found myself nodding my head and smiling upon finding out a
+    bout a lathe and milling machine aboard, along with a bit of TIG welding. This ‘realities of space travel’ 
+    also extended to a space battle, capture and boarding (no tractor beams involved) and, well, I’ll just leave 
+    that there.
+    <br/><br/>
+    The plot begins with a ship owner who an heiress blackmails to go on a mission she won’t tell him about. 
+    The amusing note here is that she is a descendent of him – the guy who built rockets and settled Mars. 
+    SpaceX is in there, along with other corporations. Suffice to say, because I don’t want to give too much away, 
+    something big has been discovered and the race is on to lock it down. Things are going to get gnarly...`,
+    link: 'https://www.lfs.org/blog/review-devon-eriksens-theft-of-fire-blends-hard-sf-romance-mystery-suspense-and-comedy-in-story-of-conflict-and-cooperation/', 
+    date : '2024-04-18',
+    mediatype: "txt",
+    tag: "review"
+    },
+  {
+    title: "Theft of Fire selected as finalist for Prometheus Award",
+    subtitle : `The Prometheus Award is an annual honor given to best libertarian science fiction novels.
+    Past winners include Larry Niven, John Varley and Neal Stephenson. `,
+    pic : Prometheus,
+    picalt : 'Prometheus Award',
+    link: 'https://www.lfs.org/blog/17-varied-works-of-science-fiction-fantasy-and-dystopian-literature-have-been-nominated-for-the-next-prometheus-award-for-best-novel/' ,
+    date : '2024-04-17',
+    mediatype: "img",
+    tag: "award"
+    },
+    {
+      title: "Theft of Fire review by Eric S. Raymond and Michael Grossberg",
+      subtitle : `Both members of the Prometheus committee, Michael Grossberg is the chairman, and 
+      Eric S. Raymond is most known as the author of The Cathedral and the Bazaar`,
+      content : `Devon Eriksen is one hell of an SF writer. His prose is tight and energetic, his action scenes 
+      work and his world-building is more than competent.
+      <br/><br/>
+      Billed as the first novel in Eriksen’s Orbital Space series and nominated for the next Prometheus Award for Best Novel, this hard-sf space opera portrays a free-frontier space culture where big risks can lead to big rewards...`,
+      link: 'https://www.lfs.org/blog/review-devon-eriksens-theft-of-fire-blends-hard-sf-romance-mystery-suspense-and-comedy-in-story-of-conflict-and-cooperation/', 
+      date : '2024-04-13',
+      mediatype: "txt",
+      tag: "review"
+      },
+      {
+        title: 'Caleb Beers Interviews Devon Eriksen',
+        subtitle : "After concluding a 10 part book club series discussing Theft of Fire, Devon joins Caleb for an interview.",
+        link: 'https://www.youtube.com/embed/9alj_XcvAXc' ,
+        date : '2024-04-13',
+        mediatype: "vid",
+        tag: "interview"
+        },
 {
 title: "The Woke Grift",
 subtitle: `Devon Eriksen joins Bryce Eddy as they dive into the world of 
@@ -76,17 +128,7 @@ date : '2024-02-19',
 mediatype: "vid",
 tag: "interview"
 },
-{
-title: "Theft of Fire is Nominated for the Prometheus Award",
-subtitle : `The Prometheus Award is an annual honor given to best libertarian science fiction novels.
-Past winners include Larry Niven, John Varley and Neal Stephenson. `,
-pic : Prometheus,
-picalt : 'Prometheus Award',
-link: 'https://www.lfs.org/blog/17-varied-works-of-science-fiction-fantasy-and-dystopian-literature-have-been-nominated-for-the-next-prometheus-award-for-best-novel/' ,
-date : '2024-02-16',
-mediatype: "img",
-tag: "award"
-},
+
 {
 title: 'THE Bitcoin Podcast',
 subtitle : "Devon talks with Walker about Science Fiction, Culture, AI, Private Property, & F*cks Given",
