@@ -25,8 +25,8 @@ export const MediaContent= [
     },
   {
     title: "Theft of Fire selected as finalist for Prometheus Award",
-    subtitle : `The Prometheus Award is an annual honor given to best libertarian science fiction novels.
-    Past winners include Larry Niven, John Varley and Neal Stephenson. `,
+    subtitle : `The Prometheus Award is an annual honor given to best libertarian science fiction novels. 
+    Theft of Fire was selected among the top 5. Past winners include Larry Niven, John Varley and Neal Stephenson. `,
     pic : Prometheus,
     picalt : 'Prometheus Award',
     link: 'https://www.lfs.org/releases/2024PrometheusFinalists.shtml' ,
