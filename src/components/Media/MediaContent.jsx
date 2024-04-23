@@ -4,8 +4,8 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent= [
   {
-    title: "Theft of Fire review by Neil Asher",
-    subtitle : `Neil Asher, author of the Polity Universe novels, reviews Theft of Fire`,
+    title: "Theft of Fire review by Neal Asher",
+    subtitle : `Neal Asher, author of the Polity Universe novels, reviews Theft of Fire`,
     content : `...Being confined by more-or-less conventional physics enhanced rather than distracted here, 
     but it helps that Devon obviously knows his stuff. There was no saying a magic spell with quantum in it to 
     get from A to B (yes, I’m guilty) and the realities of space travel were starkly and realistically depicted. 
@@ -18,7 +18,7 @@ export const MediaContent= [
     The amusing note here is that she is a descendent of him – the guy who built rockets and settled Mars. 
     SpaceX is in there, along with other corporations. Suffice to say, because I don’t want to give too much away, 
     something big has been discovered and the race is on to lock it down. Things are going to get gnarly...`,
-    link: 'https://www.lfs.org/blog/review-devon-eriksens-theft-of-fire-blends-hard-sf-romance-mystery-suspense-and-comedy-in-story-of-conflict-and-cooperation/', 
+    link: 'https://www.nealasher.co.uk/theft-of-fire-devon-eriksen/', 
     date : '2024-04-18',
     mediatype: "txt",
     tag: "review"

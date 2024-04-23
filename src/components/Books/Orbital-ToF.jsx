@@ -12,12 +12,13 @@ export const TheftofFire = {
     CoverStatus: 'done',
     Page: 'theft-of-fire',
     Awards: [
+        {Award: 'Prometheus Award 2023 Finalist'},
         {Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"'},
         {Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science'},
     ],
     MainQuotes: [
         {MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder`},
-        {MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neil Asher, author of the Polity series`},
+        {MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neal Asher, author of the Polity series`},
         {MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle`},
         //{MainQuote: `"A glorious adventure and a delight to read." —John Walker, Autodesk co-founder`},
         {MainQuote: `"If I've ever read a better firefight in fiction, it doesn't come to me off the top of my head." —Duane Thomas, gunwriter`},
