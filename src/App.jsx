@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Layout from './pages/Layout';
 import Novels from './pages/Novels';
+import Purchase from './pages/Purchase';
 import BookDetail from './pages/BookDetail';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
@@ -39,6 +40,13 @@ const App = () => {
         { path: "novels", element: <Novels /> },
         { path: TheftofFire.Page, element: <BookDetail {...TheftofFire}/> },
         { path: BoxofTrouble.Page, element: <BookDetail {...BoxofTrouble}/> },
+        {
+          path: "purchase", 
+          element: <Purchase />,
+          children: [
+            { path: TheftofFire.Page, element: <BookDetail {...TheftofFire}/> }
+          ]
+        },
         { path: "contact", element: <Contact /> },
         { path: "events", element: <Events /> },
         { path: "media", element: <Media /> },

@@ -12,16 +12,16 @@ export const TheftofFire = {
     CoverStatus: 'done',
     Page: 'theft-of-fire',
     Awards: [
-        {Award: 'Prometheus Award 2023 Finalist'},
-        {Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"'},
-        {Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science'},
+        { Award: 'Prometheus Award 2023 Finalist' },
+        { Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"' },
+        { Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science' },
     ],
     MainQuotes: [
-        {MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder`},
-        {MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neal Asher, author of the Polity series`},
-        {MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle`},
+        { MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder` },
+        { MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neal Asher, author of the Polity series` },
+        { MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle` },
         //{MainQuote: `"A glorious adventure and a delight to read." —John Walker, Autodesk co-founder`},
-        {MainQuote: `"If I've ever read a better firefight in fiction, it doesn't come to me off the top of my head." —Duane Thomas, gunwriter`},
+        { MainQuote: `"If I've ever read a better firefight in fiction, it doesn't come to me off the top of my head." —Duane Thomas, gunwriter` },
     ],
     BlurbHead: `At the frozen edge of the solar system lies a hidden treasure which could spell 
     their fortune or their destruction—but only if they survive each other first.`,
@@ -46,9 +46,94 @@ export const TheftofFire = {
     LinkBN: 'https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144335979?ean=2940179192145',
     LinkOther: 'https://books2read.com/Theft-of-Fire',
     LinkGR: 'https://www.goodreads.com/book/show/199142773-theft-of-fire',
-    
+    Links: [
+        {
+            Ebook: [
+                {
+                    buylink: "https://www.amazon.com/gp/product/B0CJHQ4LZN?tag=devoneriksen-20",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Kindle_Square/91897f077a3b933d207db02e2c08f2c3.jpg"
+                },
+                {
+                    buylink: "https://www.kobo.com/us/en/ebook/theft-of-fire-1",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Kobo_Books_app_icon/b31ef72734ba68f9b0f17f881c307f89.png"
+                },
+                {
+                    buylink: "https://books.apple.com/us/book/theft-of-fire/id6471528771",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Apple_Books_Icon2019/6edb18f6434ef86f6c0b7703c7922ae2.png"
+                },
+                {
+                    buylink: "https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144335979;jsessionid=C26267BA5115F6F70E14D520349C5DAB.prodny_store01-atgap09?ean=2940179192145&st=AFF&2sid=Draft2Digital_7968444_NA&sourceId=AFFDraft2Digital",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/nook-by-bn/a27caa0272b7d00e7edbda59efb52ff9.png"
+                },
+                {
+                    buylink: "https://www.everand.com/book/682922400/Theft-of-Fire-Orbital-Space-1",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/everand/55edb9dc62fff747c4451b8a4215ddef.png"
+                },
+                {
+                    buylink: "https://www.thalia.de/shop/home/artikeldetails/A1070228820",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/ThaliaDE/227f068ca8710ef6f26f7644fffe73d2.jpg"
+                },
+                {
+                    buylink: "https://www.smashwords.com/books/view/1477027",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/smashwords-logo/96c47fe87ba5ad5b13be8a811cb8c8c7.jpg"
+                },
+                {
+                    buylink: "https://www.angusrobertson.com.au/ebooks/theft-of-fire-devon-eriksen/p/9781962514002",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/angusRobertsonBookworld/e8d210c2fd71508d6192c7c0bed06a20.png"
+                },
+                {
+                    buylink: "https://shop.vivlio.com/product/9781962514002_9781962514002_10020/theft-of-fire",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/logo-app/a0923a79cbbc8e3dfbc1c317910c1eab.png"
+                },
+                {
+                    buylink: "https://books.mondadoristore.it/Theft-of-Fire-Devon-Eriksen/eae978196251400/",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/mondadori_rmeSeo0/c792cb881f5ac0912ab1d93e01fd8cc9.png"
+                },
+                {
+                    buylink: "https://www.hoopladigital.com/title/16395232",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/hoopla_ypLhiZF/fd6ca0310d951592b641aae6e65cc6dd.png"
+                },
+            ],
+            Paper: [
+                {
+                    buylink: "https://www.amazon.com/gp/product/1962514021?tag=devoneriksen-20",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/amazon_square_logo_Kabb825/37f201a77546f90514bff6f1774a2d05.png"
+                },
+                {
+                    buylink: "https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144228771?ean=9781962514026&st=AFF&2sid=Draft2Digital_7968444_NA&sourceId=AFFDraft2Digital",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/b2r-bn-print_nw7bwed/75cc88cfda36c15c5fa3b8ebb69b6f75.png"
+                },
+                {
+                    buylink: "https://www.booksamillion.com/p/9781962514026",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/BAM/3d69388500349dcaf0bedb134ba9175c.png"
+                },
+                {
+                    buylink: "https://bookshop.org/p/books/theft-of-fire-orbital-space-1-devon-eriksen/20859369?ean=9781962514026",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Bookshop/f7b650efa41273155d6aeb893deda4ae.jpg"
+                },
+            ],
+            Hard: [
+                {
+                    buylink: "https://www.amazon.com/gp/product/1962514013?tag=devoneriksen-20",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/amazon_square_logo_Kabb825/37f201a77546f90514bff6f1774a2d05.png"
+                },
+                {
+                    buylink: "https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144228771?ean=9781962514019&st=AFF&2sid=Draft2Digital_7968444_NA&sourceId=AFFDraft2Digital",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/b2r-bn-print_nw7bwed/75cc88cfda36c15c5fa3b8ebb69b6f75.png"
+                },
+                {
+                    buylink: "https://www.booksamillion.com/p/9781962514019",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/BAM/3d69388500349dcaf0bedb134ba9175c.png"
+                },
+                {
+                    buylink: "https://bookshop.org/p/books/theft-of-fire-orbital-space-1-devon-eriksen/20887843?ean=9781962514019",
+                    linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Bookshop/f7b650efa41273155d6aeb893deda4ae.jpg"
+                },
+            ],
+        }
+    ],
     Quotes: [
-       
+
         {
             Quote: `Shoot-em-up space opera, mysterious alien artifacts, freedom-minded Belters versus 
             corporate oligarchs, and even a bit of romance highlight this masterpiece of the new golden 
@@ -107,15 +192,15 @@ export const TheftofFire = {
             QuoteAtt: `— Walker, THE Bitcoin Podcast 
             `
         },
-   //     {
-  //          Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
-   //         QuoteAtt: `— Emmett Shear, former CEO, Open AI, co-founder, Twitch`
-    //    },
+        //     {
+        //          Quote: `It’s like The Expanse Universe and The Polity Universe made a baby. A delightful mixed baby.`,
+        //         QuoteAtt: `— Emmett Shear, former CEO, Open AI, co-founder, Twitch`
+        //    },
         {
             Quote: `One of the best sci-fi novels I've ever read. Great characters, plot, and not 
     insulting to the reader's intelligence (which is rare for modern sci-fi...).`,
             QuoteAtt: `— Ryan Lackey, CSO, Evertas, Sci-Fi Super-Reader`,
         },
-       
+
     ],
 } 
