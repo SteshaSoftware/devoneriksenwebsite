@@ -26,18 +26,18 @@ const Contact = () => {
                         Feel free to contact me. This form goes directly to my personal email,
                         I try to respond to all of my reader mail. <br /><br />
                         I am available for appearances, please inquire by email.
-                        
+
                     </Typography>
                     <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                        
+
                         <Typography color={"#fff"} sx={{ padding: 3 }}>
-                        <hr />
-                        <Typography sx={{ fontSize: "23px", margin: 1, textAlign: 'center' }}>
-                            3712 Ringgold Rd, Suite #264, Chattanooga, TN 37412
+                            <hr />
+                            <Typography sx={{ fontSize: "23px", margin: 1, textAlign: 'center' }}>
+                                3712 Ringgold Rd, Suite #264, Chattanooga, TN 37412
+                            </Typography>
+                            <hr />
                         </Typography>
-                        <hr/>   
-                        </Typography>
-                        
+
                         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
                             <Stack direction="column" spacing={2} alignItems="start" sx={{ maxWidth: 'fit-content' }}>
 
