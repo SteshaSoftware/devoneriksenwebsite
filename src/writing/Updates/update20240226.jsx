@@ -1,5 +1,5 @@
 export const update20240226 = {
-    title: `Feb 26th Update`,
+    title: `Box of Trouble Update`,
     content:  `In the spirit of full disclosure, here's where I am at: 
     <br/><br/>
     My first manuscript took nine months to complete. Since I am a planning-heavy writer, a "first manuscript" is fairly mature, and ready for beta reads, then line editing. 

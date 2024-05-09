@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const update20240115 = {
-  title: `Jan 15th Update`,
+  title: `Box of Trouble Update`,
   content:  `Today's 1000 words are complete and pushed to the git repository. Starting to get back into a writing routine after the disruptions of the past few weeks. 
   <br/><br/>
   I need to start bringing a laptop to cons so I can get at least a little work done, but the novel-writing software I am using right now has crappy OS support for anything that isn't spyware, and quite frankly I hate that. 

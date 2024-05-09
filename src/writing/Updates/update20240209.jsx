@@ -1,5 +1,5 @@
 export const update20240209 = {
-    title: `Feb 9th Update`,
+    title: `Box of Trouble Update`,
     content:  `I could never be a discovery writer, with only one point in the story to work on. 
     <br/><br/>
     Creativity just doesn't work that way for me. Yesterday, I wrote one of the best, and most gut-wrenching, scenes of my life. 

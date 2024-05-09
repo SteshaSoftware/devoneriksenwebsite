@@ -1,5 +1,5 @@
 export const update20240118 = {
-    title: `Jan 18th Update`,
+    title: `Box of Trouble Update`,
     content:  `1200 words last night. Mostly dialogue. Will need to go back and insert some description beats. 
     <br/><br/>
     That's how you eat an elephant. One bite at a time.

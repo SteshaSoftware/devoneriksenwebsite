@@ -1,5 +1,5 @@
 export const update20240212 = {
-    title: `Feb 12th Update`,
+    title: `Theft of Fire Audiobook Update`,
     content:  `Listening to audiobook auditions. 
     <br /><br />
     Some amateur talent is stacking up surprisingly well against the pros. There's the occasional amusing miss, like the one fellow who made a vulgar, brawling asteroid miner sound like the Sir Winston Chumleigh, Earl of Snootingham, but lots of good stuff, too. 

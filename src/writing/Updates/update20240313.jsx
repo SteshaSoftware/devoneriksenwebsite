@@ -1,5 +1,5 @@
 export const update20240313 = {
-title: `Mar 13th Update`,
+title: `Theft of Fire Audiobook Update`,
 content:  `Audiobook progress update. Here's what you need to know: 
 <br/><br/>
 - I have an agreement in place with three excellent voice actors, who will be playing each of the three major roles. They are brilliant, and were selected from hundreds of auditions. 
