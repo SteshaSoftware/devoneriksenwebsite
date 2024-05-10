@@ -4,6 +4,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'The Beard of Darkness Interviews Devon Eriksen',
+    subtitle: "The Beard of Darkness and Devon and a fun conversation about sci-fi books, Devon's career before writing, and more!",
+    link: 'https://www.youtube.com/embed/piPzWleIrKQ',
+    date: '2024-05-09',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'BiblioTheory Interviews Devon Eriksen',
     subtitle: "BiblioTheory follows up his review of Theft of Fire with an interview with Devon.",
     link: 'https://www.youtube.com/embed/DhLeMeupE98',
