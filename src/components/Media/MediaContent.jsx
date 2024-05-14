@@ -4,6 +4,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'How Fiction Can Change Minds',
+    subtitle: "Are you tired of stories that try to beat you over the head with a message? What if there was a better way to persuade people through storytelling? On The Brian Nichols Show, Devon reveals how fiction can introduce new ideas and change minds without being preachy. ",
+    link: 'https://www.youtube.com/embed/HDV24EGTu4A',
+    date: '2024-05-13',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'The Beard of Darkness Interviews Devon Eriksen',
     subtitle: "The Beard of Darkness and Devon and a fun conversation about sci-fi books, Devon's career before writing, and more!",
     link: 'https://www.youtube.com/embed/piPzWleIrKQ',
