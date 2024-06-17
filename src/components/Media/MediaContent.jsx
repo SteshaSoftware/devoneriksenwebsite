@@ -4,6 +4,26 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'Blaster and Blades Podcast',
+    subtitle: "Devon joins Blasters and Blades to talk all things Theft of Fire, and more!",
+    link: 'https://www.youtube.com/embed/HyOVxGLA0I8',
+    date: '2024-06-16',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
+    title: "Theft of Fire review by Caleb Beers",
+    subtitle: `Caleb Beers, author of "A Pointless, Thoroughly Upsetting Story", write a thougtful review of Theft of Fire`,
+    content: `...I can praise more or less every aspect of it. The pacing is perfect, where every trough in the action is 
+    set up with anticipation of the next crest. The characters are all memorable and endearing and delightfully weird in 
+    their own way. The technological world seems perfect to me, but maybe that’s just because it confirms all of my own 
+    opinions about where things are headed...`,
+    link: 'https://www.quora.com/Who-do-you-think-are-the-best-new-writers-in-the-science-fiction-or-fantasy-genre/answer/Caleb-Beers-1',
+    date: '2024-06-14',
+    mediatype: "txt",
+    tag: "review"
+  },
+  {
     title: 'How Fiction Can Change Minds',
     subtitle: "Are you tired of stories that try to beat you over the head with a message? What if there was a better way to persuade people through storytelling? On The Brian Nichols Show, Devon reveals how fiction can introduce new ideas and change minds without being preachy. ",
     link: 'https://www.youtube.com/embed/HDV24EGTu4A',
