@@ -4,6 +4,30 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'Theft of Fire review by author Michael R. Schultheiss',
+    subtitle: "Author of Ark of Ascension and The Rostevak Saga reviews Theft of Fire.",
+    link: 'https://www.youtube.com/embed/B9hV5VW7Qaw',
+    date: '2024-06-23',
+    mediatype: "vid",
+    tag: "review"
+  },
+  {
+    title: 'That Park Place Podcast',
+    subtitle: "Hosts Hagry Table and Martin Stone talk with Devon about his inspiration, writing process, and the secrets to building immersive futuristic worlds.",
+    link: 'https://www.youtube.com/embed/tOyna06Rrcc',
+    date: '2024-06-23',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
+    title: 'The Lou Perez Podcast',
+    subtitle: "Devon talks with comedian, producer, and author, Lou Perez",
+    link: 'https://www.youtube.com/embed/AiIZ5wZyo9E',
+    date: '2024-06-20',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'Blaster and Blades Podcast',
     subtitle: "Devon joins Blasters and Blades to talk all things Theft of Fire, and more!",
     link: 'https://www.youtube.com/embed/HyOVxGLA0I8',
