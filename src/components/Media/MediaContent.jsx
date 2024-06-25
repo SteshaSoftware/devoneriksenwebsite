@@ -4,6 +4,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'Benjamin Boyce chats with Devon',
+    subtitle: "Devon joins Benjamin Boyce to talk about Theft of Fire and the state of the world",
+    link: 'https://www.youtube.com/embed/MT4WMbjv_sc',
+    date: '2024-06-25',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'Theft of Fire review by author Michael R. Schultheiss',
     subtitle: "Author of Ark of Ascension and The Rostevak Saga reviews Theft of Fire.",
     link: 'https://www.youtube.com/embed/B9hV5VW7Qaw',
@@ -13,7 +21,7 @@ export const MediaContent = [
   },
   {
     title: 'That Park Place Podcast',
-    subtitle: "Hosts Hagry Table and Martin Stone talk with Devon about his inspiration, writing process, and the secrets to building immersive futuristic worlds.",
+    subtitle: "Hosts Hangry Table and Martin Stone talk with Devon about his inspiration, writing process, and the secrets to building immersive futuristic worlds.",
     link: 'https://www.youtube.com/embed/tOyna06Rrcc',
     date: '2024-06-23',
     mediatype: "vid",
