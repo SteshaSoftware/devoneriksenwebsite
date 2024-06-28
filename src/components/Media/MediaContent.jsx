@@ -4,6 +4,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'The DemystifySci Podcast',
+    subtitle: "Devon talks about ethics of space exploration, the role of government in space exploration, the colonial perils of the past in the context of the New Frontier, and the role of fiction in shaping objective reality.",
+    link: 'https://www.youtube.com/embed/KA16IDnjPns',
+    date: '2024-06-27',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'Benjamin Boyce chats with Devon',
     subtitle: "Devon joins Benjamin Boyce to talk about Theft of Fire and the state of the world",
     link: 'https://www.youtube.com/embed/MT4WMbjv_sc',
