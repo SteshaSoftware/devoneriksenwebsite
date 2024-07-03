@@ -2,6 +2,7 @@ import React from 'react';
 
 import CoverSml from '../../images/ToFcover.jpg'
 import CoverLrg from '../../images/thicc-cover.png'
+import BuyDirect from '../../images/buy direct.png'
 
 export const TheftofFire = {
     Title: 'Theft of Fire',
@@ -96,6 +97,10 @@ export const TheftofFire = {
             ],
             Paper: [
                 {
+                    buylink: "https://shop.ingramspark.com/b/084?wbCYOd4Hfljqf9CO8PI5itUYGF8qaiqcVnS8UQai3Z3",
+                    linkimg: BuyDirect
+                },
+                {
                     buylink: "https://www.amazon.com/gp/product/1962514021?tag=devoneriksen-20",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/amazon_square_logo_Kabb825/37f201a77546f90514bff6f1774a2d05.png"
                 },
@@ -113,6 +118,10 @@ export const TheftofFire = {
                 },
             ],
             Hard: [
+                {
+                    buylink: "https://shop.ingramspark.com/b/084?LCKbmA3mekemVEAFCEmAdtiT9IIXc4xbKFj1FuBghfH",
+                    linkimg: BuyDirect
+                },
                 {
                     buylink: "https://www.amazon.com/gp/product/1962514013?tag=devoneriksen-20",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/amazon_square_logo_Kabb825/37f201a77546f90514bff6f1774a2d05.png"
