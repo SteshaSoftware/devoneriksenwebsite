@@ -117,7 +117,9 @@ const Navbar = () => {
 
 
                 <Link to='/'>
-                  <Button className={`${pathname === "/" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Home</Button>
+                  <Typography className={`${pathname === "/" ? "activeClass" : "noActiveClass"} font-style dropdown`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'10px', fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    HOME
+                  </Typography>
                 </Link>
                 <Link to={"/novels"}>
                   <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1 }} >
@@ -191,7 +193,9 @@ const Navbar = () => {
                   </Box>
                 </Link>
                 <Link to='/events'>
-                  <Button className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Events</Button>
+                  <Typography className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'0px',fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    EVENTS
+                  </Typography>
                 </Link>
                 <Link to='/media'>
                   <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1, py: 1 }}><div className="antialiased">
@@ -232,20 +236,24 @@ const Navbar = () => {
                   </Box>
                 </Link>
                 <Link to='/about'>
-                  <Button className={`${pathname === "/about" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>About</Button>
+                  <Typography className={`${pathname === "/about" ? "activeClass" : "noActiveClass"} font-style dropdown`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'10px', fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    ABOUT
+                  </Typography>
                 </Link>
 
                 <Link to='/contact'>
-                  <Button className={`${pathname === "/contact" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Contact</Button>
+                  <Typography className={`${pathname === "/contact" ? "activeClass" : "noActiveClass"} font-style dropdown`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'10px', fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    CONTACT
+                  </Typography>
                 </Link>
                 <a
                   href="https://devoneriksen.substack.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="font-style" sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
-                    Substack
-                  </Button>
+                  <Typography className="font-style dropdown" sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'10px', fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    SUBSTACK
+                  </Typography>
                 </a>
                 <div className="fixed-buy-now-button">
                   <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" target="_blank" rel="noopener noreferrer"
@@ -301,9 +309,9 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button className="font-style" sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
-                      Substack
-                    </Button>
+                    <Typography className="font-style dropdown" sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                      SUBSTACK
+                    </Typography>
                   </a>
                   <NavBarButton menuname="Buy Now"
                     link="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" />
