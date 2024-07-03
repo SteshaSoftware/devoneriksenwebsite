@@ -42,9 +42,9 @@ function PurchasePage({ Cover, Page, Title, Series, SeriesNum, Links }) {
                         </a>
                     </Grid>
                     <Grid item xs={12} sm="auto">
-                        
-                        <Typography sx={{ fontSize: { xs: '1rem', sm: '1.5rem' }, color: 'white' }}>Buy Direct</Typography>
-                        <Typography sx={{ fontSize: { xs: '1rem', sm: '1.5rem' }, color: 'white' }}>and SAVE</Typography>
+
+                        <Typography sx={{ fontSize: { xs: '1.2rem', sm: '1.5rem' }, fontWeight: 'bold', color: '#ff9b02' }}>BUY DIRECT</Typography>
+                        <Typography sx={{ fontSize: { xs: '1.2rem', sm: '1.5rem' }, fontWeight: 'bold', color: 'ff9b02' }}>and SAVE</Typography>
                     </Grid>
 
                 </Grid>
