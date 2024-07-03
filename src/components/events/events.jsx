@@ -11,18 +11,10 @@ const Events = () => {
             </Typography>
             <Grid container sx={{ marginTop: 1, marginBottom: 30 }} justifyContent={"center"} spacing={4}>
                 
-        
-                <Grid item xs={12} md={6}>
-                    <a href="https://writerscantina.org/" onClick={() => window.sa_event('event')}>
-                        <div data-aos="zoom-out-right" className='p-3 rounded-xl event-card '>
-                            <Typography variant='body1' sx={{ color: "#b79cff", fontSize: 20, fontWeight: "bold" }}>06/28 - 06/29</Typography>
-                            <Typography variant='small' sx={{ color: "#ff9b02", fontSize: 20 }}>Writer’s Cantina West Valley City, UT</Typography>
-                        </div>
-                    </a>
-                </Grid>
+       
                 <Grid item xs={12} md={6}>
                     <a href="https://www.entertheimaginarium.com/" onClick={() => window.sa_event('event')}>
-                        <div data-aos="zoom-out-left" className='p-3 rounded-xl event-card   '>
+                        <div data-aos="zoom-out-right" className='p-3 rounded-xl event-card   '>
                             <Typography variant='body1' sx={{ color: "#b79cff", fontSize: 20, fontWeight: "bold" }}>07/19 - 07/21</Typography>
                             <Typography variant='small' sx={{ color: "#ff9b02", fontSize: 20 }}>Imaginarum Louisville, KY</Typography>
                         </div>
