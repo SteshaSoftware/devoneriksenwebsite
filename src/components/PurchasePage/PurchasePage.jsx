@@ -1,11 +1,13 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import buy from '../../images/buy.png'
+import buy from '../../images/buy direct.png'
 import '../allnovels/allnovels.css';
 
 
 function PurchasePage({ Cover, Page, Title, Series, SeriesNum, Links }) {
+    const direct = Links?.[0]?.Hard?.[0] || null;
+
     return (
 
         <Grid container spacing={2} justifyContent="center" style={{ textAlign: 'center' }}>
@@ -18,32 +20,33 @@ function PurchasePage({ Cover, Page, Title, Series, SeriesNum, Links }) {
                     sx={{ width: 270, margin: 'auto', display: 'block' }}
                     image={Cover}
                     alt="novel cover"
-                /><br/>
+                /><br />
 
                 <Grid container spacing={2} alignItems="center" justifyContent="center">
                     <Grid item xs={12} sm="auto">
-                        <Card sx={{ maxWidth: { xs: 50, sm: 50 }, margin: 'auto' }}>
+                        <a
+                            href={direct.buylink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => window.sa_event('Buy_Other')}
+                            style={{ display: 'block', margin: 'auto' }}
+                        >
+                            <Card sx={{ maxWidth: { xs: 50, sm: 100 }, margin: 'auto' }}>
+
                                 <CardMedia
                                     component="img"
-                                    image={buy}
-                                    alt="Buy Icon"
+                                    image={direct.linkimg}
+                                    alt="Buy Direct"
                                 />
-                        </Card>
+                            </Card>
+                        </a>
                     </Grid>
                     <Grid item xs={12} sm="auto">
-                        <Typography sx={{ fontSize: { xs: '1rem', sm: '1.5rem' }, color: 'white' }}>
-                            Skip the Middle-Man, Buy Direct and SAVE
-                        </Typography>
+                        
+                        <Typography sx={{ fontSize: { xs: '1rem', sm: '1.5rem' }, color: 'white' }}>Buy Direct</Typography>
+                        <Typography sx={{ fontSize: { xs: '1rem', sm: '1.5rem' }, color: 'white' }}>and SAVE</Typography>
                     </Grid>
-                    <Grid item xs={12} sm="auto">
-                        <Card sx={{ maxWidth: { xs: 50, sm: 50 }, margin: 'auto' }}>
-                                <CardMedia
-                                    component="img"
-                                    image={buy}
-                                    alt="Buy Icon"
-                                />
-                        </Card>
-                    </Grid>
+
                 </Grid>
             </Grid>
 
@@ -60,7 +63,7 @@ function PurchasePage({ Cover, Page, Title, Series, SeriesNum, Links }) {
                                         <CardMedia
                                             component="img"
                                             image={ebook.linkimg}
-                                            alt={`Buy link for ebook - ${idx + 1}`}
+                                            alt={`Buy link for ebook`}
                                         />
                                     </CardActionArea>
                                 </Card>
@@ -79,7 +82,7 @@ function PurchasePage({ Cover, Page, Title, Series, SeriesNum, Links }) {
                                         <CardMedia
                                             component="img"
                                             image={paper.linkimg}
-                                            alt={`Buy link for paperback - ${idx + 1}`}
+                                            alt={`Buy link for paperback`}
                                         />
                                     </CardActionArea>
                                 </Card>
@@ -97,7 +100,7 @@ function PurchasePage({ Cover, Page, Title, Series, SeriesNum, Links }) {
                                         <CardMedia
                                             component="img"
                                             image={hard.linkimg}
-                                            alt={`Buy link for hardback - ${idx + 1}`}
+                                            alt={`Buy link for hardback`}
                                         />
                                     </CardActionArea>
                                 </Card>
