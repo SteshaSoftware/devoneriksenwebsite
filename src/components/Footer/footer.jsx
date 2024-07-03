@@ -6,7 +6,7 @@ import { Stack, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { FaRedditAlien } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
-import { FaNewspaper } from 'react-icons/fa'
+import { SiSubstack } from "react-icons/si";
 import "./footer.css"
 
 const Footer = () => {
@@ -46,8 +46,8 @@ const Footer = () => {
                             <FaGoodreads className='icons' size={30} />
                         </a>
                        
-                        <a href='https://devoneriksen.substack.com/' target='_blank' onClick={() => window.sa_event('Social_Substack')}>
-                            <FaNewspaper className='icons' size={30} />
+                        <a href='https://devoneriksen.substack.com/' target='_blank' rel="noopener noreferrer" onClick={() => window.sa_event('Social_Substack')}>
+                            <SiSubstack className='icons' size={30} />
                         </a>
                         <a href='https://twitter.com/Devon_Eriksen_' target='_blank' onClick={() => window.sa_event('Social_X')}>
                             <RiTwitterXLine className='icons' size={30} />

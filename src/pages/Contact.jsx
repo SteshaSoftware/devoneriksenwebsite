@@ -6,7 +6,7 @@ import { FaRedditAlien } from "react-icons/fa"
 import { FaFacebookSquare} from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
 import { FaInstagram } from "react-icons/fa"
-import { FaNewspaper } from 'react-icons/fa'
+import { SiSubstack } from "react-icons/si";
 
 const Contact = () => {
     const {
@@ -42,7 +42,7 @@ const Contact = () => {
                                     <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>DevonEriksen</Typography>
                                 </a>
                                 <a href='https://devoneriksen.substack.com/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_SS')}>
-                                    <FaNewspaper size={42} />
+                                    <SiSubstack size={42} />
                                     <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>DevonEriksen.Substack</Typography>
                                 </a>
                                 <a href='https://twitter.com/Devon_Eriksen_' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_X')}>
