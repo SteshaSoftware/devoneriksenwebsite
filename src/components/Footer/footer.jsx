@@ -5,7 +5,8 @@ import { RiTwitterXLine, RiTwitterXFill } from 'react-icons/ri';
 import { Stack, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { FaRedditAlien } from "react-icons/fa"
-import {FaInstagram} from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
+import { FaNewspaper } from 'react-icons/fa'
 import "./footer.css"
 
 const Footer = () => {
@@ -36,17 +37,23 @@ const Footer = () => {
                         <NavLink to={"/contact"} className="links">
                             CONTACT
                         </NavLink>
+                        <a href="https://devoneriksen.substack.com" className="links" target="_blank" rel="noopener noreferrer" onClick={() => window.sa_event('Substack')}>
+                            SUBSTACK
+                        </a>
                     </Stack>
                     <Stack direction="row" spacing={1.5} justifyContent="center" onClick={() => window.sa_event('Social_GR')}>
                         <a href='https://www.goodreads.com/book/show/199142773-theft-of-fire' target='_blank'>
                             <FaGoodreads className='icons' size={30} />
                         </a>
-                        <a href='https://www.facebook.com/DevonEriksen/' target='_blank' onClick={() => window.sa_event('Social_FB')}>
-                            <FaFacebookSquare className='icons' size={30} />
+                       
+                        <a href='https://devoneriksen.substack.com/' target='_blank' onClick={() => window.sa_event('Social_Substack')}>
+                            <FaNewspaper className='icons' size={30} />
                         </a>
-
                         <a href='https://twitter.com/Devon_Eriksen_' target='_blank' onClick={() => window.sa_event('Social_X')}>
                             <RiTwitterXLine className='icons' size={30} />
+                        </a>
+                        <a href='https://www.facebook.com/DevonEriksen/' target='_blank' onClick={() => window.sa_event('Social_FB')}>
+                            <FaFacebookSquare className='icons' size={30} />
                         </a>
                         <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank' onClick={() => window.sa_event('Social_Reddit')}>
                             <FaRedditAlien className='icons' size={30} />

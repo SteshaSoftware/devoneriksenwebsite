@@ -1,15 +1,12 @@
 import { Box, Grid, Stack, Typography } from '@mui/material'
 import React from 'react'
-import { MdLocationPin } from "react-icons/md"
-import { FaPhoneAlt } from "react-icons/fa";
-import { BsFillSendFill } from "react-icons/bs";
 import { useForm } from 'react-hook-form';
-import { useDispatch } from 'react-redux';
 import { FaGoodreads } from "react-icons/fa"
 import { FaRedditAlien } from "react-icons/fa"
-import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookSquare} from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
 import { FaInstagram } from "react-icons/fa"
+import { FaNewspaper } from 'react-icons/fa'
 
 const Contact = () => {
     const {
@@ -40,24 +37,27 @@ const Contact = () => {
 
                         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
                             <Stack direction="column" spacing={2} alignItems="start" sx={{ maxWidth: 'fit-content' }}>
-
-                                <a href='https://www.goodreads.com/author/show/44421655.Devon_Eriksen' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                            <a href='https://www.goodreads.com/author/show/44421655.Devon_Eriksen' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_GR')}>
                                     <FaGoodreads size={42} />
                                     <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>DevonEriksen</Typography>
                                 </a>
-                                <a href='https://www.facebook.com/DevonEriksen/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-                                    <FaFacebookSquare size={42} />
-                                    <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>Devon_Eriksen</Typography>
+                                <a href='https://devoneriksen.substack.com/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_SS')}>
+                                    <FaNewspaper size={42} />
+                                    <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>DevonEriksen.Substack</Typography>
                                 </a>
-                                <a href='https://twitter.com/Devon_Eriksen_' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                                <a href='https://twitter.com/Devon_Eriksen_' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_X')}>
                                     <RiTwitterXLine size={42} />
                                     <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>@Devon_Eriksen_</Typography>
                                 </a>
-                                <a href='https://www.reddit.com/user/devoneriksenwrites/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                                <a href='https://www.facebook.com/DevonEriksen/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_FB')}>
+                                    <FaFacebookSquare size={42} />
+                                    <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>Devon_Eriksen</Typography>
+                                </a>
+                                <a href='https://www.reddit.com/user/devoneriksenwrites/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_Reddit')}>
                                     <FaRedditAlien size={42} />
                                     <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>u/DevonEriksenWrites</Typography>
                                 </a>
-                                <a href='https://www.instagram.com/devoneriksen/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                                <a href='https://www.instagram.com/devoneriksen/' className='icons' target='_blank' style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} onClick={() => window.sa_event('Social_Substack')}>
                                     <FaInstagram size={42} />
                                     <Typography fontSize={"23px"} sx={{ marginLeft: 2 }}>@DevonEriksen</Typography>
                                 </a>

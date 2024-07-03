@@ -15,12 +15,8 @@ const NavItems = [
     {
       label: 'Writing',
       path: '/writing',
-      subItems: [
-        {
-          label: 'Fiction',
-          path: '/writingfiction',
-          subItems: null
-        },
+      subItems: null,
+    },
         {
             label: 'Events',
             path: '/events',
@@ -41,8 +37,12 @@ const NavItems = [
             path: '/contact',
             subItems: null,
           },
-      ]
-    }
+          {
+            label: 'Substack',
+            external: 'https://devoneriksen.substack.com',
+            subItems: null,
+          },
+ 
   ];
 
   export default NavItems

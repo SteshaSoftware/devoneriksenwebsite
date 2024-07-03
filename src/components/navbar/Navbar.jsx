@@ -194,7 +194,7 @@ const Navbar = () => {
                   <Button className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Events</Button>
                 </Link>
                 <Link to='/media'>
-                <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1, py: 1 }}><div className="antialiased">
+                  <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1, py: 1 }}><div className="antialiased">
                     <div className="group">
                       <div
                         className={`${pathname === "/media" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
@@ -238,24 +238,34 @@ const Navbar = () => {
                 <Link to='/contact'>
                   <Button className={`${pathname === "/contact" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Contact</Button>
                 </Link>
+                <a
+                  href="https://devoneriksen.substack.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="font-style" sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    Substack
+                  </Button>
+                </a>
                 <div className="fixed-buy-now-button">
-                  <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" target="_blank" rel="noopener noreferrer" 
-                  onClick={() => window.sa_event('MenuBuy')}
-                  style={{ textDecoration: 'none' }}>
+                  <a href="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" target="_blank" rel="noopener noreferrer"
+                    onClick={() => window.sa_event('MenuBuy')}
+                    style={{ textDecoration: 'none' }}>
                     <Button sx={{
                       color: "#FFFFFF",
                       fontSize: "18px",
                       fontFamily: "Poppins",
                       fontWeight: 300,
-                      border: '2px solid purple', 
-                      borderRadius: '20px', 
-                      padding: '10px', 
-                      textTransform: 'upper', 
-                      ':hover':{
+                      border: '2px solid purple',
+                      borderRadius: '20px',
+                      padding: '10px',
+                      textTransform: 'upper',
+                      ':hover': {
                         bgcolor: 'transparent', // Maintain hollow effect on hover
                         opacity: 0.7, // Optional: slight opacity change on hover
-                      }}}>
-                      Buy Now  <FaArrowCircleRight style={{ marginLeft: '8px'}} />
+                      }
+                    }}>
+                      Buy Now  <FaArrowCircleRight style={{ marginLeft: '8px' }} />
                     </Button>
                   </a>
                 </div>
@@ -279,13 +289,22 @@ const Navbar = () => {
                     { label: 'Short Fiction', link: 'writingfiction' }]}
                     openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <NavBarButton menuname="Events" />
-                  <DropdownMenu pathname={pathname} menuName="Media" 
-                  subMenuItems={[{ label: 'Awards', link: 'awards' },
+                  <DropdownMenu pathname={pathname} menuName="Media"
+                    subMenuItems={[{ label: 'Awards', link: 'awards' },
                     { label: 'Reviews', link: 'reviews' },
                     { label: 'Interviews', link: 'interviews' }]}
                     openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <NavBarButton menuname="About" />
                   <NavBarButton menuname="Contact" />
+                  <a
+                    href="https://devoneriksen.substack.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="font-style" sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                      Substack
+                    </Button>
+                  </a>
                   <NavBarButton menuname="Buy Now"
                     link="https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20" />
                 </Stack>
