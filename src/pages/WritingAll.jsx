@@ -20,16 +20,20 @@ import { update20240223 } from '../writing/Updates/update20240223';
 import { update20240226 } from '../writing/Updates/update20240226';
 import { update20240313 } from '../writing/Updates/update20240313';
 import { update20240509 } from '../writing/Updates/update20240509';
+import { update20240703 } from '../writing/Updates/update20240703';
 
 import { writingprocess } from '../writing/Craft/writingprocess';
 import { changeplans } from '../writing/Craft/changeplans';
 import { exposition } from '../writing/Craft/exposition';
 import { completework } from '../writing/Craft/completework';
+import { storybloat } from '../writing/Craft/storybloat';
 
 function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    storybloat,
+    update20240703,
     update20240509,
     update20240313,
     update20240226,
