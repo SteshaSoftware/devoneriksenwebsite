@@ -7,7 +7,7 @@ export const MediaContent = [
     title: 'Theft of Fire review by author John A. Douglas',
     subtitle: "Iron Age Author of The Black Crown, John A. Douglas, Reviews Theft of Fire.",
     link: 'https://www.youtube.com/embed/Xr3Ag687ers',
-    date: '2024-06-27',
+    date: '2024-07-11',
     mediatype: "vid",
     tag: "review"
   },
