@@ -4,6 +4,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'Theft of Fire review by author John A. Douglas',
+    subtitle: "Iron Age Author of The Black Crown, John A. Douglas, Reviews Theft of Fire.",
+    link: 'https://www.youtube.com/embed/Xr3Ag687ers',
+    date: '2024-06-27',
+    mediatype: "vid",
+    tag: "review"
+  },
+  {
     title: 'The DemystifySci Podcast',
     subtitle: "Devon talks about ethics of space exploration, the role of government in space exploration, the colonial perils of the past in the context of the New Frontier, and the role of fiction in shaping objective reality.",
     link: 'https://www.youtube.com/embed/KA16IDnjPns',
@@ -21,7 +29,7 @@ export const MediaContent = [
   },
   {
     title: 'Theft of Fire review by author Michael R. Schultheiss',
-    subtitle: "Author of Ark of Ascension and The Rostevak Saga reviews Theft of Fire.",
+    subtitle: "Author of Ark of Ascension and The Rostevak Saga, Michael R. Schultheiss, reviews Theft of Fire.",
     link: 'https://www.youtube.com/embed/B9hV5VW7Qaw',
     date: '2024-06-23',
     mediatype: "vid",
