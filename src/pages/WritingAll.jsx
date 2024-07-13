@@ -30,11 +30,13 @@ import { changeplans } from '../writing/Craft/changeplans';
 import { exposition } from '../writing/Craft/exposition';
 import { completework } from '../writing/Craft/completework';
 import { storybloat } from '../writing/Craft/storybloat';
+import { unreliablenarrator } from '../writing/Craft/unreliablenarrator';
 
 function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    unreliablenarrator,
     update20240706,
     update20240705,
     update20240704,
