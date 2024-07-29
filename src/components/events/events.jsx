@@ -13,10 +13,10 @@ const Events = () => {
                 
        
                 <Grid item xs={12} md={6}>
-                    <a href="https://www.libertycon.org/" onClick={() => window.sa_event('event')}>
+                    <a href="https://www.dragoncon.org/" onClick={() => window.sa_event('event')}>
                         <div data-aos="zoom-out-right" className='p-3 rounded-xl event-card   '>
-                            <Typography variant='body1' sx={{ color: "#b79cff", fontSize: 20, fontWeight: "bold" }}>06/22 - 06/23</Typography>
-                            <Typography variant='small' sx={{ color: "#ff9b02", fontSize: 20 }}>Liberty Con Chattanooga, TN</Typography>
+                            <Typography variant='body1' sx={{ color: "#b79cff", fontSize: 20, fontWeight: "bold" }}>08/29 - 09/02</Typography>
+                            <Typography variant='small' sx={{ color: "#ff9b02", fontSize: 20 }}>Dragon Con - Atlanta, GA</Typography>
                         </div>
                     </a>
                 </Grid>
