@@ -2,11 +2,16 @@ import React from 'react';
 import Audio from '../../images/AudioSignup.png'
 import DisSciFi from '../../images/DisSciFi5.png'
 import BoTUpdate from '../../images/BoTUpdate.png'
-import DragonAward from '../../images/DragonAward.png'
+import DragonAward from '../../images/Dragon Award Finalist.png'
 
 export const HighlightList = {
     HL_List: [
-       
+        {
+            Pic: DragonAward,
+            Picalt: 'Dragon Award Finalist',
+            Link: 'https://awards.dragoncon.org/2024-ballot/', 
+            Click: 'HL_Amazon'
+        },
         {
             Pic: DisSciFi,
             Picalt: 'Discover Sci Fi #5',

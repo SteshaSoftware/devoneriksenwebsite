@@ -13,6 +13,7 @@ export const TheftofFire = {
     CoverStatus: 'done',
     Page: 'theft-of-fire',
     Awards: [
+        { Award: 'Dragon Award 2024 Finalist' },
         { Award: 'Prometheus Award 2023 Finalist' },
         { Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"' },
         { Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science' },
