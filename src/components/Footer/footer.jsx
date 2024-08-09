@@ -45,7 +45,7 @@ const Footer = () => {
                         <a href='https://www.goodreads.com/book/show/199142773-theft-of-fire' target='_blank'>
                             <FaGoodreads className='icons' size={30} />
                         </a>
-                       
+
                         <a href='https://devoneriksen.substack.com/' target='_blank' rel="noopener noreferrer" onClick={() => window.sa_event('Social_Substack')}>
                             <SiSubstack className='icons' size={30} />
                         </a>
@@ -65,8 +65,11 @@ const Footer = () => {
                 </Stack>
 
                 <Typography variant="body1" sx={{ marginTop: 3, color: "white", textAlign: "center", fontFamily: "" }}>
-                    Copyright © 2023 Devon Eriksen LLC
-                </Typography>
+                    Copyright © 2023 Devon Eriksen LLC<br/><hr/>
+
+                <a href="https://drive.google.com/drive/u/2/folders/12mMlKAPSsf485YJirsbG2Zyf1uHbJYvp" className="links" target="_blank" rel="noopener noreferrer" onClick={() => window.sa_event('Substack')}>
+                            PRESS KIT
+                        </a></Typography>
             </div>
         </>
     )
