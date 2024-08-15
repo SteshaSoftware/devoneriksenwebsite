@@ -19,29 +19,28 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-      <> <Box 
-      sx={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        marginBottom: '20px' ,
-      }}
-    >
-      <Starbutton 
-        GlowTxt="KICKSTARTER LIVE NOW!" 
-        LinkGlow="https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook" 
-      />
-    </Box>
-     <Highlights />
-     
-    
-  
-     <MainBook {...TheftofFire} />
-     
-     <Reviews quotes={TheftofFire.Quotes} />
-     
-  </>
-
-  )
+    <>
+      <Box 
+        sx={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          marginBottom: '20px',
+        }}
+      >
+        <Starbutton 
+          GlowTxt="AUDIOBOOK KICKSTARTER LIVE NOW!" 
+          LinkGlow="https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook" 
+          customWidth="700px"  // Add this line to specify the custom width
+        />
+      </Box>
+      
+      <Highlights />
+      
+      <MainBook {...TheftofFire} />
+      
+      <Reviews quotes={TheftofFire.Quotes} />
+    </>
+  );
 }
 
-export default Home
+export default Home;
