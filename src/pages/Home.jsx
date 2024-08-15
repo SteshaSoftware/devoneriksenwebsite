@@ -8,8 +8,10 @@ import Navbar from '../components/navbar/Navbar';
 import ReviewCard from '../components/ReviewCard/reviewCard';
 import Reviews from '../components/Reviews/reviews';
 import Highlights from  '../components/Highlights/highlights';
+import Starbutton from  '../components/StarButton/starbutton';
 
 import { TheftofFire } from '../components/Books/Orbital-ToF';
+
 
 const Home = () => {
   useEffect(() => {
@@ -19,7 +21,20 @@ const Home = () => {
   return (
       <>
      <Highlights />
-
+     
+     <Box 
+  sx={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    marginBottom: '20px' ,
+  }}
+>
+  <Starbutton 
+    GlowTxt="Audiobook Kickstarter LIVE NOW!" 
+    LinkGlow="https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook" 
+  />
+</Box>
+  
      <MainBook {...TheftofFire} />
      
      <Reviews quotes={TheftofFire.Quotes} />
