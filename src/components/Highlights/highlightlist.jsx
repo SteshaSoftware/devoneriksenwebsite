@@ -15,8 +15,8 @@ export const HighlightList = {
     
         {
             Pic: Audio,
-            Picalt: 'Audio Sign Up',
-            Link: 'https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook?ref=discovery&term=theft%20of%20fire&total_hits=1&category_id=47',
+            Picalt: 'Kickstarter',
+            Link: 'https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook?ref=df8v38',
             Click: 'HL_Audio'
         },
       
