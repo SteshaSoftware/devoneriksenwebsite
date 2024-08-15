@@ -19,21 +19,21 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-      <>
+      <> <Box 
+      sx={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        marginBottom: '20px' ,
+      }}
+    >
+      <Starbutton 
+        GlowTxt="KICKSTARTER LIVE NOW!" 
+        LinkGlow="https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook" 
+      />
+    </Box>
      <Highlights />
      
-     <Box 
-  sx={{ 
-    display: 'flex', 
-    justifyContent: 'center', 
-    marginBottom: '20px' ,
-  }}
->
-  <Starbutton 
-    GlowTxt="Audiobook Kickstarter LIVE NOW!" 
-    LinkGlow="https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook" 
-  />
-</Box>
+    
   
      <MainBook {...TheftofFire} />
      
