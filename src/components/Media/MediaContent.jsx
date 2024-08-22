@@ -4,6 +4,22 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'Dirtbaggery Reviews Theft of Fire' ,
+    subtitle: "Dirtbaggery gives a glowing review to Theft of Fire, and recommends it for the Dragon Awards",
+    link: 'https://www.youtube.com/embed/uQkx6-6rN0U',
+    date: '2024-07-11',
+    mediatype: "vid",
+    tag: "review"
+  },
+  {
+    title: 'Devon on What The Truck',
+    subtitle: "Devon Discusses all things related to the Theft of Fire audiobook on what the truck.",
+    link: 'https://www.youtube.com/embed/3zKFEfYB4fk',
+    date: '2024-07-11',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'Theft of Fire review by author John A. Douglas',
     subtitle: "Iron Age Author of The Black Crown, John A. Douglas, Reviews Theft of Fire.",
     link: 'https://www.youtube.com/embed/Xr3Ag687ers',
