@@ -6,12 +6,7 @@ import DragonAward from '../../images/Dragon Award Finalist.png'
 
 export const HighlightList = {
     HL_List: [
-        {
-            Pic: DragonAward,
-            Picalt: 'Dragon Award Finalist',
-            Link: 'https://awards.dragoncon.org/2024-ballot/', 
-            Click: 'HL_Amazon'
-        },
+     
     
         {
             Pic: Audio,
