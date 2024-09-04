@@ -1,8 +1,34 @@
+import DragonAward from '../../images/Dragon Award Finalist.png'
 import SciFi2023 from '../../images/DiscoverSciFi.png'
 import AtomicRocket from '../../images/AtomicRocket.png'
 import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
+  {
+    title: 'Robert Breedlove Invites Devon Back on What Is Money' ,
+    subtitle: 'They discuss his book "Theft of Fire", the linguistic qualities of money, the consequences of distorting money, the importance of storytelling, the ethical implications of AI and humanoid robots, the line between artificial and natural, and how we can win the culture war and create a better vision for the future.',
+    link: 'https://www.youtube.com/embed/wetn2Io2Ru8',
+    date: '2024-09-04',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {title: "Rekindling Humanity's Ambition Through Story with Devon Eriksen" ,
+    subtitle: `Can the stories we tell shape the future we build? Devon Eriksen, author of "Theft of Fire" and now Dragon Award finalist, argues that science fiction isn't just entertainment; it's a catalyst for innovation and human progress. Our narratives can be beautiful and optimistic, inspiring us to build, or ugly and pessimistic, causing us to stagnate. It's time to choose.`,
+    link: 'https://www.youtube.com/embed/A4BmmNPI3_A',
+    date: '2024-08-13',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
+    title: "Theft of Fire selected as a finalist for The Dragon Awards",
+    subtitle: `Theft of Fire makes the list of 6 finalists for 2024 Dragon Award for Best Novel along side authors such as John Scalzi, Martha Wells, and John Ringo`,
+    pic: DragonAward,
+    picalt: 'Dragon Award Finalist 2024',
+    link: 'https://awards.dragoncon.org/2024-ballot/',
+    date: '2024-08-12',
+    mediatype: "img",
+    tag: "award"
+  },
   {
     title: 'Dirtbaggery Reviews Theft of Fire' ,
     subtitle: "Dirtbaggery gives a glowing review to Theft of Fire, and recommends it for the Dragon Awards",
