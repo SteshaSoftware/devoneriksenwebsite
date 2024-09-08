@@ -26,14 +26,14 @@ export const MediaContent = [
     },
   {
     title: 'Robert Breedlove Invites Devon Back on What Is Money' ,
-    subtitle: 'They discuss his book "Theft of Fire", the linguistic qualities of money, the consequences of distorting money, the importance of storytelling, the ethical implications of AI and humanoid robots, the line between artificial and natural, and how we can win the culture war and create a better vision for the future.',
+    subtitle: 'They discuss his book <i>Theft of Fire</i>, the linguistic qualities of money, the consequences of distorting money, the importance of storytelling, the ethical implications of AI and humanoid robots, the line between artificial and natural, and how we can win the culture war and create a better vision for the future.',
     link: 'https://www.youtube.com/embed/wetn2Io2Ru8',
     date: '2024-09-04',
     mediatype: "vid",
     tag: "interview"
   },
   {title: "Rekindling Humanity's Ambition Through Story with Devon Eriksen" ,
-    subtitle: `Can the stories we tell shape the future we build? Devon Eriksen, author of "Theft of Fire" and now Dragon Award finalist, argues that science fiction isn't just entertainment; it's a catalyst for innovation and human progress. Our narratives can be beautiful and optimistic, inspiring us to build, or ugly and pessimistic, causing us to stagnate. It's time to choose.`,
+    subtitle: `Can the stories we tell shape the future we build? Devon Eriksen, author of Theft of Fire and now Dragon Award finalist, argues that science fiction isn't just entertainment; it's a catalyst for innovation and human progress. Our narratives can be beautiful and optimistic, inspiring us to build, or ugly and pessimistic, causing us to stagnate. It's time to choose.`,
     link: 'https://www.youtube.com/embed/A4BmmNPI3_A',
     date: '2024-08-13',
     mediatype: "vid",
@@ -41,7 +41,7 @@ export const MediaContent = [
   },
   {
     title: "Theft of Fire selected as a finalist for The Dragon Awards",
-    subtitle: `Theft of Fire makes the list of 6 finalists for 2024 Dragon Award for Best Novel along side authors such as John Scalzi, Martha Wells, and John Ringo`,
+    subtitle: `<i>Theft of Fire<i> makes the list of 6 finalists for 2024 Dragon Award for Best Novel along side authors such as John Scalzi, Martha Wells, and John Ringo`,
     pic: DragonAward,
     picalt: 'Dragon Award Finalist 2024',
     link: 'https://awards.dragoncon.org/2024-ballot/',
@@ -51,7 +51,7 @@ export const MediaContent = [
   },
   {
     title: 'Dirtbaggery Reviews Theft of Fire' ,
-    subtitle: "Dirtbaggery gives a glowing review to Theft of Fire, and recommends it for the Dragon Awards",
+    subtitle: "Dirtbaggery gives a glowing review to <i>Theft of Fire</i>, and recommends it for the Dragon Awards",
     link: 'https://www.youtube.com/embed/uQkx6-6rN0U',
     date: '2024-07-11',
     mediatype: "vid",
@@ -67,7 +67,7 @@ export const MediaContent = [
   },
   {
     title: 'Theft of Fire review by author John A. Douglas',
-    subtitle: "Iron Age Author of The Black Crown, John A. Douglas, Reviews Theft of Fire.",
+    subtitle: "Iron Age Author of <i>The Black Crown</i>, John A. Douglas, Reviews <i>Theft of Fire</i>.",
     link: 'https://www.youtube.com/embed/Xr3Ag687ers',
     date: '2024-07-11',
     mediatype: "vid",
@@ -91,7 +91,7 @@ export const MediaContent = [
   },
   {
     title: 'Theft of Fire review by author Michael R. Schultheiss',
-    subtitle: "Author of Ark of Ascension and The Rostevak Saga, Michael R. Schultheiss, reviews Theft of Fire.",
+    subtitle: "Author of Ark of Ascension and The Rostevak Saga, Michael R. Schultheiss, reviews <i>Theft of Fire</i>.",
     link: 'https://www.youtube.com/embed/B9hV5VW7Qaw',
     date: '2024-06-23',
     mediatype: "vid",
@@ -122,8 +122,8 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-    title: "Theft of Fire review by Caleb Beers",
-    subtitle: `Caleb Beers, author of "A Pointless, Thoroughly Upsetting Story", write a thougtful review of Theft of Fire`,
+    title: "Theft of Fire review by author Caleb Beers",
+    subtitle: `Caleb Beers, author of <i>A Pointless, Thoroughly Upsetting Story</i>, write a thougtful review of <i>Theft of Fire</i>`,
     content: `...I can praise more or less every aspect of it. The pacing is perfect, where every trough in the action is 
     set up with anticipation of the next crest. The characters are all memorable and endearing and delightfully weird in 
     their own way. The technological world seems perfect to me, but maybe that’s just because it confirms all of my own 
@@ -158,8 +158,8 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-    title: "Theft of Fire review by Neal Asher",
-    subtitle: `Neal Asher, author of the Polity Universe novels, reviews Theft of Fire`,
+    title: "Theft of Fire review by author Neal Asher",
+    subtitle: `Neal Asher, author of the Polity Universe novels, reviews <i>Theft of Fire</i>`,
     content: `...Being confined by more-or-less conventional physics enhanced rather than distracted here, 
     but it helps that Devon obviously knows his stuff. There was no saying a magic spell with quantum in it to 
     get from A to B (yes, I’m guilty) and the realities of space travel were starkly and realistically depicted. 
@@ -180,7 +180,7 @@ export const MediaContent = [
   {
     title: "Theft of Fire selected as finalist for Prometheus Award",
     subtitle: `The Prometheus Award is an annual honor given to best libertarian science fiction novels. 
-    Theft of Fire was selected among the top 5. Past winners include Larry Niven, John Varley and Neal Stephenson. `,
+    <i>Theft of Fire</i> was selected among the top 5. Past winners include Larry Niven, John Varley and Neal Stephenson. `,
     pic: Prometheus,
     picalt: 'Prometheus Award',
     link: 'https://www.lfs.org/releases/2024PrometheusFinalists.shtml',
@@ -203,7 +203,7 @@ export const MediaContent = [
   },
   {
     title: 'Caleb Beers Interviews Devon Eriksen',
-    subtitle: "After concluding a 10 part book club series discussing Theft of Fire, Celab invites Devon for an interview.",
+    subtitle: "After concluding a 10 part book club series discussing <i>Theft of Fire</i>, Caleb invites Devon for an interview.",
     link: 'https://www.youtube.com/embed/9alj_XcvAXc',
     date: '2024-04-13',
     mediatype: "vid",
@@ -271,7 +271,7 @@ to finish...`,
 Laboratory of the Université du Québec (TÉLUQ) in Montreal. His research is focused 
 on software performance and data engineering. He is a techno-optimist and a 
 free-speech advocate.`,
-    content: `...<i>Theft of Fire</i> offers a plausible and realistic universe. The 
+    content: `...Theft of Fire offers a plausible and realistic universe. The 
 characters, Marcus Warnoc and Miranda Foxgrove, are not mere archetypes; they are 
 complex, flawed, and deeply human. Their struggle to trust one another and overcome 
 their own demons is a powerful allegory for the modern human condition. There are 
@@ -319,8 +319,8 @@ storytelling and the enduring appeal of the science fiction genre...`,
     tag: "award"
   },
   {
-    title: 'Review of Theft of Fire',
-    subtitle: "Kristoffer Newsom reviews Theft of Fire",
+    title: 'Theft of Fire review by author Kristoffer Newsom',
+    subtitle: "Kristoffer Newsom, author of Short Story <i>The Death of Paul Shephard</i>, reviews <i>Theft of Fire</i>",
     link: 'https://www.youtube.com/embed/DCOsJ5rd4gA',
     date: '2024-02-08',
     mediatype: "vid",
@@ -370,14 +370,14 @@ storytelling and the enduring appeal of the science fiction genre...`,
   },
   {
     title: "Theft of Fire review by John Walker",
-    subtitle: "<i>Theft of Fire</i> receives a glowing review on Autodesk Founder's Blog",
+    subtitle: `<i>Theft of Fire</i> receives a glowing review on Autodesk Founder's Blog`,
     content: `...The discerning reader of science fiction today can choose from a collection 
 of talented, imaginative, and prolific authors to such an extent that it’s like reading 
 Heinlein, Bradbury, Clarke, Asimov, Pohl, and Doc Smith all in their prime, but with ideas and 
 plots as new as today and tomorrow.
 <br/><br/>
 With his first novel, Theft of Fire, Devon Eriksen has jumped in at the top of the game 
-crafting a tale of “hard” science fiction (grounded in plausible science and technology, 
+crafting a tale of "hard" science fiction (grounded in plausible science and technology, 
 not magic swords and dragons wrapped in technobabble) with complex, believable 
 characters who interact and grow throughout the tale, and an artificial intelligence who 
 strikes me as far more likely to be what we’ll encounter in our own future than the 
