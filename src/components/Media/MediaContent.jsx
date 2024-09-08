@@ -5,6 +5,26 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+      title: "Theft of Fire review by Steve Jackson",
+      subtitle: `Steve Jackson, of Steve Jackson Games, the creator of Munchkin and GURPS, highly recommends <i>Theft of Fire</i>.`,
+      content: `...When I finished the book, it was in one long sitting, and you know why? It's very good!
+      <br/><br/>
+      Theft of Fire is set in the fairly near future. Humanity made it to space, mostly out of
+       desperation. The Asteroid Belt is being mined, and this story is about one of those miners 
+       and the worst day he ever had. Except things go downhill from there.
+      <br/><br/>
+      Devon Eriksen writes well and engagingly. There's no obvious comparison; I can't say 
+      "This is like so-and-so's work." He writes like Eriksen, and that's fine with me! From 
+      what I can see (he is an engineer, and I am not), the science is solid. But what matters 
+      more is that the characters are solid. I can well believe that these idiots are out there, 
+      yelling at each other when they ought to be . . . Well, read the story!...
+ `,
+      link: 'https://www.sjgames.com/ill/archive/2024-09-08',
+      date: '2024-09-08',
+      mediatype: "txt",
+      tag: "review"
+    },
+  {
     title: 'Robert Breedlove Invites Devon Back on What Is Money' ,
     subtitle: 'They discuss his book "Theft of Fire", the linguistic qualities of money, the consequences of distorting money, the importance of storytelling, the ethical implications of AI and humanoid robots, the line between artificial and natural, and how we can win the culture war and create a better vision for the future.',
     link: 'https://www.youtube.com/embed/wetn2Io2Ru8',
