@@ -17,7 +17,7 @@ export const MediaContent = [
       "This is like so-and-so's work." He writes like Eriksen, and that's fine with me! From 
       what I can see (he is an engineer, and I am not), the science is solid. But what matters 
       more is that the characters are solid. I can well believe that these idiots are out there, 
-      yelling at each other when they ought to be . . . Well, read the story!...
+      yelling at each other when they ought to be... Well, read the story!...
  `,
       link: 'https://www.sjgames.com/ill/archive/2024-09-08',
       date: '2024-09-08',
