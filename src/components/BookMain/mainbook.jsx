@@ -54,20 +54,26 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
 
               <br/>
               {MainQuotes.map((quote, index) => (
-                <Typography key={index} style={{
-                  fontSize: '20px',
-                  fontStyle: 'italic',
-                  color: "#ff9b02",
-                  display: 'block',
-                  paddingLeft: '20px', // This will indent all lines of the quote
-                  textIndent: '-20px', // This negatively indents the first line to align it with other content
-                  marginLeft: '20px', 
-                  maxWidth: '90%'
-                }}>
-                  ★{quote.MainQuote}<br/>
-                </Typography>
-              ))}
-
+  <div key={index} style={{
+    border: '2px solid #fff',
+    padding: '10px', 
+    borderRadius: '8px', 
+    margin: '10px 0', 
+    maxWidth: '90%', 
+    marginLeft: '20px' 
+  }}>
+    <Typography style={{
+      fontSize: '20px',
+      fontStyle: 'italic',
+      color: "#ff9b02",
+      display: 'block',
+      paddingLeft: '20px', 
+     
+    }}>
+      {quote.MainQuote}<br/>
+    </Typography>
+  </div>
+))}
               <Typography style={{
                 fontSize: '20px'
               }} color="white">

@@ -20,7 +20,7 @@ export const TheftofFire = {
     ],
     MainQuotes: [
         { MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder` },
-        { MainQuote: `"When I finished the book, it was in one long sitting, and you know why? It's very good!" —Steve Jackson, creator of Munchkin and GURPS` },
+        { MainQuote: `"When I finished the book, it was in one long sitting, and you know why? It's very good!" —Steve Jackson, Steve Jackson Games founder` },
         { MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neal Asher, author of the Polity series` },
         { MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle` },
         //{MainQuote: `"A glorious adventure and a delight to read." —John Walker, Autodesk co-founder`},
