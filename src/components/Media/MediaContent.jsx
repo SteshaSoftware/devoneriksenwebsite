@@ -32,6 +32,13 @@ export const MediaContent = [
     mediatype: "vid",
     tag: "interview"
   },
+  {title: "Ripollworkshop Interviews Devon Back Before it all Started" ,
+    subtitle: `A blast from the past. An interview with Devon before his writing career took off, before his first book was even got released, finally is debuted 10 months later.`,
+    link: 'https://www.youtube.com/embed/EKIN9aEs7mQ',
+    date: '2024-08-27',
+    mediatype: "vid",
+    tag: "interview"
+  },
   {title: "Rekindling Humanity's Ambition Through Story with Devon Eriksen" ,
     subtitle: `Can the stories we tell shape the future we build? Devon Eriksen, author of Theft of Fire and now Dragon Award finalist, argues that science fiction isn't just entertainment; it's a catalyst for innovation and human progress. Our narratives can be beautiful and optimistic, inspiring us to build, or ugly and pessimistic, causing us to stagnate. It's time to choose.`,
     link: 'https://www.youtube.com/embed/A4BmmNPI3_A',
