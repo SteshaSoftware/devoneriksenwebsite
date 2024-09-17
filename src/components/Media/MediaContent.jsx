@@ -5,6 +5,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'Theft of Fire & Political Media feat with Bitcoin Cash' ,
+    subtitle: 'Devon joins the Bitcoin Cash podcast to discuss intellectual property & crypto, political writing & libertarianism, and many other topics.',
+    link: 'https://www.youtube.com/embed/n5NHb0fXfnA',
+    date: '2024-09-17',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
       title: "Theft of Fire review by Steve Jackson",
       subtitle: `Steve Jackson, of Steve Jackson Games, the creator of Munchkin and GURPS, highly recommends <i>Theft of Fire</i>.`,
       content: `...When I finished the book, it was in one long sitting, and you know why? It's very good!
