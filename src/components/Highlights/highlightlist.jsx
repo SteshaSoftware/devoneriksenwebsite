@@ -1,5 +1,5 @@
 import React from 'react';
-import Audio from '../../images/KS Live.jpg'
+import Audio from '../../images/AudioSignup.png'
 import DisSciFi from '../../images/DisSciFi5.png'
 import BoTUpdate from '../../images/BoTUpdate.png'
 import DragonAward from '../../images/DragonAwards Buy.png'
@@ -10,8 +10,8 @@ export const HighlightList = {
     
         {
             Pic: Audio,
-            Picalt: 'Support the audiobook Kickstarter',
-            Link: 'https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook?ref=df8v38',
+            Picalt: 'Signup for Audio Updates',
+            Link: 'https://www.subscribepage.io/TOF-Audiobook',
             Click: 'HL_Audio'
         },
         {
