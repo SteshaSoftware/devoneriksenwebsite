@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f6962dbb.css",
-    "main.js": "/static/js/main.6beab434.js",
+    "main.js": "/static/js/main.935d7e02.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/BoTcoming.png": "/static/media/BoTcoming.cb09d0c362a0a7e4c0c2.png",
@@ -13,20 +13,20 @@
     "static/media/Dragon Award Finalist.png": "/static/media/Dragon Award Finalist.f51c6459ef91711e7fe7.png",
     "static/media/DragonAwards Buy.png": "/static/media/DragonAwards Buy.3a9374c4a853cfd01abc.png",
     "static/media/banner Thea.png": "/static/media/banner Thea.b167b5cec40fa9f423de.png",
+    "static/media/AudioSignup.png": "/static/media/AudioSignup.1ffc873bc0bbc0ac9d4a.png",
     "static/media/BoTUpdate.png": "/static/media/BoTUpdate.f2975c88d0a5e4b1d525.png",
     "static/media/DisSciFi5.png": "/static/media/DisSciFi5.1e748a853da266c964eb.png",
     "static/media/DiscoverSciFi.png": "/static/media/DiscoverSciFi.36efcbfe821644aee070.png",
-    "static/media/KS Live.jpg": "/static/media/KS Live.75e3d2aca0bcee2dae4b.jpg",
     "static/media/buy direct.png": "/static/media/buy direct.c68c96887c4596854b6a.png",
     "static/media/amazon-dot-com-white.png": "/static/media/amazon-dot-com-white.956165c3d083c95d4002.png",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
     "main.f6962dbb.css.map": "/static/css/main.f6962dbb.css.map",
-    "main.6beab434.js.map": "/static/js/main.6beab434.js.map",
+    "main.935d7e02.js.map": "/static/js/main.935d7e02.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6962dbb.css",
-    "static/js/main.6beab434.js"
+    "static/js/main.935d7e02.js"
   ]
 }
