@@ -24,6 +24,9 @@ import { update20240703 } from '../writing/Updates/update20240703';
 import { update20240704 } from '../writing/Updates/update20240704';
 import { update20240705 } from '../writing/Updates/update20240705';
 import { update20240706 } from '../writing/Updates/update20240706';
+import { update20240816 } from '../writing/Updates/update20240816';
+import { update20240913 } from '../writing/Updates/update20240913';
+import { update20241003 } from '../writing/Updates/update20241003';
 
 import { writingprocess } from '../writing/Craft/writingprocess';
 import { changeplans } from '../writing/Craft/changeplans';
@@ -36,6 +39,9 @@ function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    update20241003,
+    update20240913,
+    update20240816,
     unreliablenarrator,
     update20240706,
     update20240705,
