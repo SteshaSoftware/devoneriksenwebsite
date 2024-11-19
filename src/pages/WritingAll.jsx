@@ -36,11 +36,13 @@ import { exposition } from '../writing/Craft/exposition';
 import { completework } from '../writing/Craft/completework';
 import { storybloat } from '../writing/Craft/storybloat';
 import { unreliablenarrator } from '../writing/Craft/unreliablenarrator';
+import { creatingcharacters } from '../writing/Craft/creatingcharacters';
 
 function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    creatingcharacters,
     update20241104,
     update20241025,
     update20241003,

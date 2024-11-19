@@ -1,8 +1,6 @@
 export const update20241104 = {
     title: `Box of Trouble Update`,
-    content:  `Update: 
-<br/><br/>
-1300 words yesterday, 1000 the day before.
+    content:  `1300 words yesterday, 1000 the day before.
 <br/><br/>
 Box of Trouble is at 82K words in, all major plot points resolved, details filling in as I work.
 <br/><br/>
