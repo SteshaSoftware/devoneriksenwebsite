@@ -44,8 +44,8 @@ Without gluing on irrelevant tangents in a crude attempt to sway them.
 <br/><br/>
 Good writing starts with the assumption that the reader isn't dumb.
   `,
-    link: 'https://twitter.com/Devon_Eriksen_/status/1748545750206648320',
-    date: '2024-01-19',
+    link: 'https://x.com/Devon_Eriksen_/status/1858925691506491482',
+    date: '2024-11-19',
     type: 'twitter',
     tag: 'craft',
 };
