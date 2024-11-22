@@ -5,6 +5,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'An Evening with Author David Badurina - The MIRTH QUAKE' ,
+    subtitle: 'Devon and David explored all things related to the creative process. Some spontaneous creativity, a deep dive into fostering more creativity, and plenty of laughs and discussion along the way.',
+    link: 'https://www.youtube.com/embed/h1eQUbH20NA',
+    date: '2024-11-12',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'Theft of Fire & Political Media feat with Bitcoin Cash' ,
     subtitle: 'Devon joins the Bitcoin Cash podcast to discuss intellectual property & crypto, political writing & libertarianism, and many other topics.',
     link: 'https://www.youtube.com/embed/n5NHb0fXfnA',
