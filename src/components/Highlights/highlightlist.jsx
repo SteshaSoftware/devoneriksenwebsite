@@ -3,11 +3,17 @@ import Audio from '../../images/AudioSignup.png'
 import DisSciFi from '../../images/DisSciFi5.png'
 import BoTUpdate from '../../images/BoTUpdate.png'
 import DragonAward from '../../images/DragonAwards Buy.png'
+import SaleImg from '../../images/SaleImg.png'
 
 export const HighlightList = {
     HL_List: [
      
-    
+        {
+            Pic: SaleImg,
+            Picalt: 'Signup for Audio Updates',
+            Link: '/sale',
+            Click: 'HL_Sale'
+        },
         {
             Pic: Audio,
             Picalt: 'Signup for Audio Updates',

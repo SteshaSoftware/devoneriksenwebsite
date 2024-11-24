@@ -1,0 +1,40 @@
+ .neon-button {
+    background: black; /* Neutral background for contrast */
+    color: #ff00ff; /* Neon pink text */
+    border: 2px solid #00ffff; /* Neon blue outline */
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+   .neon-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff, 0 0 45px #00ffff;
+    z-index: -1;
+  }
+  
+   .neon-button:hover {
+    color: #00ffff; /* Neon blue text on hover */
+    box-shadow: 0 0 15px #ff00ff;
+    transition: 0.3s ease;
+  }
+  
+  .neon-button:active {
+    box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    transform: scale(0.95); /* Slight click effect */
+  }

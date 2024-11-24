@@ -28,8 +28,8 @@ const Home = () => {
         }}
       >
         <Starbutton 
-          GlowTxt="AUDIOBOOK KICKSTARTER LATE PLEDGES AVAILABLE!" 
-          LinkGlow="https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook?ref=df8v38" 
+          GlowTxt= "Black Friday Sale Nov 21 - Dec 2" //"AUDIOBOOK KICKSTARTER LATE PLEDGES AVAILABLE!" 
+          LinkGlow= "/sale"//"https://www.kickstarter.com/projects/devoneriksen/theft-of-fire-the-audiobook?ref=df8v38" 
           customWidth="700px"  // Add this line to specify the custom width
         />
       </Box>

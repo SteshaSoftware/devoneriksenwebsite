@@ -1,83 +1,68 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import React from 'react';
-import { Link } from 'react-router-dom';
-import buy from '../../images/buy direct.png'
+import './PurchaseSale.css'
 import '../allnovels/allnovels.css';
+import saleimg from '../../images/SaleCrop.jpg'
 
-
-function PurchaseSale({ Cover, Page, Title, Series, SeriesNum, Links }) {
-    const direct = Links?.[0]?.Hard?.[0] || null;
-
+function PurchaseSale({ Cover, Page, Title, Series, SeriesNum }) {
     return (
-
         <Grid container spacing={2} justifyContent="center" style={{ textAlign: 'center' }}>
-            {/* Item for the cover and title */}
             <Grid item xs={12}>
-                <Typography variant='h5' color={"#ff9b02"}>Black Friday Sale</Typography>
-                <Typography variant='h5' color={"white"}> Nov 25-Dec 2nd</Typography>
                 <Card sx={{ maxWidth: { xs: 50, sm: 100 }, margin: 'auto' }}></Card>
                 <CardMedia
                     component="img"
-                    sx={{ width: 270, margin: 'auto', display: 'block' }}
-                    image={Cover}
-                    alt="novel cover"
-                /><br />
-
+                    sx={{
+                        border: '10px solid #d9d5d5',
+                        width: '60%',
+                        margin: 'auto',
+                        display: 'block',
+                    }}
+                    image={saleimg}
+                    alt="black friday sale"
+                />
+                <br />
                 <Grid container spacing={2} alignItems="center" justifyContent="center">
                     <Grid item xs={12} sm="auto">
                         <a
-                            href={direct.buylink}
+                            href="https://www.amazon.com/gp/product/B0CJHQ4LZN?tag=devoneriksen-20"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => window.sa_event('Buy_Other')}
-                            style={{ display: 'block', margin: 'auto' }}
                         >
-                            <Card sx={{ maxWidth: { xs: 50, sm: 100 }, margin: 'auto' }}>
-
-                                <CardMedia
-                                    component="img"
-                                    image={direct.linkimg}
-                                    alt="Buy Direct"
-                                />
-                            </Card>
+                            <button className="neon-button">
+                                $1.49 Kindle
+                            </button>
                         </a>
                     </Grid>
                     <Grid item xs={12} sm="auto">
-
-                        <Typography sx={{ fontSize: { xs: '1.2rem', sm: '1.5rem' }, fontWeight: 'bold', color: '#ff9b02' }}>BUY DIRECT</Typography>
-                        <Typography sx={{ fontSize: { xs: '1.2rem', sm: '1.5rem' }, fontWeight: 'bold', color: 'ff9b02' }}>and SAVE</Typography>
+                        <a
+                            href="https://shop.ingramspark.com/b/084?params=ZcXZZ0cZLY7eDhLB3V0mOI4pfCqmm0HFTBTCuRMTeUd"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => window.sa_event('Buy_Other')}
+                        >
+                            <button className="neon-button">
+                                $20 Hardback
+                            </button>
+                        </a>
                     </Grid>
-
-                </Grid>
-            </Grid>
-
-            {/* Nested grid */}
-            <Grid item container xs={12} spacing={4} justifyContent="center">
-
-                <Grid item>
-                    <Typography sx={{ fontSize: { xs: '1rem', sm: '1.5rem' } }}>Ebook</Typography>
-                    {Links.map((linkItem, index) => (
-                        linkItem.Ebook.map((ebook, idx) => (
-                            <a key={idx} href={ebook.buylink} target="_blank" rel="noopener noreferrer" style={{ display: 'block', margin: '10px 0' }} onClick={() => window.sa_event('Buy_Other')}>
-                                <Card sx={{ maxWidth: { xs: 50, sm: 100 }, margin: 'auto' }}>
-                                    <CardActionArea>
-                                        <CardMedia
-                                            component="img"
-                                            image={ebook.linkimg}
-                                            alt={`Buy link for ebook`}
-                                        />
-                                    </CardActionArea>
-                                </Card>
+                    <Grid container spacing={2} marginTop="5px" alignItems="center" justifyContent="center">
+                        <Grid item xs={12} sm="auto">
+                            <a
+                                href="/purchase/theft-of-fire"
+                                rel="noopener noreferrer"
+                                onClick={() => window.sa_event('Buy_Other')}
+                            >
+                                <button className="neon-button">
+                                    Everyday Price Options
+                                </button>
                             </a>
-                        ))
-                    ))}
+                        </Grid>
+                    </Grid>
                 </Grid>
-
             </Grid>
         </Grid>
-
     );
 }
-
 
 export default PurchaseSale;
