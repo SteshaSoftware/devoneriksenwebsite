@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Layout from './pages/Layout';
 import Novels from './pages/Novels';
+import Sale from './pages/Sale';
 import Purchase from './pages/Purchase';
 import BookDetail from './pages/BookDetail';
 import Contact from './pages/Contact';
@@ -38,6 +39,7 @@ const App = () => {
         { index: true, element: <Home /> },
         { path: "about", element: <About /> }, // Notice that the leading slash is removed
         { path: "novels", element: <Novels /> },
+        { path: "sale", element: <Sale /> },
         { path: TheftofFire.Page, element: <BookDetail {...TheftofFire}/> },
         { path: BoxofTrouble.Page, element: <BookDetail {...BoxofTrouble}/> },
         {
