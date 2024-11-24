@@ -121,6 +121,11 @@ const Navbar = () => {
                     HOME
                   </Typography>
                 </Link>
+                <Link to='/sale'>
+                  <Typography className={`${pathname === "/sale" ? "activeClass" : "noActiveClass"} font-style dropdown`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'10px', fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                    SALE
+                  </Typography>
+                </Link>
                 <Link to={"/novels"}>
                   <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1 }} >
                     <div className="antialiased">
@@ -193,7 +198,7 @@ const Navbar = () => {
                   </Box>
                 </Link>
                 <Link to='/events'>
-                  <Typography className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'0px',fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
+                  <Typography className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style dropdown`} sx={{ color: "#FFFFFF", marginLeft:'8px', marginBottom:'10px', fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>
                     EVENTS
                   </Typography>
                 </Link>
@@ -290,6 +295,7 @@ const Navbar = () => {
               <Grid item xs={12}>
                 <Stack direction='row' justifyContent="center" alignItems="center" spacing={4}>
                   <NavBarButton menuname="Home" />
+                  <NavBarButton menuname="Sale" />
                   <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
                   <DropdownMenu pathname={pathname} menuName="Writing"
                     subMenuItems={[{ label: 'Book Updates', link: 'writingupdates' },
