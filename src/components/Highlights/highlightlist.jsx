@@ -9,12 +9,6 @@ export const HighlightList = {
     HL_List: [
      
         {
-            Pic: SaleImg,
-            Picalt: 'Signup for Audio Updates',
-            Link: '/sale',
-            Click: 'HL_Sale'
-        },
-        {
             Pic: Audio,
             Picalt: 'Signup for Audio Updates',
             Link: 'https://www.subscribepage.io/TOF-Audiobook',

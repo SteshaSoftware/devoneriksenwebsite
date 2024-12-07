@@ -44,7 +44,7 @@ function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
-    update20241102,
+    update20241202,
     update20241120,
     creatingcharacters,
     update20241104,
