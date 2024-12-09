@@ -1,5 +1,5 @@
 export const update20241202 = {
-    title: `Audiobook and Kickstarter Update`,
+    title: `Audiobook Update`,
     content:  `Full disclosure time. 
 <br/><br/>
 Due to cancer-related delays in finishing all the last miscellany of audiobook files, I was unable to book time with our selected audio engineer / audiobook production specialist in a timely manner. 
