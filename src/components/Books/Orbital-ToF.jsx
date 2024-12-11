@@ -19,6 +19,7 @@ export const TheftofFire = {
         { Award: 'Atomic Rockets Seal of Approval, for Excellence in Correct Science' },
     ],
     MainQuotes: [
+        { MainQuote: `"Think Leviathan Wakes, if written by Heinlein." —Analog Science Fiction and Fact` },
         { MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder` },
         { MainQuote: `"When I finished the book, it was in one long sitting, and you know why? It's very good!" —Steve Jackson, Steve Jackson Games founder` },
         { MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neal Asher, author of the Polity series` },

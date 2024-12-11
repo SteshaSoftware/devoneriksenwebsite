@@ -4,16 +4,40 @@ import AtomicRocket from '../../images/AtomicRocket.png'
 import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
+
+  {
+    title: "Theft of Fire review by Analog Magazine",
+    subtitle: `Analog Science Fiction and Fact, science fiction magazine published since 1930, releases its review of Theft of Fire`,
+    content: `...Eriksen has given a lot of attention and detail to the science in Theft of Fire, 
+    with all of the ships, colonies, and tech feeling like grounded progressions of the technology on the 
+    drawing board today, and all action is contained to the Solar System and the laws of physics as we know 
+    them. While the science is foundational, the characters and story feel much more like something from 
+    older science fiction, when all mankind needed to conquer the stars was his will and a spacesuit. The 
+    mesh between the more modern grounded science and classical heroics makes for an interesting read—think 
+    Leviathan Wakes, if written by Heinlein....`,
+    link: 'https://www.quora.com/Who-do-you-think-are-the-best-new-writers-in-the-science-fiction-or-fantasy-genre/answer/Caleb-Beers-1',
+    date: '2024-06-14',
+    mediatype: "txt",
+    tag: "review"
+  },
+  {
+    title: 'The Most Important Skill To Learn In The Next 10 Years With Dan Koe' ,
+    subtitle: `Devon and Dan discuss the future-proof skill stack, how intelligence doesn't equal success, how to navigate the world of AI, becoming an independent author and creator, and more.`,
+    link: 'https://www.youtube.com/embed/h1eQUbH20NA',
+    date: '2024-12-8',
+    mediatype: "vid",
+    tag: "interview"
+  },
   {
     title: 'An Evening with Author David Badurina - The MIRTH QUAKE' ,
     subtitle: 'Devon and David explored all things related to the creative process. Some spontaneous creativity, a deep dive into fostering more creativity, and plenty of laughs and discussion along the way.',
-    link: 'https://www.youtube.com/embed/h1eQUbH20NA',
+    link: 'https://www.youtube.com/embed/18ahFtnuBwI',
     date: '2024-11-12',
     mediatype: "vid",
     tag: "interview"
   },
   {
-    title: 'Theft of Fire & Political Media feat with Bitcoin Cash' ,
+    title: 'Theft of Fire & Political Media Feat with Bitcoin Cash' ,
     subtitle: 'Devon joins the Bitcoin Cash podcast to discuss intellectual property & crypto, political writing & libertarianism, and many other topics.',
     link: 'https://www.youtube.com/embed/n5NHb0fXfnA',
     date: '2024-09-17',
