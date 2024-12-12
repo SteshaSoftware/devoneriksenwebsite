@@ -7,7 +7,7 @@ export const MediaContent = [
 
   {
     title: "Theft of Fire review by Analog Magazine",
-    subtitle: `Analog Science Fiction and Fact, science fiction magazine published since 1930, releases its review of Theft of Fire`,
+    subtitle: `Analog Science Fiction & Fact, the world's most popular SF magazine, reviews <i>Theft of Fire</i>`,
     content: `...Eriksen has given a lot of attention and detail to the science in Theft of Fire, 
     with all of the ships, colonies, and tech feeling like grounded progressions of the technology on the 
     drawing board today, and all action is contained to the Solar System and the laws of physics as we know 
@@ -16,7 +16,7 @@ export const MediaContent = [
     mesh between the more modern grounded science and classical heroics makes for an interesting read—think 
     Leviathan Wakes, if written by Heinlein....`,
     link: 'https://www.quora.com/Who-do-you-think-are-the-best-new-writers-in-the-science-fiction-or-fantasy-genre/answer/Caleb-Beers-1',
-    date: '2024-06-14',
+    date: '2024-12-10',
     mediatype: "txt",
     tag: "review"
   },
