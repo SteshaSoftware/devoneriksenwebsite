@@ -55,6 +55,7 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkG
       </Stack>
 
     </Box>
+    
     </Box >
   )
 }
