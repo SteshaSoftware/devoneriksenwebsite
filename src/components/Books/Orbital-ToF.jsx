@@ -23,7 +23,7 @@ export const TheftofFire = {
         { MainQuote: `"A great read — hard SF by a retired engineer" —John Carmack, creator of Doom, Oculus founder` },
         { MainQuote: `"When I finished the book, it was in one long sitting, and you know why? It's very good!" —Steve Jackson, Steve Jackson Games founder` },
         { MainQuote: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging." —Neal Asher, author of the Polity series` },
-        { MainQuote: `"The best first novel I've stumbled over in many years and a work worthy to be shelved with the greats of the Golden Age." —Eric S. Raymond, author of The Cathedral and the Bazaar` },
+        { MainQuote: `"A work worthy to be shelved with the greats of the Golden Age." —Eric S. Raymond, author of The Cathedral and the Bazaar` },
         { MainQuote: `"Masterful…A perfect balance of adventure, fun and OG sci-fi" —Daniel Knauf, screenwriter and producer of Carnivàle` },
         //{MainQuote: `"A glorious adventure and a delight to read." —John Walker, Autodesk co-founder`},
         { MainQuote: `"If I've ever read a better firefight in fiction, it doesn't come to me off the top of my head." —Duane Thomas, gunwriter` },
