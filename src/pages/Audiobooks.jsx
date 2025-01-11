@@ -38,7 +38,7 @@ const Audiobooks = () => {
           </Typography>
 
           <StarButton
-            GlowTxt="Subscribe Now"
+            GlowTxt="Audiobook Updates"
             LinkGlow="https://www.subscribepage.io/TOF-Audiobook"
           />
         </Box>
