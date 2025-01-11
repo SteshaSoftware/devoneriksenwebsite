@@ -30,11 +30,11 @@ const Audiobooks = () => {
           }}
         >
           <Typography
-            variant="h5"
+            variant="h6"
             color="white"
             sx={{ fontWeight: 'bold', marginBottom: '10px' }} // Add spacing below the text
           >
-            Subscribe Below for Audiobook Updates
+            Sign Up for Audiobook Updates
           </Typography>
 
           <StarButton
