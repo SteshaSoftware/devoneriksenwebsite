@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.873bb7f0.css",
-    "main.js": "/static/js/main.5c7c6f33.js",
+    "main.js": "/static/js/main.a83a79fd.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/BoTcoming.png": "/static/media/BoTcoming.cb09d0c362a0a7e4c0c2.png",
     "static/media/ToFcover.jpg": "/static/media/ToFcover.fc6914980231c960c211.jpg",
     "static/media/bg.jpg": "/static/media/bg.6dbb3bfec4f933632900.jpg",
+    "static/media/ToFAudio.png": "/static/media/ToFAudio.b6429527c8d635d664ca.png",
     "static/media/SaleImg.png": "/static/media/SaleImg.3c3a12e1ec78e0697501.png",
     "static/media/thicc-cover.png": "/static/media/thicc-cover.c02713795327e9457ab0.png",
     "static/media/AudioSignup.png": "/static/media/AudioSignup.3f8a0e9092a0b9a7d0b4.png",
@@ -18,17 +19,18 @@
     "static/media/BoTUpdate.png": "/static/media/BoTUpdate.f2975c88d0a5e4b1d525.png",
     "static/media/DisSciFi5.png": "/static/media/DisSciFi5.1e748a853da266c964eb.png",
     "static/media/DiscoverSciFi.png": "/static/media/DiscoverSciFi.36efcbfe821644aee070.png",
+    "static/media/sample-robot.mp3": "/static/media/sample-robot.5d05102345c334afea4f.mp3",
     "static/media/buy direct.png": "/static/media/buy direct.c68c96887c4596854b6a.png",
     "static/media/amazon-dot-com-white.png": "/static/media/amazon-dot-com-white.956165c3d083c95d4002.png",
     "static/media/SaleCrop.jpg": "/static/media/SaleCrop.bf3c3c9eaac691362cf4.jpg",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
     "main.873bb7f0.css.map": "/static/css/main.873bb7f0.css.map",
-    "main.5c7c6f33.js.map": "/static/js/main.5c7c6f33.js.map",
+    "main.a83a79fd.js.map": "/static/js/main.a83a79fd.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.873bb7f0.css",
-    "static/js/main.5c7c6f33.js"
+    "static/js/main.a83a79fd.js"
   ]
 }
