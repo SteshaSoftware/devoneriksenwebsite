@@ -89,6 +89,7 @@ function AudioCard({ Cover, CoverAud, Audio, AudioVid, Title, Links }) {
                                 display: 'flex',
                                 flexDirection: 'column',
                                 alignItems: 'center', // Align content centrally within this column
+                                marginBottom:  { xs: '20px', sm: '0px' }
                             }}
                         >
                             <Card sx={{ maxWidth: { xs: 150, sm: 200 }, margin: '0 auto' }}>
@@ -106,6 +107,7 @@ function AudioCard({ Cover, CoverAud, Audio, AudioVid, Title, Links }) {
                                                 width: '100%', display: 'block',
                                                 border: '2px solid #FFFFFF',
                                                 borderRadius: '10px',
+                                              
                                             }}
                                             image={`/static/media/ToFAudio.b6429527c8d635d664ca.png`}
                                             alt={`Purchase ${Title} Audiobook`}
@@ -118,6 +120,7 @@ function AudioCard({ Cover, CoverAud, Audio, AudioVid, Title, Links }) {
                                             width: '100%', display: 'block',
                                             border: '2px solid #FFFFFF',
                                             borderRadius: '10px',
+                                            
                                         }}
                                         image={`/static/media/ToFAudio.b6429527c8d635d664ca.png`}
                                         alt={`${Title} Audiobook`}
