@@ -43,7 +43,7 @@ const Audiobooks = () => {
           />
         </Box>
 
-        {/*<AudioCard {...TheftofFire} />*/}
+        <AudioCard {...TheftofFire} />
       </Box>
     </Box >
   )

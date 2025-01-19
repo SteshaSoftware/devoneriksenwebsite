@@ -14,8 +14,9 @@ export const TheftofFire = {
     Cover: CoverSml,
     BigCover: CoverLrg,
     AudCover: CoverAud,
-    Audio: SampleAudio,
     CoverStatus: 'done',
+    Audio: SampleAudio,
+    AudioVid: "https://www.youtube.com/embed/rqpR1RmCwDM",
     Page: 'theft-of-fire',
     Awards: [
         { Award: 'Dragon Award 2024 Finalist' },

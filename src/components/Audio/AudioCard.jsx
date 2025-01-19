@@ -6,8 +6,13 @@ import { Link } from 'react-router-dom';
 import '../allnovels/allnovels.css';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
-function AudioCard({ Cover, CoverAud, Audio, Title, Links }) {
-    const direct = Links?.[0]?.Ebook?.[0] || null;
+function AudioCard({ Cover, CoverAud, Audio, AudioVid, Title, Links }) {
+    // Extract buylinks from Links -> Audio
+    const audioLinks = Links.find(link => link.Audio)?.Audio || [];
+
+    // Determine if there is a direct link
+    const direct = audioLinks[0] || null;
+
     const audioRef = useRef(null); // Reference to the audio element
     const [currentTime, setCurrentTime] = useState(0); // State to track current time
     const [duration, setDuration] = useState(0); // State to track total duration
@@ -48,9 +53,6 @@ function AudioCard({ Cover, CoverAud, Audio, Title, Links }) {
         setAnchorEl(null);
     };
 
-    // Extract buylinks from Links -> Ebook
-    const ebookLinks = Links.find(link => link.Ebook)?.Ebook || [];
-
     return (
         <Grid container spacing={2} justifyContent="center" style={{ textAlign: 'center' }}>
             <Grid container spacing={2} alignItems="center" justifyContent="center">
@@ -87,37 +89,44 @@ function AudioCard({ Cover, CoverAud, Audio, Title, Links }) {
                                 display: 'flex',
                                 flexDirection: 'column',
                                 alignItems: 'center', // Align content centrally within this column
-
                             }}
                         >
                             <Card sx={{ maxWidth: { xs: 150, sm: 200 }, margin: '0 auto' }}>
-                                <a
-                                    href={direct.buylink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onClick={() => window.sa_event('Buy_Other')}
-                                    style={{ display: 'block', margin: 'auto' }}
-                                >
-                                    <Card sx={{ margin: 'auto' }}>
-
+                                {direct ? (
+                                    <a
+                                        href={direct.buylink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        onClick={() => window.sa_event('Buy_Other')}
+                                        style={{ display: 'block', margin: 'auto' }}
+                                    >
                                         <CardMedia
                                             component="img"
                                             sx={{
                                                 width: '100%', display: 'block',
                                                 border: '2px solid #FFFFFF',
-                                                borderRadius: '10px'
+                                                borderRadius: '10px',
                                             }}
                                             image={`/static/media/ToFAudio.b6429527c8d635d664ca.png`}
                                             alt={`Purchase ${Title} Audiobook`}
                                         />
-                                    </Card>
-                                </a>
-
+                                    </a>
+                                ) : (
+                                    <CardMedia
+                                        component="img"
+                                        sx={{
+                                            width: '100%', display: 'block',
+                                            border: '2px solid #FFFFFF',
+                                            borderRadius: '10px',
+                                        }}
+                                        image={`/static/media/ToFAudio.b6429527c8d635d664ca.png`}
+                                        alt={`${Title} Audiobook`}
+                                    />
+                                )}
                             </Card>
                         </Grid>
 
-
-                        {/* Right Section: Audio Box + Buy Button */}
+                        {/* Right Section: Audio Box + Video */}
                         <Grid
                             item
                             xs={12} sm={6}
@@ -125,10 +134,48 @@ function AudioCard({ Cover, CoverAud, Audio, Title, Links }) {
                                 textAlign: 'center',
                                 display: 'flex',
                                 flexDirection: 'column',
-                                alignItems: 'flex-start', // Align content close to the left
-                                paddingLeft: '5px', // Small padding for spacing
+                                alignItems: 'center', // Align content to the center horizontally
                             }}
                         >
+                            {AudioVid && (
+                                <Box
+                                    sx={{
+                                        backgroundColor: '#1a1a1a', // Shared background for both title and video
+                                        borderRadius: '5px', // Smooth border for the entire section
+                                        border: '2px solid #FFFFFF', // Add border around both elements
+                                        textAlign: 'center',
+                                    }}
+                                >
+                                    <Typography
+                                        variant="h6"
+                                        color="white"
+                                        sx={{
+                                            padding: '5px',
+                                            textAlign: 'center',
+                                            fontWeight: 'bold',
+                                        }}
+                                    >
+                                        Audiobook Preview
+                                    </Typography>
+                                    <iframe
+                                        src={AudioVid}
+                                        className="vidstyle"
+                                        title={`${Title} Video Preview`}
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                        loading="lazy"
+                                        style={{
+                                            width: '100%',
+                                            height: '200px',
+                                            border: 'none', // Remove default iframe border for seamless look
+                                            borderRadius: '5px', // Match the border radius for consistency
+                                            marginTop: '0px',
+                                        }}
+                                    ></iframe>
+                                </Box>
+                            )}
+                            {/*This audio only code. Keeping it for now.
+                            
                             <Box
                                 sx={{
                                     textAlign: 'center',
@@ -143,11 +190,11 @@ function AudioCard({ Cover, CoverAud, Audio, Title, Links }) {
                                 <Typography
                                     variant="h6"
                                     color="white"
-
                                 >
                                     3 Chapter Preview
                                 </Typography>
 
+                                
                                 <audio
                                     ref={audioRef}
                                     controls
@@ -164,73 +211,71 @@ function AudioCard({ Cover, CoverAud, Audio, Title, Links }) {
                                     <source src={Audio} type="audio/mpeg" />
                                     Your browser does not support the audio element.
                                 </audio>
-                            </Box>
-                            <StarButton
-                                GlowTxt="Buy Direct — 30% Off"
-                                LinkGlow={direct.buylink}
-                            />
-                            {/* Dropdown Button */}
-                            <Button
 
-                                aria-controls={open ? 'buylinks-menu' : undefined}
-                                aria-haspopup="true"
-                                aria-expanded={open ? 'true' : undefined}
-                                onClick={handleClick}
-                                variant="contained"
-                                color="primary"
-                                sx={{
-                                    display: 'block', margin: '20px auto',
-
-                                }}
-
-
-                            >
-                                Other Buying Options
-                                <ArrowDropDownIcon sx={{ fontSize: '1.5rem', color: 'inherit' }} />
-
-                            </Button>
-
-                            {/* Dropdown Menu */}
-                            <Menu
-                                id="buylinks-menu"
-                                anchorEl={anchorEl}
-                                open={open}
-                                onClose={handleClose}
-                            >
-                                {ebookLinks.map((ebook, index) => (
-                                    <MenuItem
-                                        key={index}
-                                        onClick={handleClose}
-                                        component="a"
-                                        href={ebook.buylink}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        sx={{ display: 'flex', alignItems: 'center', padding: '10px' }}
+                            </Box>*/}
+                            {direct && (
+                                <StarButton
+                                    GlowTxt="Buy Direct — 30% Off"
+                                    LinkGlow={direct.buylink}
+                                />
+                            )}
+                            {audioLinks.length > 0 && (
+                                <>
+                                    <Button
+                                        aria-controls={open ? 'buylinks-menu' : undefined}
+                                        aria-haspopup="true"
+                                        aria-expanded={open ? 'true' : undefined}
+                                        onClick={handleClick}
+                                        variant="contained"
+                                        color="primary"
+                                        sx={{
+                                            display: 'block', margin: '20px auto',
+                                        }}
                                     >
-                                        <img
-                                            src={ebook.linkimg}
-                                            alt={ebook.buyname || `Link ${index + 1}`}
-                                            style={{
-                                                width: '50px',
-                                                height: '50px',
-                                                border: '2px solid #000000',
-                                                marginRight: '8px',
-                                                borderRadius: '4px',
-                                            }}
-                                        />
-                                        {ebook.buyname || `Buy Link ${index + 1}`}
-                                    </MenuItem>
-                                ))}
-                            </Menu>
+                                        Other Buying Options
+                                        <ArrowDropDownIcon sx={{ fontSize: '1.5rem', color: 'inherit' }} />
+                                    </Button>
+
+                                    {/* Dropdown Menu */}
+                                    <Menu
+                                        id="buylinks-menu"
+                                        anchorEl={anchorEl}
+                                        open={open}
+                                        onClose={handleClose}
+                                    >
+                                        {audioLinks.map((audio, index) => (
+                                            <MenuItem
+                                                key={index}
+                                                onClick={handleClose}
+                                                component="a"
+                                                href={audio.buylink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                sx={{ display: 'flex', alignItems: 'center', padding: '10px' }}
+                                            >
+                                                <img
+                                                    src={audio.linkimg}
+                                                    alt={audio.buyname || `Link ${index + 1}`}
+                                                    style={{
+                                                        width: '50px',
+                                                        height: '50px',
+                                                        border: '2px solid #000000',
+                                                        marginRight: '8px',
+                                                        borderRadius: '4px',
+                                                    }}
+                                                />
+                                                {audio.buyname || `Buy Link ${index + 1}`}
+                                            </MenuItem>
+                                        ))}
+                                    </Menu>
+                                </>
+                            )}
                         </Grid>
                     </Grid>
                 </Grid>
             </Grid>
         </Grid>
     );
-
-
 }
-
 
 export default AudioCard;
