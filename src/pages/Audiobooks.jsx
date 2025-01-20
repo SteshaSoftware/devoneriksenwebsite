@@ -26,7 +26,7 @@ const Audiobooks = () => {
             flexDirection: 'column', // Stack items vertically
             justifyContent: 'center',
             alignItems: 'center', // Center items horizontally
-            marginBottom: '20px' // Add spacing between this section and the next
+            marginBottom: '0px' // Add spacing between this section and the next
           }}
         >
           <Typography

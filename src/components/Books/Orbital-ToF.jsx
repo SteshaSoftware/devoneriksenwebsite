@@ -2,7 +2,7 @@ import React from 'react';
 
 import CoverSml from '../../images/ToFcover.jpg'
 import CoverLrg from '../../images/thicc-cover.png'
-import CoverAud from '../../images/ToFAudio.png'
+import CoverAud from '../../images/ToFaudio.png'
 import BuyDirect from '../../images/buy direct.png'
 import SampleAudio from '../../audio/sample-robot.mp3'
 
@@ -15,7 +15,7 @@ export const TheftofFire = {
     BigCover: CoverLrg,
     AudCover: CoverAud,
     CoverStatus: 'done',
-    Audio: SampleAudio,
+    Audio: "https%3A//api.soundcloud.com/tracks/2013515927",
     AudioVid: "https://www.youtube.com/embed/rqpR1RmCwDM",
     Page: 'theft-of-fire',
     Awards: [
