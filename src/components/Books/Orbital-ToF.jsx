@@ -22,7 +22,7 @@ export const TheftofFire = {
         { Award: 'Dragon Award 2024 Finalist' },
         { Award: 'Prometheus Award 2023 Finalist' },
         { Award: 'Discover SciFi "#5 Best Sci-Fi Release of 2023"' },
-        { Award: 'Atomic Rockets Seal of Approval'},
+        { Award: 'Atomic Rockets Seal of Approval' },
     ],
     MainQuotes: [
         { MainQuote: `"Think Leviathan Wakes, if written by Heinlein." —Analog Science Fiction and Fact` },
@@ -65,7 +65,7 @@ export const TheftofFire = {
                     buylink: "https://www.amazon.com/gp/product/B0CJHQ4LZN?tag=devoneriksen-20",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Kindle_Square/91897f077a3b933d207db02e2c08f2c3.jpg"
                 },
-                {   
+                {
                     buyname: "Kobo",
                     buylink: "https://www.kobo.com/us/en/ebook/theft-of-fire-1",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/Kobo_Books_app_icon/b31ef72734ba68f9b0f17f881c307f89.png"
@@ -122,7 +122,7 @@ export const TheftofFire = {
                     buylink: "https://shop.ingramspark.com/b/084?wbCYOd4Hfljqf9CO8PI5itUYGF8qaiqcVnS8UQai3Z3",
                     linkimg: BuyDirect
                 },
-                {   
+                {
                     buyname: "Amazon",
                     buylink: "https://www.amazon.com/gp/product/1962514021?tag=devoneriksen-20",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/amazon_square_logo_Kabb825/37f201a77546f90514bff6f1774a2d05.png"
@@ -132,7 +132,7 @@ export const TheftofFire = {
                     buylink: "https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144228771?ean=9781962514026&st=AFF&2sid=Draft2Digital_7968444_NA&sourceId=AFFDraft2Digital",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/b2r-bn-print_nw7bwed/75cc88cfda36c15c5fa3b8ebb69b6f75.png"
                 },
-                {   
+                {
                     buyname: "Books A Million",
                     buylink: "https://www.booksamillion.com/p/9781962514026",
                     linkimg: "https://books2read-prod.s3.us-west-2.amazonaws.com/CACHE/images/store_images/BAM/3d69388500349dcaf0bedb134ba9175c.png"
@@ -480,7 +480,7 @@ export const TheftofFire = {
         `kabdib`,
         `Uzi Shmilovici (Brave Games)`,
         `Scott Olson`,
-        `Steven Cummins`,,
+        `Steven Cummins`, ,
         `Brian and Teala DeVries`,
         `Brian Lowe`,
         `Steven Renner`,
@@ -530,7 +530,14 @@ export const TheftofFire = {
         `Cory Tallman`,
         `Suhas`,
         `Isaac Wallace`,
-        `Calvin Khor`]
-        
-        
+        `Calvin Khor`,
+        `Robert Reid`,
+        `Stephen Rider`,
+        `DaveG`,
+        `Bogdan K`,
+        `Johann Ungerer`,
+        `Afonso Cruz Fernandes`,
+        `Axel Ingen`,]
+
+
 }  
