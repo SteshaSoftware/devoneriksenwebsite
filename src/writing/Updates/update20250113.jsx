@@ -1,7 +1,7 @@
 export const update20250113 = {
     title: `Box of Trouble Update`,
-    content:  `Cast your eyes down.
-
+    content:  `<i>Cast your eyes down.</i>
+<br /><br />
 <i>You cannot see Samarkand from here, but the road is before you.</i>
 <br /><br />
 <i>Look to the road, see the footprints in the dust. Others have walked  this way. Take one step, and then another, and then a third. Rest in the cool of the evening, and walk when the sun rises, when the muezzin calls the faithful at dawn. Take one step, and then another, and then a third. Others have walked this way. Look to the road, see the footprints  in the dust.</i>

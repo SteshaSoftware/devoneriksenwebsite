@@ -9,6 +9,8 @@ import { EggWizard } from '../writing/Fiction/EggWizard';
 import { Beatles } from '../writing/Fiction/Beatles';
 import { AdoptedVampire } from '../writing/Fiction/AdoptedVampire';
 import { CatInvader } from '../writing/Fiction/CatInvader';
+import { CanceledPart1 } from '../writing/Fiction/CanceledPart1';
+import { CanceledPart2 } from '../writing/Fiction/CanceledPart2';
 
 import { update20231219 } from '../writing/Updates/update20231219';
 import { update20231230 } from '../writing/Updates/update20231230';
@@ -34,6 +36,7 @@ import { update20241202 } from '../writing/Updates/update20241202';
 import { update20241209 } from '../writing/Updates/update20241209';
 import { update20241231 } from '../writing/Updates/update20241231';
 import { update20250113 } from '../writing/Updates/update20250113';
+import { update20250205 } from '../writing/Updates/update20250205';
 
 import { writingprocess } from '../writing/Craft/writingprocess';
 import { changeplans } from '../writing/Craft/changeplans';
@@ -47,6 +50,9 @@ function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    update20250205,
+    CanceledPart2,
+    CanceledPart1,
     update20250113,
     update20241231,
     update20241209,

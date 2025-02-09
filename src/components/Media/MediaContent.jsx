@@ -4,6 +4,22 @@ import AtomicRocket from '../../images/AtomicRocket.png'
 import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
+  {
+    title: "Devon Eriksen is Canceled From the Self Published Sci-Fi Competition",
+    subtitle: `‘Cancelations are Canceled’: Science Fiction Competition Tries To Cancel Author, Sees Backlash.`,
+    content: `...In what seems to be the first attempted cancelation of the new Trump administration, Self-Published 
+    Science Fiction Competition (SPSFC) announced on Wednesday that it was removing author Devon Eriksen’s book from 
+    consideration for an award. The SPSFC said that it made the decision because Eriksen violated the competition’s 
+    code of conduct — which had been published to X the day before this announcement.
+    <br/><br/>
+    “We apologize for the extended delay and radio silence. Devon Eriksen has been removed from the SPSFC effective 
+    immediately for violation of our code of conduct,” the SPSFC posted on X....
+`,
+    link: 'https://www.dailywire.com/news/cancelations-are-canceled-science-fiction-competition-tries-to-cancel-author-sees-backlash',
+    date: '2025-02-07',
+    mediatype: "txt",
+    tag: "award"
+  },
 
   {
     title: "Theft of Fire review by Analog Magazine",
