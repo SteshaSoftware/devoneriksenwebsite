@@ -5,6 +5,19 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: "Theft of Fire is reviewed by Epic Indie",
+    subtitle: `"<i>Theft of Fire</i> carves out its own identity with a distinct voice and a deep appreciation for the complexity of human (and post-human) existence in the void."`,
+    content: `... Some books arrive with a whisper. Theft of Fire by Devon Eriksen arrives like a rocket burn 
+    at full thrust—fast, exhilarating, and impossible to ignore. The first in the Orbital Space trilogy, this 
+    novel is a relentless, snarky, and utterly gripping plunge into a future where humanity has spread across 
+    the solar system but hasn’t quite left its worst tendencies behind.....
+`,
+    link: 'https://www.epicindie.net/bookreviews/book-review-theft-of-fire-by-devon-eriksen',
+    date: '2025-02-20',
+    mediatype: "txt",
+    tag: "review"
+  },
+  {
     title: "Devon Eriksen is Canceled From the Self Published Sci-Fi Competition",
     subtitle: `‘Cancelations are Canceled’: Science Fiction Competition Tries To Cancel Author, Sees Backlash.`,
     content: `...In what seems to be the first attempted cancelation of the new Trump administration, Self-Published 
@@ -22,8 +35,8 @@ export const MediaContent = [
   },
 
   {
-    title: "Theft of Fire review by Analog Magazine",
-    subtitle: `Analog Science Fiction & Fact, the world's most popular SF magazine, reviews <i>Theft of Fire</i>`,
+    title: "Theft of Fire review by Analog Science Fiction & Fact",
+    subtitle: `"Think Leviathan Wakes, if written by Heinlein"`,
     content: `...Eriksen has given a lot of attention and detail to the science in Theft of Fire, 
     with all of the ships, colonies, and tech feeling like grounded progressions of the technology on the 
     drawing board today, and all action is contained to the Solar System and the laws of physics as we know 
@@ -61,14 +74,9 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-      title: "Theft of Fire review by Steve Jackson",
-      subtitle: `Steve Jackson, of Steve Jackson Games, the creator of Munchkin and GURPS, highly recommends <i>Theft of Fire</i>.`,
-      content: `...When I finished the book, it was in one long sitting, and you know why? It's very good!
-      <br/><br/>
-      Theft of Fire is set in the fairly near future. Humanity made it to space, mostly out of
-       desperation. The Asteroid Belt is being mined, and this story is about one of those miners 
-       and the worst day he ever had. Except things go downhill from there.
-      <br/><br/>
+      title: "Theft of Fire review by Steve Jackson, Steve Jackson Games",
+      subtitle: `"When I finished the book, it was in one long sitting, and you know why? It's very good!"`,
+      content: `
       Devon Eriksen writes well and engagingly. There's no obvious comparison; I can't say 
       "This is like so-and-so's work." He writes like Eriksen, and that's fine with me! From 
       what I can see (he is an engineer, and I am not), the science is solid. But what matters 
@@ -114,7 +122,7 @@ export const MediaContent = [
   },
   {
     title: 'Dirtbaggery Reviews Theft of Fire' ,
-    subtitle: "Dirtbaggery gives a glowing review to <i>Theft of Fire</i>, and recommends it for the Dragon Awards",
+    subtitle: `"If all indie books were cut from the same cloth, I'm not sure publishers would exist."`,
     link: 'https://www.youtube.com/embed/uQkx6-6rN0U',
     date: '2024-07-11',
     mediatype: "vid",
@@ -129,8 +137,8 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-    title: 'Theft of Fire review by author John A. Douglas',
-    subtitle: "Iron Age Author of <i>The Black Crown</i>, John A. Douglas, Reviews <i>Theft of Fire</i>.",
+    title: 'Theft of Fire review by John A. Douglas, "The Black Crown" author',
+    subtitle: `"From the very first chapter, I was not just hooked, I was re-examining my own work as an author."`,
     link: 'https://www.youtube.com/embed/Xr3Ag687ers',
     date: '2024-07-11',
     mediatype: "vid",
@@ -153,8 +161,8 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-    title: 'Theft of Fire review by author Michael R. Schultheiss',
-    subtitle: "Author of Ark of Ascension and The Rostevak Saga, Michael R. Schultheiss, reviews <i>Theft of Fire</i>.",
+    title: 'Theft of Fire review by Michael R. Schultheiss, "Ark of Ascention" author',
+    subtitle: `"An endlessly engaging story."`,
     link: 'https://www.youtube.com/embed/B9hV5VW7Qaw',
     date: '2024-06-23',
     mediatype: "vid",
@@ -185,8 +193,8 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-    title: "Theft of Fire review by author Caleb Beers",
-    subtitle: `Caleb Beers, author of <i>A Pointless, Thoroughly Upsetting Story</i>, write a thougtful review of <i>Theft of Fire</i>`,
+    title: `Theft of Fire review by Caleb Beers, "A Pointless, Thoroughly Upsetting Story" author`,
+    subtitle: `"If you like hard sci-fi then buy this book yesterday"`,
     content: `...I can praise more or less every aspect of it. The pacing is perfect, where every trough in the action is 
     set up with anticipation of the next crest. The characters are all memorable and endearing and delightfully weird in 
     their own way. The technological world seems perfect to me, but maybe that’s just because it confirms all of my own 
@@ -221,8 +229,8 @@ export const MediaContent = [
     tag: "interview"
   },
   {
-    title: "Theft of Fire review by author Neal Asher",
-    subtitle: `Neal Asher, author of the Polity Universe novels, reviews <i>Theft of Fire</i>`,
+    title: "Theft of Fire review by Neal Asher, Polity Universe author",
+    subtitle: `"A thumping good read, with excellent breathless pace. It suspended disbelief and was engaging."`,
     content: `...Being confined by more-or-less conventional physics enhanced rather than distracted here, 
     but it helps that Devon obviously knows his stuff. There was no saying a magic spell with quantum in it to 
     get from A to B (yes, I’m guilty) and the realities of space travel were starkly and realistically depicted. 
@@ -252,13 +260,14 @@ export const MediaContent = [
     tag: "award"
   },
   {
-    title: "Theft of Fire review by Eric S. Raymond and Michael Grossberg",
-    subtitle: `Both members of the Prometheus committee, Michael Grossberg is the chairman, and 
-      Eric S. Raymond is most known as the author of The Cathedral and the Bazaar`,
+    title: "Theft of Fire review by Prometheus committee Eric S. Raymond and Michael Grossberg",
+    subtitle: `"Eriksen has mastered the classic Heinleinesque mode of SF exposition by indirection"`,
     content: `Devon Eriksen is one hell of an SF writer. His prose is tight and energetic, his action scenes 
       work and his world-building is more than competent.
       <br/><br/>
-      Billed as the first novel in Eriksen’s Orbital Space series and nominated for the next Prometheus Award for Best Novel, this hard-sf space opera portrays a free-frontier space culture where big risks can lead to big rewards...`,
+      Billed as the first novel in Eriksen’s Orbital Space series and nominated for the next Prometheus Award 
+      for Best Novel, this hard-sf space opera portrays a free-frontier space culture where big risks can lead 
+      to big rewards...`,
     link: 'https://www.lfs.org/blog/review-devon-eriksens-theft-of-fire-blends-hard-sf-romance-mystery-suspense-and-comedy-in-story-of-conflict-and-cooperation/',
     date: '2024-04-13',
     mediatype: "txt",
@@ -288,7 +297,7 @@ society.`,
   },
   {
     title: "Theft of Fire review on FanFiAddict",
-    subtitle: `BiblioTheory reviews <i>Theft of Fire</i> of FanFiAddict.`,
+    subtitle: `" You were right there with these characters who felt real and had real complex emotions."`,
     content: `...There was so much that I really enjoyed out of this story.
     <br/><br/>
     Action, humor, relatable characters, really cool technology, and of course a mystery that 
@@ -296,27 +305,6 @@ society.`,
     felt like a movie. I could picture so many scenes vividly in my head...`,
     link: 'https://fanfiaddict.com/review-theft-of-fire-orbital-space-1-by-devon-eriksen/',
     date: '2024-03-30',
-    mediatype: "txt",
-    tag: "review"
-  },
-  {
-    title: "Theft of Fire review by A Look Inside",
-    subtitle: `Demetria, of A look Inside: A Book Review Blog, has reveiwed over 
-200 books on her website, and gives a glowing review to <i>Theft of Fire</i>.`,
-    content: `<i>Theft of Fire</i> by Devon Eriksen propels readers into a gripping 
-sci-fi space opera brimming with intrigue, action, and high-stakes adventure. Set 
-against the backdrop of the frozen expanse of the solar system, the novel introduces 
-us to Marcus Warnoc, a resourceful asteroid miner whose life is turned upside down 
-when his ship is hijacked by Miranda Foxgrove, a determined corporate heiress with 
-her own secret agenda.
-<br/><br/>
-What ensues is a thrilling game of cat and mouse as Marcus and Miranda find 
-themselves embroiled in a dangerous dance of deception, betrayal, and unexpected 
-alliances. Eriksen masterfully weaves together elements of suspense, humor, and 
-heart, creating a narrative that keeps readers on the edge of their seats from start
-to finish...`,
-    link: 'https://alookinsidebookreviews.blogspot.com/2024/03/a-review-of-theft-of-fire-by-devon.html',
-    date: '2024-03-09',
     mediatype: "txt",
     tag: "review"
   },
@@ -329,11 +317,8 @@ to finish...`,
     tag: "interview"
   },
   {
-    title: "Theft of Fire review by Daniel Lemire",
-    subtitle: `Daniel Lemire is a computer science professor at the Data Science 
-Laboratory of the Université du Québec (TÉLUQ) in Montreal. His research is focused 
-on software performance and data engineering. He is a techno-optimist and a 
-free-speech advocate.`,
+    title: "Theft of Fire review by Daniel Lemire, techno-optimist",
+    subtitle: `It is a testament to the power of storytelling and the enduring appeal of the science fiction genre.`,
     content: `...Theft of Fire offers a plausible and realistic universe. The 
 characters, Marcus Warnoc and Miranda Foxgrove, are not mere archetypes; they are 
 complex, flawed, and deeply human. Their struggle to trust one another and overcome 
@@ -341,10 +326,7 @@ their own demons is a powerful allegory for the modern human condition. There ar
 class wars, between the very rich and the very poor, but it is not a Marxist story.
  Marcus might be poor and struggling, but he is never a victim. The rich people can 
  be bad, but so can the poor people.
- <br/><br/>
-The world of Theft of Fire is one of contrasts: the cold, unforgiving vacuum of 
-space and the warmth of human connection. It is a testament to the power of 
-storytelling and the enduring appeal of the science fiction genre...`,
+`,
     link: 'https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/',
     date: '2024-02-24',
     mediatype: "txt",
@@ -382,8 +364,8 @@ storytelling and the enduring appeal of the science fiction genre...`,
     tag: "award"
   },
   {
-    title: 'Theft of Fire review by author Kristoffer Newsom',
-    subtitle: "Kristoffer Newsom, author of Short Story <i>The Death of Paul Shephard</i>, reviews <i>Theft of Fire</i>",
+    title: 'Theft of Fire review by Kristoffer Newsom, The Death of Paul Shephard author',
+    subtitle: `"This is a really great read, a heck of an acomplishment for a 1st time author. I'm really very, very impressed."`,
     link: 'https://www.youtube.com/embed/DCOsJ5rd4gA',
     date: '2024-02-08',
     mediatype: "vid",
@@ -432,8 +414,8 @@ storytelling and the enduring appeal of the science fiction genre...`,
     tag: "interview"
   },
   {
-    title: "Theft of Fire review by John Walker",
-    subtitle: `<i>Theft of Fire</i> receives a glowing review on Autodesk Founder's Blog`,
+    title: "Theft of Fire review by John Walker, Autodesk Founder",
+    subtitle: `"This is a glorious adventure and a delight to read"`,
     content: `...The discerning reader of science fiction today can choose from a collection 
 of talented, imaginative, and prolific authors to such an extent that it’s like reading 
 Heinlein, Bradbury, Clarke, Asimov, Pohl, and Doc Smith all in their prime, but with ideas and 
