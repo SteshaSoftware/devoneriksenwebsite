@@ -53,13 +53,18 @@ export const TheftofFire = {
     `,
     GlowTxt: 'Read 3-Chapter Preview',
     LinkGlow: 'https://read.bookfunnel.com/read/h6gjdipcpw',
+    LinkDir: 'https://devoneriksen.myshopify.com/products/theft-of-fire-e-book',
     LinkAmz: 'https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20',
-    LinkBN: 'https://www.barnesandnoble.com/w/theft-of-fire-devon-eriksen/1144335979?ean=2940179192145',
     LinkOther: 'https://books2read.com/Theft-of-Fire',
     LinkGR: 'https://www.goodreads.com/book/show/199142773-theft-of-fire',
     Links: [
         {
             Ebook: [
+                {
+                    buyname: "Direct",
+                    buylink: "https://devoneriksen.myshopify.com/products/theft-of-fire-e-book",
+                    linkimg: BuyDirect
+                },
                 {
                     buyname: "Amazon",
                     buylink: "https://www.amazon.com/gp/product/B0CJHQ4LZN?tag=devoneriksen-20",

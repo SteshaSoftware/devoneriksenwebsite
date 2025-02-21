@@ -4,12 +4,12 @@ import StarButton from '../StarButton/starbutton'
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 
 
-function PurchaseBox({ GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR }) {
+function PurchaseBox({ GlowTxt, LinkGlow, LinkDir, LinkAmz,  LinkOther, LinkGR }) {
     return (
         <>
             <Box sx={{ display: "flex", alignItems: {xs: "center"}, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
                 <StarButton GlowTxt = {GlowTxt} LinkGlow = {LinkGlow}/>
-                <Button LinkAmz = {LinkAmz} LinkBN = {LinkBN} LinkOther = {LinkOther} />
+                <Button LinkDir = {LinkDir} LinkAmz = {LinkAmz}  LinkOther = {LinkOther} />
             </Box>
             {LinkGR && (
             <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>

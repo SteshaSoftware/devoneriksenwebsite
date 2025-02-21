@@ -4,7 +4,7 @@ import "./bookdetail.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 import Link from '@mui/material/Link';
 
-function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR, Cover, Status }) {
+function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkGlow, LinkAmz, LinkDir, LinkOther, LinkGR, Cover, Status }) {
   const blurbHTML = { __html: Blurb };
 
   return (
@@ -49,8 +49,8 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkG
         <Typography variant="subtitle1" color="white" component="div" fontSize='16px'>
           <br /><div dangerouslySetInnerHTML={blurbHTML} /><br />
         </Typography>
-        <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkAmz={LinkAmz}
-          LinkBN={LinkBN} LinkOther={LinkOther} LinkGR={LinkGR} />
+        <PurchaseBox GlowTxt={GlowTxt} LinkGlow={LinkGlow} LinkDir={LinkDir}
+           LinkAmz={LinkAmz} LinkOther={LinkOther} LinkGR={LinkGR} />
         {/* <StarRating rating={4.86} />  */}
       </Stack>
 

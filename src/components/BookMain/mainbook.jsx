@@ -8,7 +8,7 @@ import StarButton from '../StarButton/starbutton'
 import { WidthWideTwoTone } from '@mui/icons-material'
 import { FaArrowCircleRight } from 'react-icons/fa'
 
-function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTxt, LinkGlow, LinkAmz, LinkBN, LinkOther, LinkGR, BigCover, Awards, MainQuotes }) {
+function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTxt, LinkGlow,  LinkDir, LinkAmz, LinkOther, LinkGR, BigCover, Awards, MainQuotes }) {
   const blurbHTML = { __html: MiniBlurb };
 
   return (
@@ -86,7 +86,7 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
               </Typography>
             </div>
             <Box sx={{ display: "flex", alignItems: { xs: "center" }, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
-              <Button LinkAmz={LinkAmz} LinkBN={LinkBN} LinkOther={Page} />
+            <Button LinkDir={LinkDir} LinkAmz={LinkAmz} LinkOther={Page} />
             </Box>
             {LinkGR && (
               <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
