@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.873bb7f0.css",
-    "main.js": "/static/js/main.821464f6.js",
+    "main.js": "/static/js/main.f3e15b4c.js",
     "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
     "static/media/Devon Author.jpg": "/static/media/Devon Author.48cecbcb8749916934fb.jpg",
     "static/media/BoTcoming.png": "/static/media/BoTcoming.cb09d0c362a0a7e4c0c2.png",
@@ -23,14 +23,15 @@
     "static/media/buy direct.png": "/static/media/buy direct.c68c96887c4596854b6a.png",
     "static/media/amazon-dot-com-white.png": "/static/media/amazon-dot-com-white.956165c3d083c95d4002.png",
     "static/media/SaleCrop.jpg": "/static/media/SaleCrop.bf3c3c9eaac691362cf4.jpg",
+    "static/media/direct white.png": "/static/media/direct white.752abdb2b5cd9950810f.png",
     "static/media/BandN white.png": "/static/media/BandN white.d9a5c63efd6236069684.png",
     "index.html": "/index.html",
     "main.873bb7f0.css.map": "/static/css/main.873bb7f0.css.map",
-    "main.821464f6.js.map": "/static/js/main.821464f6.js.map",
+    "main.f3e15b4c.js.map": "/static/js/main.f3e15b4c.js.map",
     "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.873bb7f0.css",
-    "static/js/main.821464f6.js"
+    "static/js/main.f3e15b4c.js"
   ]
 }
