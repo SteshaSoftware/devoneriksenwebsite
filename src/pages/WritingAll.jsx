@@ -38,6 +38,8 @@ import { update20241231 } from '../writing/Updates/update20241231';
 import { update20250113 } from '../writing/Updates/update20250113';
 import { update20250205 } from '../writing/Updates/update20250205';
 import { update20250216 } from '../writing/Updates/update20250216';
+import { update20250225 } from '../writing/Updates/update20250225';
+import { update20250319 } from '../writing/Updates/update20250319';
 
 import { writingprocess } from '../writing/Craft/writingprocess';
 import { changeplans } from '../writing/Craft/changeplans';
@@ -51,6 +53,8 @@ function Fictionwrting() {
   const location = useLocation()
 
   const articles = [
+    update20250319,
+    update20250225,
     update20250216,
     update20250205,
     CanceledPart2,
