@@ -8,7 +8,7 @@ import StarButton from '../StarButton/starbutton'
 import { WidthWideTwoTone } from '@mui/icons-material'
 import { FaArrowCircleRight } from 'react-icons/fa'
 
-function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTxt, LinkGlow,  LinkDir, LinkAmz, LinkOther, LinkGR, BigCover, Awards, MainQuotes }) {
+function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, LinkDefault, GlowTxt, LinkGlow,  LinkDir, LinkAmz, LinkOther, LinkGR, BigCover, Awards, MainQuotes }) {
   const blurbHTML = { __html: MiniBlurb };
 
   return (
@@ -95,7 +95,7 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, GlowTx
             )}
           </CardContent>
         </Box>
-        <a href={LinkAmz}
+        <a href={LinkDefault}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => window.sa_event('Amz_cover')}

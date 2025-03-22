@@ -51,6 +51,7 @@ export const TheftofFire = {
     <br/><br/>
     They’re about to find out that a plan is a list of things that won’t happen.
     `,
+    LinkDefault: 'https://www.amazon.com/Theft-Fire-Orbital-Space-1/dp/1962514021/?tag=devoneriksen-20',
     GlowTxt: 'Read 3-Chapter Preview',
     LinkGlow: 'https://read.bookfunnel.com/read/h6gjdipcpw',
     LinkDir: 'https://devoneriksen.myshopify.com/products/theft-of-fire-e-book',

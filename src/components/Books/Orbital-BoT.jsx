@@ -12,6 +12,7 @@ export const BoxofTrouble = {
     Page: 'box-of-trouble',
     BlurbHead: `The Next Installment in the Orbital Space Quadrilogy`,
     Blurb: `'Box of Trouble' is unfolding now! Need to know what happens next? Sign up for updates now on the upcoming sequal to 'Theft of Fire' in the Orbital Space Quadrilogy. Get the latest on book progess, the cover reveal, and more!`,
+    LinkDefault: 'https://www.subscribepage.io/OrbitalSpace',
     GlowTxt: 'Box of Trouble Updates',
     LinkGlow: 'https://www.subscribepage.io/OrbitalSpace',
  

@@ -4,7 +4,7 @@ import "./bookdetail.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 import Link from '@mui/material/Link';
 
-function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkGlow, LinkAmz, LinkDir, LinkOther, LinkGR, Cover, Status }) {
+function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, LinkDefault, GlowTxt, LinkGlow, LinkAmz, LinkDir, LinkOther, LinkGR, Cover, Status }) {
   const blurbHTML = { __html: Blurb };
 
   return (
@@ -16,6 +16,12 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkG
         alignItems: { xs: "center", md: "start" }, flexDirection: { xs: "column", sm: "column", md: "row" }
       }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+        <a
+        href={LinkDefault}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => window.sa_event('NovelCover')}
+      >
           <Box
             component="img"
             sx={{ width: 350 }}
@@ -23,6 +29,7 @@ function BookDetail({ Title, Series, SeriesNum, BlurbHead, Blurb, GlowTxt, LinkG
             src={Cover}
             padding='10px'
           />
+          </a>
           {
             Status === "done" && (
               <>
