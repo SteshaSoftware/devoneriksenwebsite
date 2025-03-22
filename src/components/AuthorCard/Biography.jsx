@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, CardMedia, Grid, Stack, Typography } from '@mui/material'
 import React from 'react'
-import photo from "../../images/Devon Author.jpg"
+import photo from "../../images/Devon Eriksen.jpg"
 import StarButton from '../StarButton/starbutton'
 import { FaArrowCircleRight } from 'react-icons/fa'
 
