@@ -9,6 +9,7 @@ import Novels from './pages/Novels';
 import Sale from './pages/Sale';
 import Purchase from './pages/Purchase';
 import Audiobooks from './pages/Audiobooks';
+import Pirate from './pages/Pirate';
 import BookDetail from './pages/BookDetail';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
@@ -42,6 +43,7 @@ const App = () => {
         { path: "novels", element: <Novels /> },
         { path: "sale", element: <Sale /> },
         { path: "audiobooks", element: <Audiobooks /> },
+        { path: "pirate", element: <Pirate/> },
         { path: TheftofFire.Page, element: <BookDetail {...TheftofFire}/> },
         { path: BoxofTrouble.Page, element: <BookDetail {...BoxofTrouble}/> },
         {
