@@ -95,10 +95,9 @@ function MainBook({ Title, Series, SeriesNum, Page, BlurbHead, MiniBlurb, LinkDe
             )}
           </CardContent>
         </Box>
-        <a href={LinkDefault}
-          target="_blank"
+        <a href={Page}
+          
           rel="noopener noreferrer"
-          onClick={() => window.sa_event('Amz_cover')}
           style={{
             display: 'block',
             padding: { md: 2, xs: 3 },
