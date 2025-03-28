@@ -1,10 +1,13 @@
-.tooltip-text {
-    transition: opacity 0.2s ease;
-    opacity: 0;
-    pointer-events: none;
+.hiddenimg {
+    display: none;
+    margin-top: 1rem;
   }
   
-  div:hover > .tooltip-text {
-    visibility: visible;
-    opacity: 1;
+  .hidden-section:hover .hiddenimg {
+    display: block;
+  }
+  
+  .qr-image {
+    width: 200px;
+    height: auto;
   }
