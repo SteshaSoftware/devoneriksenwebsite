@@ -1,21 +1,20 @@
 import {
-    Box, Card, CardContent, Typography, Button, Menu, MenuItem, Dialog,
-    DialogTitle,
-    DialogContent,
-} from '@mui/material';
+    Box, Card, CardContent, Typography, Button, Menu, MenuItem} from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import pirate from "../images/Pirate.png";
-import '../components/pirate/pirate.css';
+
 import { FaArrowCircleDown, FaArrowCircleRight } from 'react-icons/fa';
-import BTC from "../images/PirateCashAppBTC.png";
-import ETH from "../images/PirateCashAppETH.png";
-import CopyButton from '../components/Widgets/copybutton';
+import BTC from "../images/PirateBTC.png";
+import ETH from "../images/PirateETH.png";
+import BCH from "../images/PirateBCH.png";
+import WalletPopup from '../components/Widgets/walletpopup';
 
 const Pirate = () => {
     const [anchorEl, setAnchorEl] = useState(null);
     const [btcDialogOpen, setBtcDialogOpen] = useState(false);
     const [ethDialogOpen, setEthDialogOpen] = useState(false);
+    const [bchDialogOpen, setBchDialogOpen] = useState(false);
     const dropdownOpen = Boolean(anchorEl);
 
     const handleDropdownClick = (event) => {
@@ -68,7 +67,10 @@ const Pirate = () => {
                             rel="noopener noreferrer"
                             onClick={() => window.sa_event('AboutBuy')}
                         >
-                            <button className="buy-now-button">
+                            <button className="buy-now-button"
+                                style={{ 
+                                    height: '55px',
+                                    width: '190px' }}>
                                 Buy DRM Free <FaArrowCircleRight />
                             </button>
                         </a>
@@ -77,6 +79,9 @@ const Pirate = () => {
                         <div>
                             <button
                                 className="buy-now-button"
+                                style={{ 
+                                    height: '55px',
+                                    width: '190px' }}
                                 onClick={handleDropdownClick}
                                 aria-controls={dropdownOpen ? 'crypto-menu' : undefined}
                                 aria-haspopup="true"
@@ -104,104 +109,70 @@ const Pirate = () => {
                                     }}
                                 >
                                     <Box sx={{ width: '100%' }}>
-                                        <b>CashApp</b><br />
-                                        <u>$AnEriksenWife</u>
+                                        <b>CashApp</b>
                                     </Box>
 
                                 </MenuItem>
                                 <MenuItem onClick={() => setBtcDialogOpen(true)}
-                                    sx={{
-                                        padding: '10px 20px',
-                                        width: '100%',
-                                        textAlign: 'center',
-                                        justifyContent: 'center',
-                                    }}
-                                >
-                                    <Box sx={{ width: '100%' }}>
-                                        <b>BTC</b><br /> Tap to View
-                                    </Box>
-                                </MenuItem>
-                                <Dialog
+                                 sx={{
+                                    justifyContent: 'center',
+                                    textAlign: 'center',
+                                    width: '100%',
+                                    padding: '10px 20px',
+                                    transition: 'color 0.2s ease',
+                                    '&:hover': {
+                                      color: '#0d6efd', 
+                                      cursor: 'pointer',
+                                    },
+                                  }}><b>Bitcoin</b></MenuItem>
+                                <WalletPopup
                                     open={btcDialogOpen}
                                     onClose={() => setBtcDialogOpen(false)}
-                                    fullWidth
-                                    maxWidth="xs"
-                                >
-                                    <DialogTitle sx={{ textAlign: 'center' }}>BTC Wallet</DialogTitle>
-                                    <DialogContent sx={{ textAlign: 'center' }}>
-                                        <Box
-                                            onClick={() => setBtcDialogOpen(false)}
-                                            sx={{
-                                                textAlign: 'center',
-                                                cursor: 'pointer',
-                                            }}
-                                        >
-                                            <Box sx={{ wordBreak: 'break-all', mb: 2 }}>
-                                                bc1qlxa7w0tr5fcfuvug0qnvtvnur6ycu35s4hda2q
-                                            </Box>
-                                            <CopyButton textToCopy="bc1qlxa7w0tr5fcfuvug0qnvtvnur6ycu35s4hda2q" />
-                                            <img
-                                                src={BTC}
-                                                alt="BTC QR"
-                                                style={{
-                                                    width: '100%',
-                                                    maxWidth: '250px',
-                                                    height: 'auto',
-                                                    margin: '1rem auto 0',
-                                                    borderRadius: '8px',
-                                                    display: 'block',
-                                                }}
-                                            />
-                                        </Box>
-                                    </DialogContent>
-                                </Dialog>
-                                <MenuItem onClick={() => setEthDialogOpen(true)}
-                                    sx={{
-                                        padding: '10px 20px',
-                                        width: '100%',
-                                        textAlign: 'center',
-                                        justifyContent: 'center',
-                                    }}
-                                >
-                                    <Box sx={{ width: '100%' }}>
-                                        <b>ETH</b><br /> Tap to View
-                                    </Box>
-                                </MenuItem>
-                                <Dialog
+                                    title="BTC Wallet"
+                                    address="bc1qlxa7w0tr5fcfuvug0qnvtvnur6ycu35s4hda2q"
+                                    qrImage={BTC}
+                                />
+                                <MenuItem onClick={() => setEthDialogOpen(true)}sx={{
+                                    justifyContent: 'center',
+                                    textAlign: 'center',
+                                    width: '100%',
+                                    padding: '10px 20px',
+                                    transition: 'color 0.2s ease',
+                                    '&:hover': {
+                                      color: '#0d6efd', 
+                                      cursor: 'pointer',
+                                    },
+                                  }}><b>Ethereum</b></MenuItem>
+                                <WalletPopup
                                     open={ethDialogOpen}
                                     onClose={() => setEthDialogOpen(false)}
-                                    fullWidth
-                                    maxWidth="xs"
-                                >
-                                    <DialogTitle sx={{ textAlign: 'center' }}>ETH Wallet</DialogTitle>
-                                    <DialogContent sx={{ textAlign: 'center' }}>
-                                        <Box
-                                            onClick={() => setBtcDialogOpen(false)}
-                                            sx={{
-                                                textAlign: 'center',
-                                                cursor: 'pointer',
-                                            }}
-                                        >
-                                            <Box sx={{ wordBreak: 'break-all', mb: 2 }}>
-                                                0x82d64b77de7Aee33151c4E44013BC49FB76DC0E1
-                                            </Box>
-                                            <CopyButton textToCopy="0x82d64b77de7Aee33151c4E44013BC49FB76DC0E1" />
-                                            <img
-                                                src={ETH}
-                                                alt="ETH QR"
-                                                style={{
-                                                    width: '100%',
-                                                    maxWidth: '250px',
-                                                    height: 'auto',
-                                                    margin: '1rem auto 0',
-                                                    borderRadius: '8px',
-                                                    display: 'block',
-                                                }}
-                                            />
-                                        </Box>
-                                    </DialogContent>
-                                </Dialog>
+                                    title="ETH Wallet"
+                                    address="0x82d64b77de7Aee33151c4E44013BC49FB76DC0E1"
+                                    qrImage={ETH}
+                                />
+                                 <MenuItem onClick={() => setBchDialogOpen(true)}sx={{
+                                    justifyContent: 'center',
+                                    textAlign: 'center',
+                                    width: '100%',
+                                    padding: '10px 20px',
+                                    transition: 'color 0.2s ease',
+                                    '&:hover': {
+                                      color: '#0d6efd', 
+                                      cursor: 'pointer',
+                                    },
+                                  }}><b>Bitcoin Cash</b></MenuItem>
+                                <WalletPopup
+                                    open={bchDialogOpen}
+                                    onClose={() => setBchDialogOpen(false)}
+                                    title="BCH Wallet"
+                                    address="bitcoincash:qrkl8rg95y3xuwcp0wkvj88pcu7g4gqu6quknga2u9"
+                                    qrImage={BCH}
+                                />
                                 <MenuItem
+                                    onClick={handleDropdownClose}
+                                    component="a"
+                                    href="https://tapswap.cash/trade/798666058f90dd5088009dc44c4eb9f20da65382ab37da50f4983eb9c792ea62"
+                                    target="_blank"
                                     sx={{
                                         padding: '10px 20px',
                                         width: '100%',
@@ -210,9 +181,9 @@ const Pirate = () => {
                                     }}
                                 >
                                     <Box sx={{ width: '100%' }}>
-                                        <b>TapSwap</b><br />
-                                        Coming Soon
+                                        <b>Tap Swap</b>
                                     </Box>
+
                                 </MenuItem>
                                 <MenuItem
                                     onClick={() => {
@@ -229,7 +200,7 @@ const Pirate = () => {
                                     }}
                                 >
                                     <Box sx={{ width: '100%' }}>
-                                        <b>Other</b><br />
+                                        <b>Other:</b><br />
                                         <u>Let Us Know!</u>
                                     </Box>
                                 </MenuItem>

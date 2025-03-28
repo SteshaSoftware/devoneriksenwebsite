@@ -5,7 +5,8 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 const CopyButton = ({ textToCopy }) => {
   const [copied, setCopied] = useState(false);
 
-  const handleCopy = () => {
+  const handleCopy = (e) => {
+    e.stopPropagation(); 
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 1500);
