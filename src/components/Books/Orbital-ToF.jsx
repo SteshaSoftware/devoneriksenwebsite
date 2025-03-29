@@ -543,7 +543,10 @@ export const TheftofFire = {
         `Bogdan K`,
         `Johann Ungerer`,
         `Afonso Cruz Fernandes`,
-        `Axel Ingen`,]
+        `Axel Ingen`,
+        `Tim D`,
+        `Alexander Lidström`,
+        `Brandon Rojas`,]
 
 
 }  
