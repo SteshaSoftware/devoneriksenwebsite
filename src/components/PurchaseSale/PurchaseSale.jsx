@@ -2,7 +2,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } f
 import React from 'react';
 import './PurchaseSale.css'
 import '../allnovels/allnovels.css';
-import saleimg from '../../images/SaleCrop.jpg'
+import saleimg from '../../images/SaleImg.png'
 
 function PurchaseSale({ Cover, Page, Title, Series, SeriesNum }) {
     return (
@@ -24,25 +24,25 @@ function PurchaseSale({ Cover, Page, Title, Series, SeriesNum }) {
                 <Grid container spacing={2} alignItems="center" justifyContent="center">
                     <Grid item xs={12} sm="auto">
                         <a
-                            href="https://www.amazon.com/gp/product/B0CJHQ4LZN?tag=devoneriksen-20"
+                            href="https://www.amazon.in/Theft-Fire-Orbital-Space-1-ebook/dp/B0CJHQ4LZN?tag=devoneriksen-20"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => window.sa_event('Buy_Other')}
                         >
                             <button className="neon-button">
-                                $1.49 Kindle
+                            ₹149 IND
                             </button>
                         </a>
                     </Grid>
                     <Grid item xs={12} sm="auto">
                         <a
-                            href="https://shop.ingramspark.com/b/084?params=ZcXZZ0cZLY7eDhLB3V0mOI4pfCqmm0HFTBTCuRMTeUd"
+                            href="https://www.amazon.com.au/Theft-Fire-Orbital-Space-1-ebook/dp/B0CJHQ4LZN?tag=devoneriksen-20"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => window.sa_event('Buy_Other')}
                         >
                             <button className="neon-button">
-                                $20 Hardback
+                                $1.49 AUS
                             </button>
                         </a>
                     </Grid>
