@@ -44,7 +44,7 @@ export const MediaContent = [
     older science fiction, when all mankind needed to conquer the stars was his will and a spacesuit. The 
     mesh between the more modern grounded science and classical heroics makes for an interesting read—think 
     Leviathan Wakes, if written by Heinlein....`,
-    link: 'https://www.quora.com/Who-do-you-think-are-the-best-new-writers-in-the-science-fiction-or-fantasy-genre/answer/Caleb-Beers-1',
+    link: 'https://analogsf.com/',
     date: '2024-12-10',
     mediatype: "txt",
     tag: "review"
