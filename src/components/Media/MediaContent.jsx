@@ -52,7 +52,7 @@ export const MediaContent = [
   {
     title: 'The Most Important Skill To Learn In The Next 10 Years With Dan Koe' ,
     subtitle: `Devon and Dan discuss the future-proof skill stack, how intelligence doesn't equal success, how to navigate the world of AI, becoming an independent author and creator, and more.`,
-    link: 'https://www.youtube.com/embed/h1eQUbH20NA',
+    link: 'https://www.youtube.com/embed/18ahFtnuBwI',
     date: '2024-12-8',
     mediatype: "vid",
     tag: "interview"
@@ -60,7 +60,7 @@ export const MediaContent = [
   {
     title: 'An Evening with Author David Badurina - The MIRTH QUAKE' ,
     subtitle: 'Devon and David explored all things related to the creative process. Some spontaneous creativity, a deep dive into fostering more creativity, and plenty of laughs and discussion along the way.',
-    link: 'https://www.youtube.com/embed/18ahFtnuBwI',
+    link: 'https://www.youtube.com/embed/h1eQUbH20NA',
     date: '2024-11-12',
     mediatype: "vid",
     tag: "interview"
