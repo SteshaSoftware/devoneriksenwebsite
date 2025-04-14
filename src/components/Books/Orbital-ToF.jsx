@@ -125,7 +125,7 @@ export const TheftofFire = {
             Paper: [
                 {
                     buyname: "Buy Direct",
-                    buylink: "https://shop.ingramspark.com/b/084?wbCYOd4Hfljqf9CO8PI5itUYGF8qaiqcVnS8UQai3Z3",
+                    buylink: "https://devoneriksen.myshopify.com/products/theft-of-fire-physical-book?variant=46558305747189",
                     linkimg: BuyDirect
                 },
                 {
@@ -151,7 +151,7 @@ export const TheftofFire = {
             ],
             Hard: [
                 {
-                    buylink: "https://shop.ingramspark.com/b/084?LCKbmA3mekemVEAFCEmAdtiT9IIXc4xbKFj1FuBghfH",
+                    buylink: "https://devoneriksen.myshopify.com/products/theft-of-fire-physical-book?variant=46558305779957",
                     linkimg: BuyDirect
                 },
                 {

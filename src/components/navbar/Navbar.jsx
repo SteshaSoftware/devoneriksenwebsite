@@ -277,7 +277,7 @@ const Navbar = () => {
                   <ul className="absolute z-10 hidden group-hover:block text-gray-700 pt-1">
                     <li>
                       <a
-                        href="https://devoneriksen.myshopify.com/products/theft-of-fire-e-book"
+                        href="https://devoneriksen.myshopify.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-nowrap"
@@ -353,7 +353,7 @@ const Navbar = () => {
                     <ul className="absolute z-10 hidden group-hover:block text-gray-700 pt-1">
                       <li>
                         <a
-                          href="https://devoneriksen.myshopify.com/products/theft-of-fire-e-book"
+                          href="https://devoneriksen.myshopify.com/"
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={() => window.sa_event('MenuBuy')}
