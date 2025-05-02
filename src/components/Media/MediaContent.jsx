@@ -19,7 +19,7 @@ export const MediaContent = [
     content: `... Some books arrive with a whisper. Theft of Fire by Devon Eriksen arrives like a rocket burn 
     at full thrust—fast, exhilarating, and impossible to ignore. The first in the Orbital Space trilogy, this 
     novel is a relentless, snarky, and utterly gripping plunge into a future where humanity has spread across 
-    the solar system but hasn’t quite left its worst tendencies behind.....
+    the solar system but hasn’t quite left its worst tendencies behind...
 `,
     link: 'https://www.epicindie.net/bookreviews/book-review-theft-of-fire-by-devon-eriksen',
     date: '2025-02-20',
