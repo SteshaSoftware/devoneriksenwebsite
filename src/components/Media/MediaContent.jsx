@@ -5,6 +5,15 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: 'ALL CAPS with Tim McKay and Issac Anderson' ,
+    subtitle: `Devon joins ALL CAPS to talk about all things story related`,
+    link: 'https://www.youtube.com/embed/lWgZCi_pKh4',
+    date: '2025-03-31',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  
+  {
     title: "Theft of Fire is reviewed by Epic Indie",
     subtitle: `"<i>Theft of Fire</i> carves out its own identity with a distinct voice and a deep appreciation for the complexity of human (and post-human) existence in the void."`,
     content: `... Some books arrive with a whisper. Theft of Fire by Devon Eriksen arrives like a rocket burn 
