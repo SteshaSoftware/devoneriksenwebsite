@@ -5,6 +5,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: `Men Don't Need Trad-Pub` ,
+    subtitle: `Devon talks Publishers vs Men with The Nonsense-Free Editor`,
+    link: 'https://www.youtube.com/embed/IXpMMgMHKD0',
+    date: '2025-05-02',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: 'ALL CAPS with Tim McKay and Issac Anderson' ,
     subtitle: `Devon joins ALL CAPS to talk about all things story related`,
     link: 'https://www.youtube.com/embed/lWgZCi_pKh4',
