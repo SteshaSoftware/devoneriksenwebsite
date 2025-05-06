@@ -8,7 +8,7 @@ export const MediaContent = [
     title: `Men Don't Need Trad-Pub` ,
     subtitle: `Devon talks Publishers vs Men with The Nonsense-Free Editor`,
     link: 'https://www.youtube.com/embed/IXpMMgMHKD0',
-    date: '2025-05-02',
+    date: '2025-05-05',
     mediatype: "vid",
     tag: "interview"
   },
