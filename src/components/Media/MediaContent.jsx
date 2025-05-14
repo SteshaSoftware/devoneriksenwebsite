@@ -5,6 +5,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: `Theft of Fire goes to Bagladesh` ,
+    subtitle: `After loving Theft of Fire, Farooq and Shakib talk with Devon on Book Don`,
+    link: 'https://www.youtube.com/embed/5b_OtKtuyxc',
+    date: '2025-05-06',
+    mediatype: "vid",
+    tag: "review"
+  },
+  {
     title: `Men Don't Need Trad-Pub` ,
     subtitle: `Devon talks Publishers vs Men with The Nonsense-Free Editor`,
     link: 'https://www.youtube.com/embed/IXpMMgMHKD0',

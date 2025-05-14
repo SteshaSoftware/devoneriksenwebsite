@@ -1,9 +1,7 @@
 import React from 'react';
-import Audio from '../../images/AudioSignup.png'
-import DisSciFi from '../../images/DisSciFi5.png'
+import Audio from '../../images/AudioPreOrder.png'
 import BoTUpdate from '../../images/BoTUpdate.png'
 import DragonAward from '../../images/DragonAwards Buy.png'
-import SaleImg from '../../images/SaleImg.png'
 
 export const HighlightList = {
     HL_List: [
@@ -11,7 +9,7 @@ export const HighlightList = {
         {
             Pic: Audio,
             Picalt: 'Signup for Audio Updates',
-            Link: 'https://www.subscribepage.io/TOF-Audiobook',
+            Link: 'https://devoneriksen.myshopify.com/products/theft-of-fire-audiobook-pre-order',
             Click: 'HL_Audio'
         },
         {

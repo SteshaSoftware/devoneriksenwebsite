@@ -29,21 +29,29 @@ const Audiobooks = () => {
             marginBottom: '0px' // Add spacing between this section and the next
           }}
         >
-          <Typography
+         
+            
+          <StarButton
+            GlowTxt="Pre-Order Audiobook"
+            LinkGlow="https://www.subscribepage.io/TOF-Audiobook"
+          />
+          
+        </Box>
+
+        <AudioCard {...TheftofFire} />
+        <Typography
             variant="h6"
             color="white"
             sx={{ fontWeight: 'bold', marginBottom: '10px' }} // Add spacing below the text
           >
-            Sign Up for Audiobook Updates
+          <br/>
+          Want Audiobook Exclusive Updates?
           </Typography>
 
           <StarButton
-            GlowTxt="Audiobook Updates"
+            GlowTxt="Audiobook News Only!"
             LinkGlow="https://www.subscribepage.io/TOF-Audiobook"
           />
-        </Box>
-
-        <AudioCard {...TheftofFire} />
       </Box>
     </Box >
   )
