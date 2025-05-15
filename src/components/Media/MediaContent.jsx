@@ -5,6 +5,14 @@ import Prometheus from '../../images/Prometheus.png'
 
 export const MediaContent = [
   {
+    title: `Age of Persuasion` ,
+    subtitle: `Exploring the torment nexus with Isaac Simpson on The Carousel Podcast`,
+    link: 'https://www.youtube.com/embed/vayCXPI6Q80',
+    date: '2025-05-14',
+    mediatype: "vid",
+    tag: "interview"
+  },
+  {
     title: `Theft of Fire goes to Bagladesh` ,
     subtitle: `After loving Theft of Fire, Farooq and Shakib talk with Devon on Book Don`,
     link: 'https://www.youtube.com/embed/5b_OtKtuyxc',
